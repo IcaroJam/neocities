@@ -19,7 +19,7 @@ jobs:
       - name: Update __LAST_UPDATED__ in HTML file
         run: |
           CURRENT_DATE=$(date +'%Y/%m/%d')
-          sed -i "s/__LAST_UPDATED__/$($CURRENT_DATE)/g" ./public/*.html
+          sed -i "s|__LAST_UPDATED__|$CURRENT_DATE|g" ./public/*.html
 
       - name: Deploy to neocities
         uses: bcomnes/deploy-to-neocities@v2
