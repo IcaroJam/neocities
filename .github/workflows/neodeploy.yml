@@ -11,19 +11,19 @@ concurrency:
 
 jobs:
   update-date:
-  runs-on: ubuntu-latest
-  steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-    - name: Set the current date
-      id: set-date
-      run: echo "CURRENT_DATE=$(date +'%Y/%m/%d')" >> $GITHUB_ENV
+      - name: Set the current date
+        id: set-date
+        run: echo "CURRENT_DATE=$(date +'%Y/%m/%d')" >> $GITHUB_ENV
 
-    - name: Update __LAST_UPDATED__ in HTML file
-      run: |
-        FILE_PATH="**.html"  # Change this to the path of your HTML file
-        sed -i "s/__LAST_UPDATED__/${CURRENT_DATE}/g" $FILE_PATH
+      - name: Update __LAST_UPDATED__ in HTML file
+        run: |
+          FILE_PATH="**.html"  # Change this to the path of your HTML file
+          sed -i "s/__LAST_UPDATED__/${CURRENT_DATE}/g" $FILE_PATH
 
   deploy:
     runs-on: ubuntu-latest
