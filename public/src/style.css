@@ -3,7 +3,7 @@
    "how to change link color." */
 
 body {
-  background-image: url("/backtile.png");
+  background-image: url("/media/backtile.png");
   background-repeat: repeat;
   background-size: 16px;
   image-rendering: crisp-edges;
