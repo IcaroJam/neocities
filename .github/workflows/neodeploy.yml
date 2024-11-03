@@ -21,9 +21,7 @@ jobs:
         run: echo "CURRENT_DATE=$(date +'%Y/%m/%d')" >> $GITHUB_ENV
 
       - name: Update __LAST_UPDATED__ in HTML file
-        run: |
-          FILE_PATH="**.html"  # Change this to the path of your HTML file
-          sed -i "s/__LAST_UPDATED__/${CURRENT_DATE}/g" $FILE_PATH
+        run: sed -e "s/__LAST_UPDATED__/${CURRENT_DATE}/g" *.html
 
   deploy:
     runs-on: ubuntu-latest
@@ -34,4 +32,4 @@ jobs:
         with:
           api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
           cleanup: false
-          dist_dir: public
+          dist_dir: /
