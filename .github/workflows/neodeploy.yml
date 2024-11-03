@@ -20,7 +20,7 @@ jobs:
         run: echo "CURRENT_DATE=$(date +'%Y/%m/%d')" >> $GITHUB_ENV
 
       - name: Update __LAST_UPDATED__ in HTML file
-        run: sed -i 's/__LAST_UPDATED__/$(CURRENT_DATE)/g' ./public/*.html
+        run: sed -i "s/__LAST_UPDATED__/$(CURRENT_DATE)/g" ./public/*.html
 
       - name: Deploy to neocities
         uses: bcomnes/deploy-to-neocities@v2
