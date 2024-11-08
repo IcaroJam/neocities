@@ -9,12 +9,14 @@
 	--col06: #ffd4a3;
 	--white: #ffecd6;
 }
+@font-face { font-family: KiwiSoda; src: url(media/KiwiSoda.ttf); }
 
 
 
 /* Tag specific styling */
 html, body {
-	width: 100vw;
+	max-width: 100vw;
+	max-height: 100vh;
 	height: 100vh;
 	margin: 0;
 	padding: 0;
@@ -31,7 +33,7 @@ body {
 	background-size: 16px;
 	image-rendering: crisp-edges;
 	color: var(--black);
-	font-family: Verdana;
+	font-family: KiwiSoda, Verdana;
 }
 
 footer {
@@ -40,6 +42,7 @@ footer {
 	justify-content: center;
 	margin-top: 12rem;
 	font-size: x-small;
+	font-family: Verdana;
 }
 /* End of tag specific styling */
 
@@ -94,6 +97,7 @@ footer {
 	height: 136px;
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	margin: auto;
 	margin-top: 2rem;
 	margin-bottom: 1rem;
@@ -107,9 +111,11 @@ footer {
 .front-col-left {
 	width: 45%;
 	text-align: right;
+	line-height: 1.2em;
 }
 
 .front-col-sep {
+	height: 100%;
 	text-align: center;
 	margin-left: 1rem;
 	margin-right: 1rem;
@@ -118,6 +124,7 @@ footer {
 .front-col-right {
 	width: 45%;
 	text-align: left;
+	line-height: 1.2em;
 }
 
 
