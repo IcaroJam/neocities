@@ -1,5 +1,13 @@
 /* Various variables */
 :root {
+	--black: #0d2b45;
+	--col01: #203c56;
+	--col02: #544e68;
+	--col03: #8d697a;
+	--col04: #d08159;
+	--col05: #ffaa5e;
+	--col06: #ffd4a3;
+	--white: #ffecd6;
 }
 
 
@@ -18,12 +26,12 @@ html, body {
 }
 
 body {
-  background-image: url("/media/backtile.png");
-  background-repeat: repeat;
-  background-size: 16px;
-  image-rendering: crisp-edges;
-  color: black;
-  font-family: Verdana;
+	background-image: url("/media/backtile.png");
+	background-repeat: repeat;
+	background-size: 16px;
+	image-rendering: crisp-edges;
+	color: var(--black);
+	font-family: Verdana;
 }
 
 footer {
@@ -43,6 +51,8 @@ footer {
 }
 
 #page-palette {
+	width: 8px;
+
 	position: fixed;
 	left: 0;
 	top: 0;
@@ -51,7 +61,16 @@ footer {
 	display: flex;
 	flex-direction: column;
 
-	border-right: solid black 2px;
+	background: linear-gradient(to bottom, var(--black) 12.5%,
+		var(--col01) 12.5%, var(--col01) 25%,
+		var(--col02) 25%, var(--col02) 37.5%,
+		var(--col03) 37.5%, var(--col03) 50%,
+		var(--col04) 50%, var(--col04) 62.5%,
+		var(--col05) 62.5%, var(--col05) 75%,
+		var(--col06) 75%, var(--col06) 87.5%,
+		var(--white) 87.5%
+	);
+	border-right: solid var(--black) 2px;
 }
 
 .palette-color {
@@ -60,17 +79,19 @@ footer {
 }
 
 #wip-sep {
-	border: solid 2px gray;
-	border-right-color: cornflowerblue;
+	border: solid 2px var(--col02);
+	border-right-color: var(--col03);
 }
 
 #wip-cat {
 	display: block;
 	margin: auto;
+	animation: spin 2s ease 0s infinite normal;
 }
 
 .wip-sign {
 	width: 90%;
+	height: 136px;
 	display: flex;
 	justify-content: center;
 	margin: auto;
@@ -79,8 +100,8 @@ footer {
 }
 
 .back-txt-highlight {
-  padding: 4px 12px;
-  background-color: white;
+	padding: 4px 12px;
+	background-color: var(--white);
 }
 
 .front-col-left {
@@ -98,3 +119,13 @@ footer {
 	width: 45%;
 	text-align: left;
 }
+
+
+
+/* Animations */
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+/* Animations end */
