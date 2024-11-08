@@ -1,19 +1,83 @@
-/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
-   HTML content. To learn how to do something, just try searching Google for questions like
-   "how to change link color." */
+/* Various variables */
+:root {
+}
+
+
+
+/* Tag specific styling */
+html, body {
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	overscroll-behavior: none;
+}
+
+* {
+	box-sizing: border-box;
+}
 
 body {
   background-image: url("/media/backtile.png");
   background-repeat: repeat;
   background-size: 16px;
   image-rendering: crisp-edges;
-  box-sizing: border-box;
   color: black;
   font-family: Verdana;
+}
+
+footer {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	margin-top: 12rem;
+	font-size: x-small;
+}
+/* End of tag specific styling */
+
+
+
+.body-centered {
+	display: flex;
+	flex-direction: column;
+}
+
+#wip-sep {
+	border: solid 2px gray;
+	border-right-color: cornflowerblue;
+}
+
+#wip-cat {
+	display: block;
+	margin: auto;
+}
+
+.wip-sign {
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
 }
 
 .back-txt-highlight {
   padding: 4px 12px;
   background-color: white;
-  border-radius: 4px;
+}
+
+.front-col-left {
+	width: 45%;
+	text-align: right;
+}
+
+.front-col-sep {
+	text-align: center;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+.front-col-right {
+	width: 45%;
+	text-align: left;
 }
