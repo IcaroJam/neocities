@@ -9,7 +9,7 @@
 	--col06: #ffd4a3;
 	--white: #ffecd6;
 }
-@font-face { font-family: KiwiSoda; src: url(media/KiwiSoda.ttf); }
+@font-face { font-family: KiwiSoda; src: url(media/fonts/KiwiSoda.ttf); }
 
 
 
@@ -28,7 +28,7 @@ html, body {
 }
 
 body {
-	background-image: url("/media/backtile.png");
+	background-image: url("/media/familiarSquares.png");
 	background-repeat: repeat;
 	background-size: 16px;
 	image-rendering: crisp-edges;
