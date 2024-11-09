@@ -38,7 +38,7 @@ body::before {
 
 	background-image: url("/media/backtile2.png");
 	background-repeat: repeat;
-	background-size: 32px;
+	background-size: 64px;
 	/* The mask is made up of two layers, the image and a solid layer used to exclude the image */
 	mask: url("media/eye.png") center no-repeat, linear-gradient(#000 0 0);
 	mask-composite: exclude;
