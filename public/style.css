@@ -117,8 +117,11 @@ footer {
 .front-col-sep {
 	height: 100%;
 	text-align: center;
+	align-content: center;
 	margin-left: 1rem;
 	margin-right: 1rem;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 .front-col-right {
