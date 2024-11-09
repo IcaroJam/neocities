@@ -1,0 +1,82 @@
+/* Various variables */
+:root {
+	--black: #040c06;
+	--col01: #112318;
+	--col02: #1e3a29;
+	--col03: #305d42;
+	--col04: #4d8061;
+	--col05: #89a257;
+	--col06: #bedc7f;
+	--white: #eeffcc;
+}
+@font-face { font-family: Adventurer; src: url(media/Adventurer.ttf); }
+
+html {
+	overscroll-behavior: none;
+}
+
+body {
+	height: 100vh;
+	align-content: center;
+	margin: 0;
+
+	background-color: var(--black);
+	image-rendering: crisp-edges;
+
+	color: var(--white);
+	font-family: Adventurer, Verdana;
+}
+
+body::before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+
+	background-image: url("/media/backtile2.png");
+	background-repeat: repeat;
+	background-size: 32px;
+	/* The mask is made up of two layers, the image and a solid layer used to exclude the image */
+	mask: url("media/eye.png") center no-repeat, linear-gradient(#000 0 0);
+	mask-composite: exclude;
+	mask-size: 636px;
+}
+
+body > * {
+	width: 100%;
+	text-align: center;
+	text-shadow:
+		2px 0 var(--black),
+		-2px 0 var(--black),
+		0 2px var(--black),
+		0 -2px var(--black),
+		0 0 4px var(--black);
+}
+
+.title {
+	margin: 0;
+}
+
+a {
+	color: var(--col06);
+}
+
+a:link {
+	color: var(--col06);
+}
+
+a:visited {
+	color: var(--col04);
+}
+
+a:hover, a:focus, a:active {
+	color: var(--white);
+}
+
+a:focus-visible {
+	outline: none;
+	text-shadow: 0 0 8px var(--col06);
+}
