@@ -61,9 +61,6 @@ footer {
 	top: 0;
 	bottom: 0;
 
-	display: flex;
-	flex-direction: column;
-
 	background: linear-gradient(to bottom, var(--black) 12.5%,
 		var(--col01) 12.5%, var(--col01) 25%,
 		var(--col02) 25%, var(--col02) 37.5%,
@@ -74,11 +71,6 @@ footer {
 		var(--white) 87.5%
 	);
 	border-right: solid var(--black) 2px;
-}
-
-.palette-color {
-	width: 6px;
-	height: 100%;
 }
 
 #wip-sep {
