@@ -10,6 +10,7 @@
 	--white: #ffecd6;
 }
 @font-face { font-family: KiwiSoda; src: url(media/fonts/KiwiSoda.ttf); }
+@font-face { font-family: Battlenet; src: url(media/fonts/Battlenet.ttf); }
 
 
 
@@ -28,6 +29,7 @@ html, body {
 }
 
 body {
+	background-color: var(--black);
 	background-image: url("/media/familiarSquares.png");
 	background-repeat: repeat;
 	background-size: 16px;
@@ -41,8 +43,11 @@ footer {
 	display: flex;
 	justify-content: center;
 	margin-top: 12rem;
-	font-size: x-small;
-	font-family: Verdana;
+	font-family: Battlenet;
+}
+
+footer > .footer-txt {
+	margin: 0.5em 0;
 }
 /* End of tag specific styling */
 
