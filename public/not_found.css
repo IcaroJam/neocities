@@ -90,12 +90,12 @@ a:focus-visible {
 	bottom: 0;
 
 	background: radial-gradient(circle at center, var(--white) 12.5%,
-		var(--col06) 12.5%, var(--col06) 25%,
-		var(--col05) 25%, var(--col05) 37.5%,
-		var(--col04) 37.5%, var(--col04) 50%,
-		var(--col03) 50%, var(--col03) 62.5%,
-		var(--col02) 62.5%, var(--col02) 75%,
-		var(--col01) 75%, var(--col01) 87.5%,
+		var(--col06) 12.5% 25%,
+		var(--col05) 25% 37.5%,
+		var(--col04) 37.5% 50%,
+		var(--col03) 50% 62.5%,
+		var(--col02) 62.5% 75%,
+		var(--col01) 75% 87.5%,
 		var(--black) 87.5%
 	);
 	border-top: solid var(--black) 2px;
