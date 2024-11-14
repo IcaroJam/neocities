@@ -41,6 +41,7 @@ body {
 
 header {
 	display: flex;
+	justify-content: space-between;
 	background-color: var(--white);
 	background: linear-gradient(110deg, var(--white) 263px,
 		var(--col06) 263px 278px,
@@ -48,7 +49,8 @@ header {
 		var(--col04) 293px 308px,
 		var(--col03) 308px 324px,
 		var(--col02) 324px 338px,
-		var(--col01) 338px
+		var(--col01) 338px 368px,
+		var(--black) 368px
 	); /* So it looks like the gradient can't keep consistency by itself, thus the weird fucking pixel values :( */
 }
 
@@ -127,6 +129,45 @@ footer > .footer-txt {
 	animation: pulsate 1.5s linear 0s infinite alternate;
 }
 
+#news-roll {
+	width: calc(100% - 360px);
+	height: 100%;
+	position: relative;
+	color: var(--white);
+	overflow: hidden;
+	align-content: center;
+}
+
+#news-roll::before, #news-roll::after {
+	z-index: 1;
+	display: block;
+	width: 32px;
+	height: 88px;
+	position: absolute;
+	top: 0;
+	left: -16px;
+	content: "";
+	background-color: var(--col01);
+	transform: skewX(-20deg);
+}
+
+#news-roll::after {
+	left: unset;
+	right: -16px;
+}
+
+.roll {
+	white-space: nowrap;
+	overflow: hidden;
+	display: inline-block;
+	animation: roll-news 15s linear infinite;
+	font-family: LastPriestess;
+}
+
+.roll > * {
+	display: inline-block;
+}
+
 .back-txt-highlight {
 	padding: 4px 12px;
 	background-color: var(--white);
@@ -167,6 +208,15 @@ footer > .footer-txt {
     100% {
         transform: scale(1.15);
     }
+}
+
+@keyframes roll-news {
+	0% {
+		transform: translate3d(0, 0, 0);
+	}
+	100% {
+		transform: translate3d(-50%, 0, 0);
+	}
 }
 /* Animations end */
 
