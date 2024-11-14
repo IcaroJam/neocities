@@ -27,6 +27,20 @@ html, body {
 
 * {
 	box-sizing: border-box;
+	scrollbar-width: thin;
+	scrollbar-color: var(--col01) var(--black);
+}
+
+*::-webkit-scrollbar {
+	width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+	background-color: var(--black);
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: var(--col01);
 }
 
 body {
@@ -54,6 +68,14 @@ header {
 	); /* So it looks like the gradient can't keep consistency by itself, thus the weird fucking pixel values :( */
 }
 
+main {
+	flex-grow: 1;
+	padding: 1.5rem;
+	display: grid;
+	grid-template-columns: 352px auto;
+	gap: 1.5rem;
+}
+
 footer {
 	text-align: center;
 	display: flex;
@@ -64,6 +86,15 @@ footer {
 
 footer > .footer-txt {
 	margin: 0.5em 0;
+}
+
+ul {
+	margin: 0.4rem 0;
+	padding-inline-start: 1.5rem;
+}
+
+li::marker {
+	content: "~ ";
 }
 /* End of tag specific styling */
 
@@ -168,8 +199,23 @@ footer > .footer-txt {
 	display: inline-block;
 }
 
+#smol-about {
+	font-family: LastPriestess, KiwiSoda;
+	background: linear-gradient(to top, var(--col02) 16px, var(--col06) 128px, var(--white) 256px);
+	border: solid 2px var(--col04);
+}
+
+#smol-about > p {
+	margin: 0.2rem 0;
+}
+
+.home-title {
+	margin: 0.4em 0 0 0;
+	text-shadow: -2px 0 var(--col06), 2px 0 var(--col05);
+}
+
 .back-txt-highlight {
-	padding: 4px 12px;
+	padding: 8px 16px;
 	background-color: var(--white);
 }
 
@@ -235,12 +281,9 @@ footer > .footer-txt {
 }
 
 .wip-sign {
-	width: 90%;
 	height: 136px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: auto;
-	margin-top: 2rem;
-	margin-bottom: 1rem;
+	margin-bottom: 2rem;
 }
