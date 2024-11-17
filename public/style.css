@@ -72,7 +72,6 @@ header {
 }
 
 main {
-	flex-grow: 1;
 	padding: 2rem;
 	display: grid;
 	grid-template-columns: 24rem auto;
@@ -371,9 +370,14 @@ nav > .nav-item-hi, nav > .nav-item-lo {
 
 
 /* Queries */
+@media (max-width: 1400px) {
+	main {
+		grid-template-columns: 48rem auto;
+	}
+}
+
 @media (max-width: 960px) {
 	main {
-		flex-grow: 0;
 		grid-template-columns: unset;
 		gap: 2.5rem;
 	}
