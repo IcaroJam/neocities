@@ -60,14 +60,14 @@ header {
 	display: flex;
 	justify-content: space-between;
 	background-color: var(--white);
-	background: linear-gradient(110deg, var(--white) 263px,
-		var(--col06) 263px 278px,
-		var(--col05) 278px 293px,
-		var(--col04) 293px 308px,
-		var(--col03) 308px 323px,
-		var(--col02) 323px 338px,
-		var(--col01) 338px 368px,
-		var(--black) 368px
+	background: linear-gradient(110deg, var(--white) 16.5rem,
+		var(--col06) 16.5rem 17.5rem,
+		var(--col05) 17.5rem 18.5rem,
+		var(--col04) 18.5rem 19.5rem,
+		var(--col03) 19.5rem 20.5rem,
+		var(--col02) 20.5rem 21.5rem,
+		var(--col01) 21.5rem 23.5rem,
+		var(--black) 23.5rem
 	); /* So it looks like the gradient can't keep consistency by itself, thus the weird fucking pixel values :( */
 }
 
@@ -129,15 +129,15 @@ li::marker {
 }
 
 #neon-sign {
-	width: 264px;
-	height: 88px;
+	width: 16.5rem;
+	height: 5.5rem;
 	padding-left: 24px;
 	user-select: none;
 }
 
 #neon-sign > h1 {
 	margin-bottom: 0;
-	font-size: xxx-large;
+	font-size: 3rem;
 	color: var(--col01);
 	text-shadow: 2px 2px 0 var(--col05);
 }
@@ -163,7 +163,7 @@ li::marker {
 }
 
 #news-roll {
-	width: calc(100% - 360px);
+	width: calc(100% - 23rem);
 	height: 100%;
 	position: relative;
 	color: var(--white);
@@ -174,11 +174,11 @@ li::marker {
 #news-roll::before, #news-roll::after {
 	z-index: 1;
 	display: block;
-	width: 32px;
-	height: 88px;
+	width: 2rem;
+	height: 5.5rem;
 	position: absolute;
 	top: 0;
-	left: -16px;
+	left: -1rem;
 	content: "";
 	background-color: var(--col01);
 	transform: skewX(-20deg);
@@ -186,7 +186,7 @@ li::marker {
 
 #news-roll::after {
 	left: unset;
-	right: -16px;
+	right: -1rem;
 }
 
 .roll {
@@ -210,7 +210,7 @@ li::marker {
 	padding-top: 16px;
 }
 
-#smol-about > p {
+#smol-about > div > p {
 	margin: 0.2rem 0;
 }
 
@@ -366,4 +366,49 @@ nav > .nav-item-hi, nav > .nav-item-lo {
 	justify-content: center;
 	align-items: center;
 	margin-bottom: 2rem;
+}
+
+
+
+/* Queries */
+@media (max-width: 960px) {
+	main {
+		flex-grow: 0;
+		grid-template-columns: unset;
+		gap: 2.5rem;
+	}
+}
+
+@media (width >= 700px) and (width <= 960px) {
+	#smol-about {
+		display: flex;
+		gap: 1rem;
+		background: unset;
+		background-color: var(--white);
+	}
+
+	#smol-about > center {
+		align-content: end;
+	}
+}
+
+@media (max-width: 700px) {
+	html, body {
+		font-size: 12px;
+	}
+
+	#nav-head {
+		width: 110%;
+		left: 1rem;
+		margin-bottom: 1rem;
+		background-image: linear-gradient(to right, var(--white) 20rem, var(--col05));
+	}
+
+	#nav-tools {
+		left: 6rem;
+	}
+
+	#nav-lib {
+		left: 4.5rem;
+	}
 }
