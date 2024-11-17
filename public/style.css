@@ -203,6 +203,7 @@ li::marker {
 #smol-about {
 	font-family: LastPriestess, KiwiSoda;
 	background: linear-gradient(to top, var(--col02) 16px, var(--col06) 128px, var(--white) 256px);
+	background-origin: border-box;
 	border: solid 2px var(--col04);
 	border-top-color: var(--col05);
 	border-left-color: var(--col05);
