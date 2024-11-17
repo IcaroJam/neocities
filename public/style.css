@@ -74,7 +74,7 @@ header {
 main {
 	padding: 2rem;
 	display: grid;
-	grid-template-columns: 24rem auto;
+	grid-template-columns: 48rem auto;
 }
 
 footer {
@@ -372,7 +372,7 @@ nav > .nav-item-hi, nav > .nav-item-lo {
 /* Queries */
 @media (max-width: 1400px) {
 	main {
-		grid-template-columns: 48rem auto;
+		grid-template-columns: 24rem auto;
 	}
 }
 
