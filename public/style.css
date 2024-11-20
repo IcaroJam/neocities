@@ -351,6 +351,14 @@ nav > .nav-item-hi, nav > .nav-item-lo {
 
 
 
+.webtn {
+	width: 88px;
+	height: 31px;
+	image-rendering: auto;
+}
+
+
+
 /* Queries */
 @media (max-width: 1400px) {
 	main {
