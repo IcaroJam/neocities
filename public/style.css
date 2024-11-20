@@ -269,6 +269,10 @@ nav > .nav-item-hi, nav > .nav-item-lo {
 	display: none;
 }
 
+.hov:hover {
+	cursor: url("/media/yard/pointer.png") 4 0, pointer;
+}
+
 .hov:hover .nav-o-icon {
 	display: revert;
 }
