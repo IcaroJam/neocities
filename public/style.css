@@ -165,7 +165,7 @@ li::marker {
 	height: 100%;
 	position: relative;
 	color: var(--white);
-	overflow: hidden;
+	overflow: clip;
 	align-content: center;
 }
 
@@ -189,7 +189,7 @@ li::marker {
 
 .roll {
 	white-space: nowrap;
-	overflow: hidden;
+	overflow: clip;
 	display: inline-block;
 	animation: roll-news 15s linear infinite;
 	font-family: LastPriestess;
