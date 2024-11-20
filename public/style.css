@@ -347,28 +347,6 @@ nav > .nav-item-hi, nav > .nav-item-lo {
 
 
 
-#wip-sep {
-	border: solid 2px var(--col02);
-	border-right-color: var(--col03);
-}
-
-#wip-cat {
-	width: 130px;
-	margin: 0 auto;
-	display: block;
-	animation: spin 2s ease 0s infinite normal;
-}
-
-.wip-sign {
-	height: 136px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin-bottom: 2rem;
-}
-
-
-
 /* Queries */
 @media (max-width: 1400px) {
 	main {
