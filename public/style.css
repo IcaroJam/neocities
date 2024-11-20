@@ -109,11 +109,10 @@ li::marker {
 #page-palette {
 	z-index: 5;
 	width: 8px;
+	height: 100vh;
 
 	position: fixed;
 	left: 0;
-	top: 0;
-	bottom: 0;
 
 	background: linear-gradient(to bottom, var(--black) 12.5%,
 		var(--col01) 12.5% 25%,
