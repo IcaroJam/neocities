@@ -47,13 +47,13 @@ html, body {
 
 body {
 	background-color: var(--black);
-	background-image: url("/media/familiarSquares.png");
+	background-image: url("/media/yard/familiarSquares.png");
 	background-repeat: repeat;
 	background-size: 16px;
 	image-rendering: crisp-edges;
 	color: var(--black);
 	font-family: KiwiSoda, Verdana;
-	cursor: url("/media/cursor.png"), auto;
+	cursor: url("/media/yard/cursor.png"), auto;
 }
 
 header {

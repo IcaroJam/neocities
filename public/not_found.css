@@ -36,11 +36,11 @@ body::before {
 	right: 0;
 	height: 100%;
 
-	background-image: url("/media/lostShreds.png");
+	background-image: url("/media/lost/lostShreds.png");
 	background-repeat: repeat;
 	background-size: 64px;
 	/* The mask is made up of two layers, the image and a solid layer used to exclude the image */
-	mask: url("media/allSeer.png") center no-repeat, linear-gradient(#000 0 0);
+	mask: url("media/lost/allSeer.png") center no-repeat, linear-gradient(#000 0 0);
 	mask-composite: exclude;
 	mask-size: 636px;
 }
