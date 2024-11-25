@@ -1,0 +1,205 @@
+/* Various variables */
+:root {
+	--black: #1a1016;
+	--col01: #271854;
+	--col02: #317c87;
+	--col03: #74c99e;
+	--col04: #5e2052;
+	--col05: #b13353;
+	--col06: #db604c;
+	--white: #f6dbba;
+}
+@font-face { font-family: BlueScreen; src: url(../media/fonts/BlueScreen.ttf); }
+@font-face { font-family: LedLight; src: url(../media/fonts/LedLight.otf); }
+@font-face { font-family: Quantify; src: url(../media/fonts/Quantify.ttf); }
+@font-face { font-family: Philosopher; src: url(../media/fonts/Philosopher.ttf); }
+
+
+
+/* Tag specific styling */
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	overscroll-behavior: none;
+}
+
+* {
+	box-sizing: border-box;
+	scrollbar-width: thin;
+	scrollbar-color: var(--col01) var(--black);
+}
+
+*::-webkit-scrollbar {
+	width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+	background-color: var(--col04);
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: var(--col01);
+}
+
+body {
+	background-color: var(--black);
+	color: var(--white);
+	font-family: Verdana;
+}
+
+main {
+	max-width: 800px;
+	min-height: 100vh;
+	margin: 0 auto;
+	padding: 0.5rem 1.5rem 4rem 1.5rem;
+	background-color: var(--col04);
+	box-shadow: 0 0 4px var(--col06);
+}
+
+main::before, main::after {
+	content: "";
+	z-index: 5;
+	width: 4px;
+	height: 100vh;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+
+	background: linear-gradient(to bottom, var(--black) 12.5%,
+		var(--col01) 12.5% 25%,
+		var(--col02) 25% 37.5%,
+		var(--col03) 37.5% 50%,
+		var(--col04) 50% 62.5%,
+		var(--col05) 62.5% 75%,
+		var(--col06) 75% 87.5%,
+		var(--white) 87.5%
+	);
+	border-right: solid var(--black) 2px;
+}
+
+main::after {
+	left: unset;
+	right: 0;
+	border-right: unset;
+	border-left: solid var(--black) 2px;
+}
+
+header > h1 {
+	z-index: 1;
+	position: relative;
+	margin: 0;
+	font-family: BlueScreen;
+	font-size: 3rem;
+	font-weight: unset;
+	line-height: 1em;
+	color: var(--white);
+	text-shadow: -4px 4px 12px;
+
+	span {
+		z-index: -1;
+		position: absolute;
+		left: -1.25rem;
+		top: 0.6rem;
+		font-family: LedLight;
+		font-size: 2.75rem;
+		line-height: 2.5rem;
+		word-spacing: -0.25rem;
+		color: var(--black);
+		text-shadow: 4px -2px 8px;
+		transform: scaleY(1.75);
+	}
+}
+
+header > h3 {
+	z-index: 1;
+	position: relative;
+	margin: 0;
+	margin-top: -0.5rem;
+	font-family: BlueScreen;
+	color: var(--col03);
+	text-shadow: 2px 2px 2px var(--col02);
+	transform: skewX(7deg);
+}
+
+header > h3 > span {
+	font-family: Philosopher;
+	float: right;
+}
+
+section {
+	margin-top: 1.5rem;
+	font-family: Philosopher;
+
+	h1 {
+		margin: 0;
+		font-family: Quantify;
+		font-style: italic;
+		text-shadow: -2px 2px var(--black);
+	}
+	p {
+		margin: 0.5rem 0 0 0;
+		text-indent: 0.75rem;
+	}
+	p::before {
+		content: "► ";
+	}
+	p.app::before {
+		color: var(--col02);
+	}
+	p.web::before {
+		color: var(--col05);
+	}
+	a {
+		color: var(--col03);
+	}
+	img {
+		width: 16px;
+		min-height: 16px;
+		position: relative;
+	}
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 0.5rem 0;
+	background: radial-gradient(circle at center, var(--col05) 180px, transparent);
+	backdrop-filter: blur(4px);
+	font-family: BlueScreen;
+	color: var(--white);
+	text-align: center;
+}
+
+a:focus-visible > footer {
+	outline: none;
+	box-shadow: 0 0 0 2px var(--col06), 0 0 0 3px var(--white);
+}
+/* End of tag specific styling */
+
+
+
+#legend-divider {
+	margin-top: 2rem;
+	font-size: smaller;
+	font-family: Philosopher;
+
+	.app {
+		color: var(--col02);
+	}
+	.web {
+		color: var(--col05);
+	}
+}
+
+.cool {
+	color: var(--col06);
+}
+.cool::after {
+	content: "*";
+}
