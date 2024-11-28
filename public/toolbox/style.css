@@ -136,7 +136,7 @@ header > h3 > span {
 }
 
 section {
-	margin-top: 1.5rem;
+	margin-top: 2rem;
 	font-family: Philosopher;
 
 	h1 {
@@ -174,7 +174,7 @@ footer {
 	left: 0;
 	width: 100%;
 	padding: 0.5rem 0;
-	background: radial-gradient(circle at center, var(--col05) 180px, transparent);
+	background: radial-gradient(circle at center, var(--col05) 64px, transparent);
 	backdrop-filter: blur(4px);
 	font-family: BlueScreen;
 	color: var(--white);
