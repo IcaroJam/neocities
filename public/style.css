@@ -202,7 +202,7 @@ a:focus-visible {
 	overflow: clip;
 	display: inline-block;
 	line-height: 0;
-	animation: roll-news 15s linear infinite;
+	animation: roll-news 30s linear infinite;
 	font-family: LastPriestess;
 }
 
