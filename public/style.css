@@ -201,12 +201,19 @@ a:focus-visible {
 	white-space: nowrap;
 	overflow: clip;
 	display: inline-block;
+	line-height: 0;
 	animation: roll-news 15s linear infinite;
 	font-family: LastPriestess;
 }
 
 .roll > * {
 	display: inline-block;
+	line-height: 0;
+	image-rendering: auto;
+}
+
+.roll > div > * {
+	vertical-align: middle;
 }
 
 #smol-about {
