@@ -2,6 +2,7 @@
 SRCDIR	:= public/
 TGTDIR	:= build/
 # ---
+MODATES := $(SRCDIR)modDates.yml
 HTMLSRC	:= $(shell find $(SRCDIR) -name "*.html") # Finds all html files inside the SRCDIR
 HTMLTGT	:= $(addprefix $(TGTDIR), $(HTMLSRC:$(SRCDIR)%=%)) # Defines the new paths in TGTDIR for the html files
 ####################
@@ -14,11 +15,21 @@ YELLOW	:= \033[38;5;11m
 RESET	:= \033[0m
 ##########################
 
-all: initialmsg $(TGTDIR) $(HTMLTGT)
+all: initialmsg upDate deploy
 	@printf "$(GREEN)\t~ Done building$(RESET)\n"
 
 initialmsg:
 	@printf "Building site files...\n"
+
+# Stores the modification dates of files in a yaml so it can be used during deploy
+upDate:
+	@rm -f $(MODATES)
+	@for f in $(HTMLSRC); do\
+		date=$$(date -r $$f +'%Y/%m/%d');\
+		echo "$$f: $$date" >> $(MODATES);\
+	done
+
+deploy: $(TGTDIR) $(HTMLTGT)
 
 # Copies all files of SRCDIR into TGTDIR, only overwrites modified files
 $(TGTDIR):
@@ -28,7 +39,8 @@ $(TGTDIR):
 # Edits changed html files to put their date of modification in __LAST_UPDATED__
 $(HTMLTGT): $(TGTDIR)%.html: $(SRCDIR)%.html
 	@if grep -q __LAST_UPDATED__ $@; then\
-		sed -i "s|__LAST_UPDATED__|$(shell date -r $< +'%Y/%m/%d')|g" $@;\
+		date=$$(grep $< $(MODATES) | sed 's/.* //');\
+		sed -i "s|__LAST_UPDATED__|$$date|g" $@;\
 		printf "$(YELLOW)Build date updated for $@ !$(RESET)\n";\
 	fi
 
@@ -42,4 +54,4 @@ clean:
 	@rm -rf $(TGTDIR)
 	@printf "$(RED)BUILT FILES DELETED$(RESET)\n"
 
-.PHONY: all clean colortest $(TGTDIR) $(HTMLTGT)
+.PHONY: all clean colortest deploy upDate $(TGTDIR) $(HTMLTGT)
