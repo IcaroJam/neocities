@@ -210,6 +210,7 @@ a:focus-visible > footer {
 }
 
 .side-img {
+	z-index: -1;
 	position: fixed;
 	left: 2.5rem;
 	top: 2.5rem;
