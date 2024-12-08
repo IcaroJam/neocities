@@ -208,3 +208,9 @@ a:focus-visible > footer {
 .cool::after {
 	content: "*";
 }
+
+.side-img {
+	position: fixed;
+	left: 2.5rem;
+	top: 2.5rem;
+}
