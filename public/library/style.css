@@ -1,0 +1,366 @@
+/* Various variables */
+:root {
+/* Twelve Fallen Leaves */
+	--black: #2e2626;
+	--col01: #574744;
+	--col02: #946663;
+	--col03: #bf9a84;
+	--col04: #80627e;
+	--col05: #b58b90;
+	--col06: #4b4b5e;
+	--col07: #797d91;
+	--col08: #9cb3b8;
+	--col09: #6d7a69;
+	--col10: #a8a39d;
+	--white: #d4c9ba;
+/* Haunted Hollows */
+	/* --black: #060423;
+	--col01: #0e0b38;
+	--col02: #2b0d46;
+	--col03: #4c1a4e;
+	--col04: #791d46;
+	--col05: #ad2340;
+	--col06: #d65b49;
+	--col07: #f28f61;
+	--white: #fab269; */
+}
+@font-face { font-family: JuniGardenSerif; src: url(../media/fonts/JunigardenSerif.otf); }
+@font-face { font-family: JuniGardenSwash; src: url(../media/fonts/JunigardenSwash.otf); }
+@font-face { font-family: LaMachine; src: url(../media/fonts/LaMachine.ttf); }
+@font-face { font-family: MomsTypewriter; src: url(../media/fonts/MomsTypewriter.ttf); }
+@font-face { font-family: Philosopher; src: url(../media/fonts/Philosopher.ttf); }
+
+
+
+/* Tag specific styling */
+html, body {
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
+html {
+	overscroll-behavior: none;
+}
+
+* {
+	box-sizing: border-box;
+	scrollbar-width: thin;
+	scrollbar-color: var(--col01) var(--black);
+}
+
+*::-webkit-scrollbar {
+	width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+	background-color: var(--col04);
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: var(--col01);
+}
+
+body {
+	background-color: var(--black);
+	color: var(--white);
+	font-family: Verdana;
+}
+
+header {
+	height: 100vh;
+	padding: 2rem;
+	align-content: center;
+	font-family: JuniGardenSerif;
+	text-align: center;
+	background: linear-gradient(to right, var(--black), transparent, var(--black)), url("/media/library/library.png") no-repeat;
+	background-size: cover;
+	background-position: 65%;
+
+	* {
+		margin: 0;
+		text-shadow: 0 3px 2px var(--black);
+	}
+
+	h1 {
+		font-family: JuniGardenSwash;
+		font-size: 4rem;
+	}
+
+	h4 {
+		font-family: Philosopher;
+
+		span {
+			display: inline-block;
+			max-width: 30rem;
+		}
+	}
+
+	button {
+		width: 5rem;
+		height: 3rem;
+		position: absolute;
+		bottom: 0;
+		left: calc(50% - 2.5rem);
+		background-color: var(--black);
+		border: none;
+		border-radius: 8px 8px 0 0;
+		font-size: 2rem;
+		color: var(--white);
+		cursor: pointer;
+	}
+}
+
+main {
+	min-height: 100vh;
+
+	nav {
+		width: 11rem;
+		height: 100vh;
+		padding: 1rem 0;
+		position: sticky;
+		top: 0;
+		float: left;
+		overflow-y: auto;
+		background: linear-gradient(to right, var(--col06) 92%, var(--col07));
+		color: var(--white);
+		font-family: JuniGardenSwash;
+
+		a {
+			color: inherit;
+			text-decoration: none;
+		}
+
+		h1, p {
+			margin: 0;
+			padding: 0.75rem;
+			font-weight: normal;
+		}
+
+		h1::before {
+			content: "↦";
+			display: inline-block;
+			margin-right: 0.25rem;
+			transition: all 0.25s ease-out;
+		}
+
+		/* a:focus-visible h1::before, a:hover h1::before {
+			transform: rotate(90deg);
+		} */
+
+		p {
+			position: absolute;
+			bottom: 0;
+		}
+	}
+
+	article {
+		--art-bg: var(--black);
+		--art-col: var(--white);
+		--art-fnt: LaMachine;
+		--itm-bg: var(--col04);
+		--itm-col: var(--white);
+		--itm-fnt: Philosopher;
+		--itm-brd: var(--col05);
+		--itm-drp-bg: var(--col02);
+		--itm-drp-col: var(--black);
+		--itm-fav-bg: var(--col03);
+		--itm-fav-col: var(--black);
+
+		background-color: var(--art-bg);
+		color: var(--art-col);
+		padding: 1.5rem;
+		padding-left: 12.5rem;
+
+		h1 {
+			margin: 0 0 0.5rem 0;
+			font-size: 4rem;
+			font-family: var(--art-fnt);
+			font-weight: normal;
+		}
+
+		& > div { /* Stuff wrapper */
+			display: flex;
+			flex-wrap: wrap;
+			gap: 1rem;
+			text-align: center;
+
+			& > div { /* Container for the entry itself */
+				width: 10rem;
+				background-color: var(--itm-bg);
+				border-bottom: 4px solid var(--itm-brd);
+				border-radius: 0 0 8px 8px;
+				position: relative;
+				overflow: clip;
+
+				img {
+					width: 10rem;
+					height: 15rem;
+					display: block;
+				}
+
+				h4, h5, h6, p {
+					padding: 0 0.25rem;
+					margin: 0.15rem 0;
+					font-family: var(--itm-fnt);
+					color: var(--itm-col);
+				}
+
+				h4, h5, h6 {
+					overflow: hidden;
+					display: -webkit-box;
+					-webkit-box-orient: vertical;
+					-webkit-line-clamp: 2;
+				}
+
+				h5, h6 {
+					font-weight: normal;
+				}
+
+				.entry-mod {
+					width: 4rem;
+					height: 4rem;
+					position: absolute;
+					top: -2rem;
+					right: -2rem;
+					transform: rotate(45deg);
+					align-content: end;
+				}
+
+				&.dropped > .entry-mod {
+					background-color: var(--itm-drp-bg);
+					border: 6px solid var(--art-bg);
+				}
+
+				&.dropped > .entry-mod::after {
+					content: "✚";
+					color: var(--itm-drp-col);
+					display: block;
+				}
+
+				&.faved > .entry-mod {
+					background-color: var(--itm-fav-bg);
+					border: 6px solid var(--art-bg);
+				}
+
+				&.faved > .entry-mod::after {
+					content: "✦";
+					color: var(--itm-fav-col);
+					display: block;
+					transform: rotate(-45deg);
+				}
+
+				&:hover > .details {
+					display: flex;
+				}
+
+				& > .details {
+					width: 100%;
+					height: 100%;
+					display: none;
+					flex-direction: column;
+					position: absolute;
+					top: 0;
+					background-color: var(--itm-bg);
+					overflow: auto;
+
+					div {
+						padding-top: 0.5rem;
+						margin-top: auto;
+					}
+
+					p {
+						padding: 0 0.5rem;
+						margin: 0.5rem 0;
+						text-align: left;
+						flex-shrink: 0;
+					}
+				}
+			}
+		}
+	}
+}
+
+footer {
+	height: 100vh;
+	background: linear-gradient(to right, var(--black), transparent, var(--black)), url("/media/library/futureLibrary.png") no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: var(--white);
+	text-align: center;
+	align-content: end;
+
+	p {
+		margin: 0;
+		padding: 2rem 1rem;
+		background: radial-gradient(circle at center, #2e2626c0 6rem, transparent 12rem);
+		font-family: Philosopher;
+	}
+}
+/* End of tag specific styling */
+
+
+
+#shows {
+	--art-bg: var(--col01);
+	--art-col: var(--white);
+	--art-fnt: MomsTypewriter;
+	--itm-bg: var(--col06);
+	--itm-col: var(--white);
+	--itm-fnt: Philosopher;
+	--itm-brd: var(--col07);
+	--itm-drp-bg: var(--col02);
+	--itm-drp-col: var(--black);
+	--itm-fav-bg: var(--col08);
+	--itm-fav-col: var(--black);
+}
+
+#books {
+	--art-bg: var(--col09);
+	--art-col: var(--white);
+	--art-fnt: LaMachine;
+	--itm-bg: var(--col01);
+	--itm-col: var(--white);
+	--itm-fnt: Philosopher;
+	--itm-brd: var(--col02);
+	--itm-drp-bg: var(--col01);
+	--itm-drp-col: var(--white);
+	--itm-fav-bg: var(--col03);
+	--itm-fav-col: var(--black);
+}
+
+#comics {
+	--art-bg: var(--col01);
+	--art-col: var(--white);
+	--art-fnt: MomsTypewriter;
+	--itm-bg: var(--col09);
+	--itm-col: var(--white);
+	--itm-fnt: Philosopher;
+	--itm-brd: var(--col10);
+	--itm-drp-bg: var(--col04);
+	--itm-drp-col: var(--white);
+	--itm-fav-bg: var(--col09);
+	--itm-fav-col: var(--white);
+}
+
+#games {
+	--art-bg: var(--black);
+	--art-col: var(--white);
+	--art-fnt: MomsTypewriter;
+	--itm-bg: var(--col03);
+	--itm-col: var(--black);
+	--itm-fnt: Philosopher;
+	--itm-brd: var(--white);
+	--itm-drp-bg: var(--col02);
+	--itm-drp-col: var(--black);
+	--itm-fav-bg: var(--col03);
+	--itm-fav-col: var(--black);
+}
+
+
+
+@media (max-width: 700px) {
+	html, body {
+		font-size: 11px;
+	}
+}

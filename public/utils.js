@@ -1,5 +1,6 @@
 function imgFallBack(elem) {
 	console.log("Img failed! D:", elem);
 	elem.onerror = null;
-	elem.src = '/media/notfound.png';
+	elem.style.imageRendering = "crisp-edges";
+	elem.src = "/media/notfound.png";
 }

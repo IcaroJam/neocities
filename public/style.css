@@ -257,8 +257,6 @@ a:focus-visible {
 	border-color: var(--col01);
 	font-family: Adventurer, LastPriestess;
 	background-image: linear-gradient(to right, var(--white) 20rem, var(--col01));
-	text-decoration: line-through;
-	text-decoration-thickness: 2px;
 }
 
 #nav-lib:hover {
