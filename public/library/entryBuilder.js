@@ -30,7 +30,7 @@ function imgFallBack(e) {
 // Content loaders
 function loadCategory(data, selector, imgSrc, imgAlt) {
 	const wrapper = document.querySelector(selector);
-	if (wrapper === null)
+	if (!wrapper)
 		return;
 
 	data.forEach(entry => {
@@ -55,6 +55,22 @@ function loadCategory(data, selector, imgSrc, imgAlt) {
 
 function loadFilms(films) {
 	loadCategory(films, "#films > div", "/media/library/films/", "The movie poster of ");
+}
+
+function loadShows(shows) {
+	loadCategory(shows, "#shows > div", "/media/library/shows/", "A promotional poster of ");
+}
+
+function loadBooks(books) {
+	loadCategory(books, "#books > div", "/media/library/books/", "The cover art of ");
+}
+
+function loadComics(comics) {
+	loadCategory(comics, "#comics > div", "/media/library/comics/", "The cover art of ");
+}
+
+function loadGames(games) {
+	loadCategory(games, "#games > div", "/media/library/games/", "The cover art of ");
 }
 // End content loaders
 
@@ -155,11 +171,21 @@ const data = {
 	shows: null,
 	comics: null,
 	books: null,
+	games: null,
 }
 
-fetch("./films.json").then(async (response) => {
-	data.films = await response.json();
-	loadFilms(data.films);
-});
+const fetchAndLoad = (from, into, failMsg) => {
+	fetch(from).then(async response => {
+		into = await response.json();
+		into.sort((a, b) => a.name.localeCompare(b.name));
+		loadFilms(into);
+	}).catch(er => console.error(failMsg, er));
+}
+
+fetchAndLoad("./films.json", data.films, "Films fetching failed!\n");
+fetchAndLoad("./shows.json", data.shows, "Shows fetching failed!\n");
+fetchAndLoad("./books.json", data.books, "Books fetching failed!\n");
+fetchAndLoad("./comics.json", data.comics, "Comics fetching failed!\n");
+fetchAndLoad("./games.json", data.games, "Games fetching failed!\n");
 
 // Pagination or something like that pending in case this gets out of hand (lol imagine)

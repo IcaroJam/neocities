@@ -148,9 +148,10 @@ main {
 			transform: rotate(90deg);
 		} */
 
-		p {
+		div {
 			position: absolute;
 			bottom: 0;
+			text-align: center;
 		}
 	}
 
