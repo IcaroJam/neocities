@@ -291,6 +291,11 @@ footer {
 	text-align: center;
 	align-content: end;
 
+	a {
+		color: inherit;
+		text-decoration: none;
+	}
+
 	p {
 		margin: 0;
 		padding: 2rem 1rem;
