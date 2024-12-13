@@ -174,18 +174,18 @@ const data = {
 	games: null,
 }
 
-const fetchAndLoad = (from, into, failMsg) => {
+const fetchAndLoad = (from, into, failMsg, loadFn) => {
 	fetch(from).then(async response => {
 		into = await response.json();
 		into.sort((a, b) => a.name.localeCompare(b.name));
-		loadFilms(into);
+		loadFn(into);
 	}).catch(er => console.error(failMsg, er));
 }
 
-fetchAndLoad("./films.json", data.films, "Films fetching failed!\n");
-fetchAndLoad("./shows.json", data.shows, "Shows fetching failed!\n");
-fetchAndLoad("./books.json", data.books, "Books fetching failed!\n");
-fetchAndLoad("./comics.json", data.comics, "Comics fetching failed!\n");
-fetchAndLoad("./games.json", data.games, "Games fetching failed!\n");
+fetchAndLoad("./films.json", data.films, "Films fetching failed!\n", loadFilms);
+fetchAndLoad("./shows.json", data.shows, "Shows fetching failed!\n", loadShows);
+fetchAndLoad("./books.json", data.books, "Books fetching failed!\n", loadBooks);
+fetchAndLoad("./comics.json", data.comics, "Comics fetching failed!\n", loadComics);
+fetchAndLoad("./games.json", data.games, "Games fetching failed!\n", loadGames);
 
 // Pagination or something like that pending in case this gets out of hand (lol imagine)

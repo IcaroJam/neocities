@@ -1,0 +1,53 @@
+[
+	{
+		"name": "Adventure Time",
+		"director": "Pendleton Ward, Adam Muto",
+		"year": 2010,
+		"end": 2018,
+		"seasons": 10,
+		"eps": 283,
+		"img": "AdventureTime.png",
+		"faved": true,
+		"tags": ["Adventure", "Animation", "Comedy", "Fantasy"]
+	},
+	{
+		"name": "Aquí no hay quien viva",
+		"director": "Alberto Caballero, Iñaki Ariztimuño, Laura Caballero, Juan Luis Iborra, Alberto Caballero, David Fernández",
+		"year": 2003,
+		"end": 2006,
+		"seasons": 5,
+		"eps": 90,
+		"img": "ANHQV.png",
+		"tags": ["Comedy", "Sitcom"]
+	},
+	{
+		"name": "Gravity Falls",
+		"director": "Alex Hirsch",
+		"year": 2012,
+		"end": 2016,
+		"seasons": 2,
+		"eps": 41,
+		"img": "GravityFalls.png",
+		"tags": ["Adventure", "Animation", "Comedy", "Fantasy", "Supernatural"]
+	},
+	{
+		"name": "How I Met Your Mother",
+		"director": "Carter Bays, Craig Thomas, Pamela Fryman, Rob Greenberg, Michael J. Shea, Neil Patrick Harris",
+		"year": 2005,
+		"end": 2014,
+		"seasons": 9,
+		"eps": 208,
+		"img": "HIMYM.png",
+		"tags": ["Comedy", "Sitcom"]
+	},
+	{
+		"name": "The Leftovers",
+		"director": "Damon Lindelof, Tom Perrotta, Peter Berg, Mimi Leder, Keith Gordon, Carl Franklin, Craig Zobel, Lesli Linka Glatter, Michelle MacLaren, Daniel Sackheim, Nicole Kassell, Tom Shankland",
+		"year": 2014,
+		"end": 2017,
+		"seasons": 3,
+		"eps": 28,
+		"img": "Leftovers.png",
+		"tags": ["Drama", "Fantasy", "Mystery", "Supernatural"]
+	}
+]

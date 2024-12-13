@@ -1,0 +1,10 @@
+[
+	{
+		"name": "The Name of the Wind",
+		"director": "Patrick Rothfuss",
+		"year": 2007,
+		"img": "Viento.png",
+		"faved": true,
+		"tags": ["Fantasy", "Magic"]
+	}
+]

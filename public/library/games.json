@@ -1,0 +1,10 @@
+[
+	{
+		"name": "Disco Elysium",
+		"studio": "ZA/UM",
+		"year": 2019,
+		"img": "Disco.png",
+		"faved": true,
+		"tags": ["Point-and-Click", "RPG", "Visual Novel"]
+	}
+]
