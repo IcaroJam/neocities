@@ -23,11 +23,12 @@ initialmsg:
 
 # Stores the modification dates of files in a yaml so it can be used during deploy
 upDate:
-	@rm -f $(MODATES)
-	@for f in $(HTMLSRC); do\
-		date=$$(date -r $$f +'%Y/%m/%d');\
-		echo "$$f: $$date" >> $(MODATES);\
-	done
+	@echo "Skipping auto upDate"
+# @rm -f $(MODATES)
+# @for f in $(HTMLSRC); do\
+# 	date=$$(date -r $$f +'%Y/%m/%d');\
+# 	echo "$$f: $$date" >> $(MODATES);\
+# done
 
 deploy: $(TGTDIR) $(HTMLTGT)
 
