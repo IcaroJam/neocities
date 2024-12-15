@@ -1,0 +1,25 @@
+{
+  "name": "neocities",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "libDither": "node scripts/libraryDither.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IcaroJam/neocities.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IcaroJam/neocities/issues"
+  },
+  "homepage": "https://github.com/IcaroJam/neocities#readme",
+  "devDependencies": {
+    "dither-me-this": "^0.0.5"
+  },
+  "dependencies": {
+    "sharp": "^0.33.5"
+  }
+}
