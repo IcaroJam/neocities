@@ -36,7 +36,7 @@ fetch(url).then(async data => {
 
 	const buffer = await data.buffer()
 
-	const scaledImg = await sharp(buffer).resize(options.width, null, {kernel: sharp.kernel.nearest}).toBuffer()
+	const scaledImg = await sharp(buffer).png().resize(options.width, null, {kernel: sharp.kernel.nearest}).toBuffer()
 
     const ditheredImg = await dither(scaledImg, options)
 

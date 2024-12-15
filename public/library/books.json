@@ -1,10 +1,74 @@
 [
 	{
+		"name": "Dos Historias para no Dormir",
+		"director": "Stephen King",
+		"year": "1978 (Nona), 1982 (The Raft)",
+		"img": "DosHistorias.png",
+		"tags": ["Horror", "Mystery"]
+	},
+	{
+		"name": "Elevation",
+		"director": "Stephen King",
+		"year": 2018,
+		"img": "Elevation.png",
+		"tags": ["Fiction", "Mystery"]
+	},
+	{
+		"name": "Jurassic Park",
+		"director": "Michael Crichton",
+		"year": 1990,
+		"img": "JurassicPark.png",
+		"tags": ["Adventure", "Horror", "Sci-Fi", "Thriller"]
+	},
+	{
+		"name": "Life, the Universe and Everything",
+		"director": "Douglas Adams",
+		"year": 1982,
+		"img": "VidaUniverso.png",
+		"dropped": true,
+		"tags": ["Comedy", "Sci-Fi"]
+	},
+	{
+		"name": "The Gunslinger",
+		"director": "Stephen King",
+		"year": 1982,
+		"img": "Gunslinger.png",
+		"tags": ["Fantasy", "Horror", "Post Apocalyptic"]
+	},
+	{
+		"name": "The Hitchhiker's Guide to the Galaxy",
+		"director": "Douglas Adams",
+		"year": 1979,
+		"img": "Hitchhikers.png",
+		"tags": ["Comedy", "Sci-Fi"]
+	},
+	{
+		"name": "The Institute",
+		"director": "Stephen King",
+		"year": 2019,
+		"img": "Instituto.png",
+		"tags": ["Horror", "Mystery", "Paranormal", "Thriller"]
+	},
+	{
+		"name": "The Lost World",
+		"director": "Michael Crichton",
+		"year": 1995,
+		"img": "LostWorld.png",
+		"tags": ["Adventure", "Horror", "Sci-Fi", "Thriller"]
+	},
+	{
 		"name": "The Name of the Wind",
 		"director": "Patrick Rothfuss",
 		"year": 2007,
 		"img": "Viento.png",
 		"faved": true,
 		"tags": ["Fantasy", "Magic"]
+	},
+	{
+		"name": "The Restaurant at the End of the Universe",
+		"director": "Douglas Adams",
+		"year": 1980,
+		"img": "Restaurante.png",
+		"tags": ["Comedy", "Sci-Fi"]
 	}
 ]

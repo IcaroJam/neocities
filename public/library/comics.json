@@ -1,12 +1,19 @@
 [
 	{
 		"name": "Chainsaw Man",
-		"director": "Tatsuki Fujimoto",
+		"author": "Tatsuki Fujimoto",
 		"year": 2018,
 		"end": "ongoing",
 		"chapters": "186/TBD",
 		"img": "Chainsaw.png",
 		"faved": true,
 		"tags": ["Action", "Gore", "Manga", "Urban Fantasy"]
+	},
+	{
+		"name": "I Hate Fairyland - Madly Ever After",
+		"author": "Skottie Young",
+		"year": 2015,
+		"img": "FairyHate.png",
+		"tags": ["Comedy", "Fantasy"]
 	}
 ]
