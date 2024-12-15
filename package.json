@@ -17,9 +17,7 @@
   },
   "homepage": "https://github.com/IcaroJam/neocities#readme",
   "devDependencies": {
-    "dither-me-this": "^0.0.5"
-  },
-  "dependencies": {
+    "dither-me-this": "^0.0.5",
     "sharp": "^0.33.5"
   }
 }
