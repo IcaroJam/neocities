@@ -1,72 +1,115 @@
 [
 	{
 		"name": "Dos Historias para no Dormir",
-		"director": "Stephen King",
+		"author": "Stephen King",
 		"year": "1978 (Nona), 1982 (The Raft)",
 		"img": "DosHistorias.png",
 		"tags": ["Horror", "Mystery"]
 	},
 	{
+		"name": "El Comandante Pipe y su Padre",
+		"author": "René Benjamin",
+		"year": 1912,
+		"img": "Pipe.png",
+		"tags": ["Comedy", "History Fiction", "Social Commentary"]
+	},
+	{
 		"name": "Elevation",
-		"director": "Stephen King",
+		"author": "Stephen King",
 		"year": 2018,
 		"img": "Elevation.png",
 		"tags": ["Fiction", "Mystery"]
 	},
 	{
 		"name": "Jurassic Park",
-		"director": "Michael Crichton",
+		"author": "Michael Crichton",
 		"year": 1990,
 		"img": "JurassicPark.png",
 		"tags": ["Adventure", "Horror", "Sci-Fi", "Thriller"]
 	},
 	{
 		"name": "Life, the Universe and Everything",
-		"director": "Douglas Adams",
+		"author": "Douglas Adams",
 		"year": 1982,
 		"img": "VidaUniverso.png",
 		"dropped": true,
 		"tags": ["Comedy", "Sci-Fi"]
 	},
 	{
+		"name": "LOTR: The Fellowship of the Ring",
+		"author": "J.R.R. Tolkien",
+		"year": 1954,
+		"img": "Fellowship.png",
+		"tags": ["High Fantasy", "Fantasy"]
+	},
+	{
+		"name": "Mistborn: The Final Empire",
+		"author": "Brandon Sanderson",
+		"year": 2006,
+		"img": "ImperioFinal.png",
+		"tags": ["Fantasy", "High Fantasy", "Magic"]
+	},
+	{
+		"name": "Proyecto Nocilla",
+		"author": "Agustín Fernández Mallo",
+		"year": "2006 (Nocilla Dream), 2008 (Nocilla Experience), 2009 (Nocilla Lab)",
+		"img": "Nocilla.png",
+		"dropped": true,
+		"tags": ["Experimental", "Fiction"]
+	},
+	{
+		"name": "The Color of Magic",
+		"author": "Terry Pratchett",
+		"year": 1983,
+		"img": "ColorMagia.png",
+		"tags": ["Adventure", "Comedy", "Fantasy", "High Fantasy"]
+	},
+	{
 		"name": "The Gunslinger",
-		"director": "Stephen King",
+		"author": "Stephen King",
 		"year": 1982,
 		"img": "Gunslinger.png",
 		"tags": ["Fantasy", "Horror", "Post Apocalyptic"]
 	},
 	{
 		"name": "The Hitchhiker's Guide to the Galaxy",
-		"director": "Douglas Adams",
+		"author": "Douglas Adams",
 		"year": 1979,
 		"img": "Hitchhikers.png",
 		"tags": ["Comedy", "Sci-Fi"]
 	},
 	{
 		"name": "The Institute",
-		"director": "Stephen King",
+		"author": "Stephen King",
 		"year": 2019,
 		"img": "Instituto.png",
 		"tags": ["Horror", "Mystery", "Paranormal", "Thriller"]
 	},
 	{
+		"name": "The Kamogawa Food Detectives",
+		"author": "Hisashi Kashiwai",
+		"year": 2013,
+		"img": "Kamogawa.png",
+		"tags": ["Fiction", "Mystery"]
+	},
+	{
 		"name": "The Lost World",
-		"director": "Michael Crichton",
+		"author": "Michael Crichton",
 		"year": 1995,
 		"img": "LostWorld.png",
 		"tags": ["Adventure", "Horror", "Sci-Fi", "Thriller"]
 	},
 	{
 		"name": "The Name of the Wind",
-		"director": "Patrick Rothfuss",
+		"author": "Patrick Rothfuss",
 		"year": 2007,
 		"img": "Viento.png",
 		"faved": true,
-		"tags": ["Fantasy", "Magic"]
+		"tags": ["Fantasy", "High Fantasy", "Magic"]
 	},
 	{
 		"name": "The Restaurant at the End of the Universe",
-		"director": "Douglas Adams",
+		"author": "Douglas Adams",
 		"year": 1980,
 		"img": "Restaurante.png",
 		"tags": ["Comedy", "Sci-Fi"]
