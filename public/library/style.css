@@ -393,7 +393,7 @@ footer {
 			}
 		}
 
-		nav:hover {
+		.nav-mobile:hover nav {
 			right: 0;
 		}
 
