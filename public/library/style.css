@@ -34,6 +34,7 @@
 
 /* Tag specific styling */
 html, body {
+	height: 100%;
 	margin: 0;
 	padding: 0;
 	scroll-behavior: smooth;
@@ -68,7 +69,7 @@ body {
 }
 
 header {
-	height: 100vh;
+	height: 100%;
 	padding: 2rem;
 	align-content: center;
 	font-family: JuniGardenSerif;
@@ -112,7 +113,7 @@ header {
 }
 
 main {
-	min-height: 100vh;
+	min-height: 100%;
 
 	nav {
 		width: 11rem;
@@ -152,6 +153,10 @@ main {
 			position: absolute;
 			bottom: 0;
 			text-align: center;
+		}
+
+		.nav-mobile {
+			display: none;
 		}
 	}
 
@@ -283,7 +288,7 @@ main {
 }
 
 footer {
-	height: 100vh;
+	height: 100%;
 	background: linear-gradient(to right, var(--black), transparent, var(--black)), url("/media/library/futureLibrary.png") no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -381,6 +386,7 @@ footer {
 			transition: right ease 0.5s;
 
 			.nav-mobile {
+				display: block;
 				width: 3rem;
 				height: 3rem;
 				position: absolute;
