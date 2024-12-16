@@ -386,6 +386,21 @@ footer {
 			background: var(--col06);
 			transition: right ease 0.5s;
 
+			h1 {
+				padding: 1.5rem;
+				text-align: center;
+				font-size: 2rem;
+			}
+
+			h1::before {
+				content: none;
+			}
+
+			.nav-footer {
+				width: 100%;
+				font-size: 1.5rem;
+			}
+
 			.nav-mobile {
 				display: block;
 				width: 3rem;
