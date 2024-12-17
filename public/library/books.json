@@ -164,6 +164,13 @@
 		"tags": ["Horror", "Mystery", "Paranormal", "Thriller"]
 	},
 	{
+		"name": "The Island of Dr. Moreau",
+		"author": "H.G. Wells",
+		"year": 1896,
+		"img": "Moreau.png",
+		"tags": ["Adventure", "Horror", "Fiction", "Sci-Fi"]
+	},
+	{
 		"name": "The Kamogawa Food Detectives",
 		"author": "Hisashi Kashiwai",
 		"year": 2013,
