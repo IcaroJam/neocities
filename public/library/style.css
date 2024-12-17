@@ -40,10 +40,6 @@ html, body {
 	scroll-behavior: smooth;
 }
 
-html {
-	overscroll-behavior: none;
-}
-
 * {
 	box-sizing: border-box;
 	scrollbar-width: thin;
