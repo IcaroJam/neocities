@@ -1,5 +1,26 @@
 [
 	{
+		"name": "1984",
+		"author": "George Orwell",
+		"year": 1949,
+		"img": "1984.png",
+		"tags": ["Dystopian", "Fiction", "Sci-Fi"]
+	},
+	{
+		"name": "Animal Farm",
+		"author": "George Orwell",
+		"year": 1945,
+		"img": "AnimalFarm.png",
+		"tags": ["Dystopian", "Fable", "Fiction", "Social Commentary"]
+	},
+	{
+		"name": "Brave New World",
+		"author": "Aldous Huxley",
+		"year": 1932,
+		"img": "MundoFeliz.png",
+		"tags": ["Dystopian", "Fiction", "Sci-Fi"]
+	},
+	{
 		"name": "Cien Años de Soledad",
 		"author": "Gabriel García Márquez",
 		"year": 1967,
@@ -40,6 +61,13 @@
 		"year": 2018,
 		"img": "Elevation.png",
 		"tags": ["Fiction", "Mystery"]
+	},
+	{
+		"name": "Fahrenheit 451",
+		"author": "Ray Bradbury",
+		"year": 1953,
+		"img": "Fahrenheit.png",
+		"tags": ["Dystopian", "Fiction", "Sci-Fi"]
 	},
 	{
 		"name": "Jurassic Park",
