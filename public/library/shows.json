@@ -21,6 +21,17 @@
 		"tags": ["Comedy", "Sitcom"]
 	},
 	{
+		"name": "Neon Genesis Evangelion",
+		"director": "Hideaki Anno",
+		"studio": "GAINAX",
+		"year": 1995,
+		"end": 1996,
+		"seasons": 1,
+		"eps": 26,
+		"img": "Evangelion.png",
+		"tags": ["Action", "Animation", "Anime", "Mechas", "Psychological", "Sci-Fi"]
+	},
+	{
 		"name": "Gravity Falls",
 		"director": "Alex Hirsch",
 		"year": 2012,
@@ -48,6 +59,6 @@
 		"seasons": 3,
 		"eps": 28,
 		"img": "Leftovers.png",
-		"tags": ["Drama", "Fantasy", "Mystery", "Supernatural"]
+		"tags": ["Drama", "Fantasy", "Mystery", "Psychological", "Supernatural"]
 	}
 ]
