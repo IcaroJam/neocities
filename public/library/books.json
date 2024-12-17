@@ -14,6 +14,13 @@
 		"tags": ["Dystopian", "Fable", "Fiction", "Social Commentary"]
 	},
 	{
+		"name": "Beatriz y los Cuerpos Celestes",
+		"author": "Lucía Etxebarría",
+		"year": 1998,
+		"img": "Beatriz.png",
+		"tags": ["Contemporary Fiction", "Fiction", "Realism"]
+	},
+	{
 		"name": "Brave New World",
 		"author": "Aldous Huxley",
 		"year": 1932,
@@ -60,7 +67,7 @@
 		"author": "Stephen King",
 		"year": 2018,
 		"img": "Elevation.png",
-		"tags": ["Fiction", "Mystery"]
+		"tags": ["Contemporary Fiction", "Fiction", "Mystery"]
 	},
 	{
 		"name": "Fahrenheit 451",
@@ -161,7 +168,7 @@
 		"author": "Stephen King",
 		"year": 2019,
 		"img": "Instituto.png",
-		"tags": ["Horror", "Mystery", "Paranormal", "Thriller"]
+		"tags": ["Contemporary Fiction", "Fiction", "Horror", "Mystery", "Paranormal", "Thriller"]
 	},
 	{
 		"name": "The Island of Dr. Moreau",
