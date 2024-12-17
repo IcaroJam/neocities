@@ -1,5 +1,12 @@
 [
 	{
+		"name": "Cien Años de Soledad",
+		"author": "Gabriel García Márquez",
+		"year": 1967,
+		"img": "Soledad.png",
+		"tags": ["Fiction", "Magical Realism"]
+	},
+	{
 		"name": "Dos Historias para no Dormir",
 		"author": "Stephen King",
 		"year": "1978 (Nona), 1982 (The Raft)",
@@ -12,6 +19,20 @@
 		"year": 1912,
 		"img": "Pipe.png",
 		"tags": ["Comedy", "History Fiction", "Social Commentary"]
+	},
+	{
+		"name": "El Aleph",
+		"author": "Jorge Luis Borges",
+		"year": 1949,
+		"img": "Aleph.png",
+		"tags": ["Anthology", "Fantasy", "Fiction", "Magical Realism", "Short Story"]
+	},
+	{
+		"name": "El Llano en Llamas",
+		"author": "Juan Rulfo",
+		"year": 1955,
+		"img": "Llano.png",
+		"tags": ["Anthology", "Fiction", "Magical Realism", "Realism", "Short Story"]
 	},
 	{
 		"name": "Elevation",
@@ -63,6 +84,13 @@
 		"year": 2006,
 		"img": "ImperioFinal.png",
 		"tags": ["Fantasy", "High Fantasy", "Magic"]
+	},
+	{
+		"name": "Pedro Páramo",
+		"author": "Juan Rulfo",
+		"year": 1955,
+		"img": "Paramo.png",
+		"tags": ["Fiction", "Magical Realism"]
 	},
 	{
 		"name": "Proyecto Nocilla",
