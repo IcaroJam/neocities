@@ -28,6 +28,21 @@
 		"tags": ["Adventure", "Horror", "Sci-Fi", "Thriller"]
 	},
 	{
+		"name": "KKC I: The Name of the Wind",
+		"author": "Patrick Rothfuss",
+		"year": 2007,
+		"img": "Viento.png",
+		"faved": true,
+		"tags": ["Fantasy", "High Fantasy", "Magic"]
+	},
+	{
+		"name": "KKC II: A Wise Man's Fear",
+		"author": "Patrick Rothfuss",
+		"year": 2011,
+		"img": "Temor.png",
+		"tags": ["Fantasy", "High Fantasy", "Magic"]
+	},
+	{
 		"name": "Life, the Universe and Everything",
 		"author": "Douglas Adams",
 		"year": 1982,
@@ -100,18 +115,17 @@
 		"tags": ["Adventure", "Horror", "Sci-Fi", "Thriller"]
 	},
 	{
-		"name": "The Name of the Wind",
-		"author": "Patrick Rothfuss",
-		"year": 2007,
-		"img": "Viento.png",
-		"faved": true,
-		"tags": ["Fantasy", "High Fantasy", "Magic"]
-	},
-	{
 		"name": "The Restaurant at the End of the Universe",
 		"author": "Douglas Adams",
 		"year": 1980,
 		"img": "Restaurante.png",
 		"tags": ["Comedy", "Sci-Fi"]
+	},
+	{
+		"name": "The Slow Regard of Silent Things",
+		"author": "Patrick Rothfuss",
+		"year": 2014,
+		"img": "Silencio.png",
+		"tags": ["Fantasy", "High Fantasy", "Magic"]
 	}
 ]
