@@ -72,6 +72,13 @@
 		"tags": ["Comedy", "Sci-Fi"]
 	},
 	{
+		"name": "Lolita",
+		"author": "Vladimir Nabokov",
+		"year": 1955,
+		"img": "Lolita.png",
+		"tags": ["Fiction"]
+	},
+	{
 		"name": "LOTR: The Fellowship of the Ring",
 		"author": "J.R.R. Tolkien",
 		"year": 1954,
