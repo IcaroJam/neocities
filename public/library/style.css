@@ -374,6 +374,7 @@ footer {
 	header button {
 		width: 6rem;
 		height: 4rem;
+		left: calc(50% - 3rem);
 	}
 
 	main {
@@ -407,7 +408,7 @@ footer {
 				width: 4rem;
 				height: 4rem;
 				position: absolute;
-				left: -3rem;
+				left: -4rem;
 				bottom: 0;
 				background-color: var(--col07);
 				align-content: center;
