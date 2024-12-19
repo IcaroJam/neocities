@@ -40,6 +40,16 @@
 		"tags": ["Drama", "Disaster", "Historical Drama"]
 	},
 	{
+		"name": "Fallout",
+		"author": "Geneva Robertson-Dworet, Graham Wagner",
+		"year": 2024,
+		"end": "ongoing",
+		"seasons": 1,
+		"eps": 8,
+		"img": "Fallout.png",
+		"tags": ["Action", "Black Comedy", "Comedy", "Post Apocalyptic", "Sci-Fi", "Western"]
+	},
+	{
 		"name": "Gravity Falls",
 		"director": "Alex Hirsch",
 		"year": 2012,
@@ -109,6 +119,16 @@
 		"eps": 12,
 		"img": "Scavengers.png",
 		"tags": ["Animation", "Adventure", "Drama", "Sci-Fi", "Space"]
+	},
+	{
+		"name": "The Last of Us",
+		"director": "Craig Mazin, Neil Druckmann",
+		"year": 2023,
+		"end": "ongoing",
+		"seasons": 1,
+		"eps": 9,
+		"img": "LastOfUs.png",
+		"tags": ["Action", "Drama", "Post Apocalyptic", "Thriller"]
 	},
 	{
 		"name": "The Leftovers",
