@@ -78,6 +78,7 @@
 		"seasons": 9,
 		"eps": 208,
 		"img": "HIMYM.png",
+		"faved": true,
 		"tags": ["Comedy", "Sitcom"]
 	},
 	{
@@ -139,6 +140,14 @@
 		"eps": 28,
 		"img": "Leftovers.png",
 		"tags": ["Drama", "Fantasy", "Mystery", "Psychological", "Supernatural"]
+	},
+	{
+		"name": "The Terror",
+		"author": "Dave Kajganich, Max Borenstein, Alexander Woo",
+		"year": 2018,
+		"eps": 10,
+		"img": "Terror.png",
+		"tags": ["Drama", "Horror", "Psychological", "Supernatural", "Thriller"]
 	},
 	{
 		"name": "Twin Peaks",
