@@ -42,6 +42,17 @@
 		"tags": ["Adventure", "Animation", "Comedy", "Fantasy", "Supernatural"]
 	},
 	{
+		"name": "Hilda",
+		"director": "Kurt Mueller, Luke Pearson, Stephanie Simpson, Andy Coyle",
+		"author": "Luke Pearson",
+		"year": 2018,
+		"end": 2023,
+		"seasons": 3,
+		"eps": 34,
+		"img": "Hilda.png",
+		"tags": ["Adventure", "Animation", "Fantasy"]
+	},
+	{
 		"name": "How I Met Your Mother",
 		"director": "Carter Bays, Craig Thomas, Pamela Fryman, Rob Greenberg, Michael J. Shea, Neil Patrick Harris",
 		"year": 2005,

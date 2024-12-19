@@ -53,6 +53,14 @@
 		"tags": ["Action", "Comedy", "Sci-Fi", "Weird"]
 	},
 	{
+		"name": "Hilda and the Mountain King",
+		"director": "Andy Coyle",
+		"author": "Luke Pearson",
+		"year": 2021,
+		"img": "Hilda.png",
+		"tags": ["Adventure", "Animation", "Fantasy"]
+	},
+	{
 		"name": "Hot Fuzz",
 		"director": "Edgar Wright",
 		"year": 2007,
