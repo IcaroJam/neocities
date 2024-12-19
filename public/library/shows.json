@@ -21,15 +21,23 @@
 		"tags": ["Comedy", "Sitcom"]
 	},
 	{
-		"name": "Neon Genesis Evangelion",
-		"director": "Hideaki Anno",
-		"studio": "GAINAX",
-		"year": 1995,
-		"end": 1996,
+		"name": "Breaking Bad",
+		"author": "Vince Gilligan",
+		"year": 2008,
+		"end": 2013,
+		"seasons": 5,
+		"eps": 62,
+		"img": "BreakingBad.png",
+		"tags": ["Black Comedy", "Crime", "Drama", "Thriller"]
+	},
+	{
+		"name": "Chernobyl",
+		"director": "Craig Mazin, Johan Renck",
+		"year": 2019,
 		"seasons": 1,
-		"eps": 26,
-		"img": "Evangelion.png",
-		"tags": ["Action", "Animation", "Anime", "Mechas", "Psychological", "Sci-Fi"]
+		"eps": 5,
+		"img": "Chernobyl.png",
+		"tags": ["Drama", "Disaster", "Historical Drama"]
 	},
 	{
 		"name": "Gravity Falls",
@@ -63,6 +71,46 @@
 		"tags": ["Comedy", "Sitcom"]
 	},
 	{
+		"name": "iZombie",
+		"author": "Diane Ruggiero-Wright, Rob Thomas",
+		"year": 2015,
+		"end": 2019,
+		"seasons": 5,
+		"eps": 71,
+		"img": "iZombie.png",
+		"tags": ["Comedy", "Drama", "Zombies"]
+	},
+	{
+		"name": "Neon Genesis Evangelion",
+		"director": "Hideaki Anno",
+		"studio": "GAINAX",
+		"year": 1995,
+		"end": 1996,
+		"seasons": 1,
+		"eps": 26,
+		"img": "Evangelion.png",
+		"tags": ["Action", "Animation", "Anime", "Mechas", "Psychological", "Sci-Fi"]
+	},
+	{
+		"name": "Santa Clarita Diet",
+		"author": "Diane Ruggiero-Wright, Rob Thomas",
+		"year": 2017,
+		"end": 2019,
+		"seasons": 3,
+		"eps": 30,
+		"img": "SantaClarita.png",
+		"tags": ["Black Comedy", "Comedy", "Crime", "Zombies"]
+	},
+	{
+		"name": "Scavenger's Reign",
+		"author": "Joseph Bennett, Charles Huettner",
+		"year": 2023,
+		"seasons": 1,
+		"eps": 12,
+		"img": "Scavengers.png",
+		"tags": ["Animation", "Adventure", "Drama", "Sci-Fi", "Space"]
+	},
+	{
 		"name": "The Leftovers",
 		"director": "Damon Lindelof, Tom Perrotta, Peter Berg, Mimi Leder, Keith Gordon, Carl Franklin, Craig Zobel, Lesli Linka Glatter, Michelle MacLaren, Daniel Sackheim, Nicole Kassell, Tom Shankland",
 		"year": 2014,
@@ -71,5 +119,15 @@
 		"eps": 28,
 		"img": "Leftovers.png",
 		"tags": ["Drama", "Fantasy", "Mystery", "Psychological", "Supernatural"]
+	},
+	{
+		"name": "Twin Peaks",
+		"author": "David Lynch, Mark frost",
+		"year": 1990,
+		"end": 1991,
+		"seasons": 2,
+		"eps": 30,
+		"img": "TwinPeaks.png",
+		"tags": ["Crime", "Drama", "Mystery", "Supernatural", "Thriller", "Weird"]
 	}
 ]
