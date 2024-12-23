@@ -21,6 +21,36 @@
 		"tags": ["Comedy", "Sitcom"]
 	},
 	{
+		"name": "Arcane",
+		"author": "Christian Linke, Alex Yee",
+		"year": 2021,
+		"end": 2024,
+		"seasons": 2,
+		"eps": 18,
+		"img": "Arcane.png",
+		"tags": ["Action", "Animation", "Fantasy", "Sci-Fi", "Steampunk"]
+	},
+	{
+		"name": "Avatar: The Last Airbender",
+		"author": "Michael Dante DiMartino, Bryan Konietzko",
+		"year": 2005,
+		"end": 2008,
+		"seasons": 3,
+		"eps": 61,
+		"img": "Avatar.png",
+		"tags": ["Action", "Adventure", "Animation", "Comedy", "Fantasy"]
+	},
+	{
+		"name": "Avatar: The Legend of Korra",
+		"author": "Michael Dante DiMartino, Bryan Konietzko",
+		"year": 2012,
+		"end": 2014,
+		"seasons": 4,
+		"eps": 52,
+		"img": "Korra.png",
+		"tags": ["Action", "Animation", "Comedy", "Fantasy", "Steampunk"]
+	},
+	{
 		"name": "Breaking Bad",
 		"author": "Vince Gilligan",
 		"year": 2008,
