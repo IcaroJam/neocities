@@ -51,6 +51,17 @@
 		"tags": ["Action", "Animation", "Comedy", "Fantasy", "Steampunk"]
 	},
 	{
+		"name": "Better Call Saul",
+		"author": "Vince Gilligan, Peter Gould",
+		"year": 2015,
+		"end": 2022,
+		"seasons": 6,
+		"eps": 63,
+		"img": "BetterCallSaul.png",
+		"dropped": true,
+		"tags": ["Black Comedy", "Crime", "Drama", "Thriller"]
+	},
+	{
 		"name": "Breaking Bad",
 		"author": "Vince Gilligan",
 		"year": 2008,
@@ -78,6 +89,27 @@
 		"eps": 8,
 		"img": "Fallout.png",
 		"tags": ["Action", "Black Comedy", "Comedy", "Post Apocalyptic", "Sci-Fi", "Western"]
+	},
+	{
+		"name": "Fear the Walking Dead",
+		"author": "Robert Kirkman",
+		"year": 2015,
+		"end": 2023,
+		"seasons": 8,
+		"eps":113,
+		"img": "FearWalkingDead.png",
+		"dropped": true,
+		"tags": ["Action", "Drama", "Horror", "Post Apocalyptic", "Zombies"]
+	},
+	{
+		"name": "Fleabag",
+		"author": "Phoebe Waller-Bridge",
+		"year": 2016,
+		"end": 2019,
+		"seasons": 2,
+		"eps": 12,
+		"img": "Fleabag.png",
+		"tags": ["Black Comedy", "Comedy"]
 	},
 	{
 		"name": "Gravity Falls",
@@ -112,6 +144,26 @@
 		"tags": ["Comedy", "Sitcom"]
 	},
 	{
+		"name": "How to Sell Drugs Online (Fast)",
+		"author": "Philipp Käßbohrer, Matthias Murmann",
+		"year": 2019,
+		"end": "ongoing",
+		"seasons": "1/3",
+		"eps": 18,
+		"img": "DrugsOnline.png",
+		"dropped": true,
+		"tags": ["Comedy", "Drama"]
+	},
+	{
+		"name": "I Am Not Okay with This",
+		"author": "Jonathan Entwistle",
+		"year": 2020,
+		"seasons": 1,
+		"eps": 7,
+		"img": "OkayWithThis.png",
+		"tags": ["Black Comedy", "Comedy", "Supernatural"]
+	},
+	{
 		"name": "iZombie",
 		"author": "Diane Ruggiero-Wright, Rob Thomas",
 		"year": 2015,
@@ -133,6 +185,17 @@
 		"tags": ["Action", "Animation", "Anime", "Mechas", "Psychological", "Sci-Fi"]
 	},
 	{
+		"name": "Paquita Salas",
+		"author": "Javier Ambrossi, Javier Calvo",
+		"year": 2016,
+		"end": 2019,
+		"seasons": 3,
+		"eps": 16,
+		"img": "Paquita.png",
+		"faved": true,
+		"tags": ["Comedy"]
+	},
+	{
 		"name": "Santa Clarita Diet",
 		"author": "Diane Ruggiero-Wright, Rob Thomas",
 		"year": 2017,
@@ -150,6 +213,58 @@
 		"eps": 12,
 		"img": "Scavengers.png",
 		"tags": ["Animation", "Adventure", "Drama", "Sci-Fi", "Space"]
+	},
+	{
+		"name": "Sex Education",
+		"author": "Laurie Nunn",
+		"year": 2019,
+		"end": 2023,
+		"seasons": 4,
+		"eps": 32,
+		"img": "SexEducation.png",
+		"tags": ["Comedy"]
+	},
+	{
+		"name": "Silicon Valley",
+		"author": "Mike Judge, John Altschuler, Dave Krinsky",
+		"year": 2014,
+		"end": 2019,
+		"seasons": 6,
+		"eps": 53,
+		"img": "SiliconValley.png",
+		"tags": ["Comedy", "Sitcom"]
+	},
+	{
+		"name": "The End of the F***ing World",
+		"author": "Jonathan Entwistle",
+		"year": 2017,
+		"end": 2019,
+		"seasons": 2,
+		"eps": 16,
+		"img": "TEOTFW.png",
+		"tags": ["Black Comedy", "Comedy", "Crime", "Drama"]
+	},
+	{
+		"name": "The Expanse",
+		"author": "Mark Fergus, Hawk Ostby",
+		"year": 2015,
+		"end": 2022,
+		"seasons": 6,
+		"eps": 62,
+		"img": "TheExpanse.png",
+		"dropped": true,
+		"tags": ["Adventure", "Mystery", "Sci-Fi", "Space"]
+	},
+	{
+		"name": "The Hundred",
+		"author": "Jason Rothenberg",
+		"year": 2014,
+		"end": "ongoing",
+		"seasons": 7,
+		"eps": 100,
+		"img": "100.png",
+		"dropped": true,
+		"tags": ["Post Apocalyptic", "Sci-Fi"]
 	},
 	{
 		"name": "The Last of Us",
@@ -188,5 +303,16 @@
 		"eps": 30,
 		"img": "TwinPeaks.png",
 		"tags": ["Crime", "Drama", "Mystery", "Supernatural", "Thriller", "Weird"]
+	},
+	{
+		"name": "The Walking Dead",
+		"author": "Robert Kirkman",
+		"year": 2010,
+		"end": 2022,
+		"seasons": 11,
+		"eps":177,
+		"img": "WalkingDead.png",
+		"dropped": true,
+		"tags": ["Action", "Drama", "Horror", "Post Apocalyptic", "Zombies"]
 	}
 ]

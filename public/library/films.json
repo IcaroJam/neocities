@@ -7,11 +7,25 @@
 		"tags": ["Heist", "Thriller"]
 	},
 	{
+		"name": "Asteroid City",
+		"director": "Wes Anderson",
+		"year": 2023,
+		"img": "AsteroidCity.png",
+		"tags": ["Comedy", "Sci-Fi"]
+	},
+	{
 		"name": "Avatar",
 		"director": "James Cameron",
 		"year": 2009,
 		"img": "Avatar.png",
 		"tags": ["CGI", "Fantasy", "Sci-Fi"]
+	},
+	{
+		"name": "Chronicle",
+		"director": "Josh Trank",
+		"year": 2012,
+		"img": "Chronicle.png",
+		"tags": ["Action", "Fantasy", "Found Footage", "Superheroes"]
 	},
 	{
 		"name": "Evangelion: 1.0 You Are (Not) Alone",
@@ -53,6 +67,13 @@
 		"tags": ["Action", "Comedy", "Sci-Fi", "Weird"]
 	},
 	{
+		"name": "Fantastic Mr. Fox",
+		"director": "Wes Anderson",
+		"year": 2009,
+		"img": "MrFox.png",
+		"tags": ["Animation", "Comedy", "Stop Motion"]
+	},
+	{
 		"name": "Hilda and the Mountain King",
 		"director": "Andy Coyle",
 		"author": "Luke Pearson",
@@ -90,6 +111,13 @@
 		"tags": ["Comedy", "Drama"]
 	},
 	{
+		"name": "Mientras Dure la Guerra",
+		"director": "Alejandro Amenábar",
+		"year": 2019,
+		"img": "Guerra.png",
+		"tags": ["Drama", "Historical Drama"]
+	},
+	{
 		"name": "Miss Peregrine's Home for Peculiar Children",
 		"director": "Tim Burton",
 		"year": 2016,
@@ -102,6 +130,13 @@
 		"year": 2024,
 		"img": "MonkeyMan.png",
 		"tags": ["Action", "Thriller"]
+	},
+	{
+		"name": "Nope",
+		"director": "Jordan Peele",
+		"year": 2022,
+		"img": "Nope.png",
+		"tags": ["Aliens", "Horror", "Mystery", "Western"]
 	},
 	{
 		"name": "One Cut of the Dead",
@@ -161,6 +196,13 @@
 		"year": 2024,
 		"img": "TheSubstance.png",
 		"tags": ["Black Comedy", "Body Horror"]
+	},
+	{
+		"name": "The Wave",
+		"director": "Dennis Gansel",
+		"year": 2008,
+		"img": "TheWave.png",
+		"tags": ["Drama"]
 	},
 	{
 		"name": "The World's End",
