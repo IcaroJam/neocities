@@ -1,10 +1,93 @@
 [
 	{
+		"name": "Awaria",
+		"studio": "Vanripper",
+		"year": 2024,
+		"img": "Awaria.png",
+		"tags": ["Action", "Puzzles"]
+	},
+	{
+		"name": "Balatro",
+		"studio": "Localthunk",
+		"publisher": "Playstack",
+		"year": 2024,
+		"img": "Balatro.png",
+		"tags": ["Cards", "Roguelike", "Strategy"]
+	},
+	{
 		"name": "Disco Elysium",
 		"studio": "ZA/UM",
 		"year": 2019,
 		"img": "Disco.png",
 		"faved": true,
 		"tags": ["Point-and-Click", "RPG", "Visual Novel"]
+	},
+	{
+		"name": "Helltaker",
+		"studio": "Vanripper",
+		"year": 2020,
+		"img": "Helltaker.png",
+		"tags": ["Action", "Puzzles"]
+	},
+	{
+		"name": "Kerbal Space Program",
+		"studio": "Squad",
+		"year": 2015,
+		"img": "Kerbal.png",
+		"tags": ["Physics", "Simulation", "Space"]
+	},
+	{
+		"name": "Minecraft",
+		"studio": "Mojang",
+		"year": 2011,
+		"img": "Minecraft.png",
+		"tags": ["Sandbox", "Survival"]
+	},
+	{
+		"name": "Noita",
+		"studio": "Nolla Games",
+		"year": 2019,
+		"img": "Noita.png",
+		"tags": ["Action", "Magic", "Physics", "Roguelite"]
+	},
+	{
+		"name": "Slay the Spire",
+		"studio": "Mega Crit",
+		"year": 2019,
+		"img": "Spire.png",
+		"tags": ["Cards", "Roguelike", "Strategy"]
+	},
+	{
+		"name": "Spore",
+		"studio": "Maxis",
+		"publisher": "EA",
+		"year": 2008,
+		"img": "Spore.png",
+		"faved": true,
+		"tags": ["Evolution", "Sandbox", "Simulation", "Space"]
+	},
+	{
+		"name": "Stardew Valley",
+		"studio": "Concerned Ape",
+		"publisher": "Chucklefish",
+		"year": 2016,
+		"img": "Stardew.png",
+		"tags": ["Farming", "RPG", "Simulation"]
+	},
+	{
+		"name": "Terraria",
+		"studio": "Re-Logic",
+		"year": 2011,
+		"img": "Terraria.png",
+		"faved": true,
+		"tags": ["Action", "Adventure", "Sandbox"]
+	},
+	{
+		"name": "Wildfrost",
+		"studio": "Deadpan Games",
+		"publisher": "Chucklefish",
+		"year": 2023,
+		"img": "Wildfrost.png",
+		"tags": ["Cards", "Roguelike", "Strategy"]
 	}
 ]

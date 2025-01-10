@@ -139,6 +139,13 @@
 		"tags": ["Aliens", "Horror", "Mystery", "Western"]
 	},
 	{
+		"name": "Nosferatu",
+		"director": "Robert Eggers",
+		"year": 2024,
+		"img": "Nosferatu.png",
+		"tags": ["Horror", "Vampires"]
+	},
+	{
 		"name": "One Cut of the Dead",
 		"director": "Shinichirou Ueda",
 		"year": 2017,

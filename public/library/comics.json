@@ -1,5 +1,24 @@
 [
 	{
+		"name": "Bokura no Hentai",
+		"author": "Fumiko Fumi",
+		"year": 2012,
+		"end": 2015,
+		"chapters": 41,
+		"img": "BokuraNoHen.png",
+		"tags": ["Drama", "Manga", "Psychological", "Romance"]
+	},
+	{
+		"name": "Call of the Night",
+		"author": "Kotoyama",
+		"year": 2019,
+		"end": 2024,
+		"chapters": 203,
+		"img": "Yofukashi.png",
+		"faved": true,
+		"tags": ["Manga", "Romance", "Supernatural", "Urban Fantasy", "Vampires"]
+	},
+	{
 		"name": "Chainsaw Man",
 		"author": "Tatsuki Fujimoto",
 		"year": 2018,
@@ -10,10 +29,38 @@
 		"tags": ["Action", "Gore", "Manga", "Urban Fantasy"]
 	},
 	{
+		"name": "Dungeon Meshi",
+		"author": "Ryouko Kui",
+		"year": 2014,
+		"end": 2023,
+		"chapters": 102,
+		"img": "DungeonMeshi.png",
+		"faved": true,
+		"tags": ["Comedy", "Fantasy", "Manga"]
+	},
+	{
+		"name": "Fire Punch",
+		"author": "Tatsuki Fujimoto",
+		"year": 2016,
+		"end": 2018,
+		"chapters": 83,
+		"img": "FirePunch.png",
+		"tags": ["Action", "Gore", "Manga", "Post Apocalyptic", "Supernatural"]
+	},
+	{
 		"name": "I Hate Fairyland - Madly Ever After",
 		"author": "Skottie Young",
 		"year": 2015,
 		"img": "FairyHate.png",
 		"tags": ["Comedy", "Fantasy"]
+	},
+	{
+		"name": "Inside Mari",
+		"author": "Shuuzou Oshimi",
+		"year": 2012,
+		"end": 2016,
+		"chapters": 80,
+		"img": "InsideMari.png",
+		"tags": ["Drama", "Manga", "Mystery", "Romance", "Supernatural"]
 	}
 ]
