@@ -224,7 +224,7 @@ a:focus-visible {
 	border: solid 2px var(--col04);
 	border-top-color: var(--col05);
 	border-left-color: var(--col05);
-	font-family: LastPriestess, KiwiSoda;
+	font-family: LastPriestess, Battlenet, Kiwisoda;
 }
 
 #smol-about {

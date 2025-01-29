@@ -1,5 +1,13 @@
 [
 	{
+		"name": "Arco",
+		"studio": "Antonio Uribe, Fáyer, Franek, Bibiki, Max Cahill",
+		"publisher": "Panic",
+		"year": 2024,
+		"img": "Arco.png",
+		"tags": ["Adventure", "Fantasy", "RPG", "Strategy"]
+	},
+	{
 		"name": "Awaria",
 		"studio": "Vanripper",
 		"year": 2024,
@@ -23,6 +31,13 @@
 		"tags": ["Point-and-Click", "RPG", "Visual Novel"]
 	},
 	{
+		"name": "Fallout 4",
+		"studio": "Bethesda",
+		"year": 2015,
+		"img": "Fallout4.png",
+		"tags": ["Action", "Post Apocalyptic", "RPG", "Sci-Fi", "Open World"]
+	},
+	{
 		"name": "Helltaker",
 		"studio": "Vanripper",
 		"year": 2020,
@@ -42,6 +57,15 @@
 		"year": 2011,
 		"img": "Minecraft.png",
 		"tags": ["Sandbox", "Survival"]
+	},
+	{
+		"name": "NieR: Automata",
+		"studio": "PlatinumGames",
+		"publisher": "Square Enix",
+		"year": 2017,
+		"img": "NierAutomata.png",
+		"faved": true,
+		"tags": ["Action", "Post Apocalyptic", "RPG", "Sci-Fi", "Open World", "Weird"]
 	},
 	{
 		"name": "Noita",
