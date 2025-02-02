@@ -7,6 +7,13 @@
 		"tags": ["Heist", "Thriller"]
 	},
 	{
+		"name": "A Clockwork Orange",
+		"director": "Stanley Kubrick",
+		"year": 1971,
+		"img": "ClockworkOrange.png",
+		"tags": ["Crime", "Drama", "Psychological", "Sci-Fi", "Thriller"]
+	},
+	{
 		"name": "Asteroid City",
 		"director": "Wes Anderson",
 		"year": 2023,

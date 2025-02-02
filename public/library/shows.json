@@ -133,6 +133,17 @@
 		"tags": ["Adventure", "Animation", "Fantasy"]
 	},
 	{
+		"name": "House, M.D.",
+		"author": "David Shore",
+		"year": 2004,
+		"end": 2012,
+		"seasons": 8,
+		"eps": 177,
+		"img": "House.png",
+		"dropped": true,
+		"tags": ["Drama", "Medical"]
+	},
+	{
 		"name": "How I Met Your Mother",
 		"director": "Carter Bays, Craig Thomas, Pamela Fryman, Rob Greenberg, Michael J. Shea, Neil Patrick Harris",
 		"year": 2005,

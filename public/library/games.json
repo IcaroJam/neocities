@@ -8,6 +8,13 @@
 		"tags": ["Adventure", "Fantasy", "RPG", "Strategy"]
 	},
 	{
+		"name": "Astroneer",
+		"studio": "System Era Softworks",
+		"year": 2019,
+		"img": "Astroneer.png",
+		"tags": ["Adventure", "Sandbox", "Sci-Fi", "Space"]
+	},
+	{
 		"name": "Awaria",
 		"studio": "Vanripper",
 		"year": 2024,
@@ -23,12 +30,63 @@
 		"tags": ["Cards", "Roguelike", "Strategy"]
 	},
 	{
+		"name": "Besiege",
+		"studio": "Spiderling Games",
+		"year": 2020,
+		"img": "Besiege.png",
+		"tags": ["Puzzles", "Sandbox", "Simulation"]
+	},
+	{
+		"name": "Borderlands 2",
+		"studio": "Gearbox Software",
+		"publisher": "2K Games",
+		"year": 2012,
+		"img": "Borderlands2.png",
+		"tags": ["Action", "Comedy", "Open World", "RPG", "Sci-Fi", "Shooter"]
+	},
+	{
+		"name": "Cookie Clicker",
+		"studio": "Orteil",
+		"year": 2013,
+		"img": "CookieClicker.png",
+		"tags": ["Clicker", "Weird"]
+	},
+	{
+		"name": "Counter-Strike: Global Offensive",
+		"studio": "Valve",
+		"year": 2012,
+		"img": "CSGO.png",
+		"tags": ["Competitive", "Shooter"]
+	},
+	{
+		"name": "Crush Crush",
+		"studio": "Sad Panda Studios",
+		"year": 2016,
+		"img": "CrushCrush.png",
+		"tags": ["Clicker", "Comedy", "Dating-Sim", "Visual Novel"]
+	},
+	{
 		"name": "Disco Elysium",
 		"studio": "ZA/UM",
 		"year": 2019,
 		"img": "Disco.png",
 		"faved": true,
 		"tags": ["Point-and-Click", "RPG", "Visual Novel"]
+	},
+	{
+		"name": "Dofus",
+		"studio": "Ankama Games",
+		"year": 2004,
+		"img": "Dofus.png",
+		"tags": ["Adventure", "Fantasy", "MMO", "RPG", "Strategy"]
+	},
+	{
+		"name": "Fable II",
+		"studio": "Lionhead Studios",
+		"publisher": "Microsoft Game Studios",
+		"year": 2008,
+		"img": "FableII.png",
+		"tags": ["Adventure", "Fantasy", "Open World", "RPG"]
 	},
 	{
 		"name": "Fallout 4",
@@ -38,11 +96,25 @@
 		"tags": ["Action", "Post Apocalyptic", "RPG", "Sci-Fi", "Open World"]
 	},
 	{
+		"name": "Hades",
+		"studio": "Supergiant Games",
+		"year": 2020,
+		"img": "Hades.png",
+		"tags": ["Action", "Brawler", "Mythology", "Roguelike"]
+	},
+	{
 		"name": "Helltaker",
 		"studio": "Vanripper",
 		"year": 2020,
 		"img": "Helltaker.png",
 		"tags": ["Action", "Puzzles"]
+	},
+	{
+		"name": "Hollow Knight",
+		"studio": "Team Cherry",
+		"year": 2017,
+		"img": "HollowKnight.png",
+		"tags": ["Action", "Adventure", "Fantasy", "Metroidvania", "Platformer"]
 	},
 	{
 		"name": "Kerbal Space Program",
@@ -52,11 +124,33 @@
 		"tags": ["Physics", "Simulation", "Space"]
 	},
 	{
+		"name": "League of Legends",
+		"studio": "Riot Games",
+		"year": 2009,
+		"img": "LoL.png",
+		"tags": ["Competitive", "Fantasy", "MOBA"]
+	},
+	{
+		"name": "Legends of Runeterra",
+		"studio": "Riot Games",
+		"year": 2020,
+		"img": "LoR.png",
+		"tags": ["Cards", "Competitive", "Fantasy"]
+	},
+	{
 		"name": "Minecraft",
 		"studio": "Mojang",
 		"year": 2011,
 		"img": "Minecraft.png",
 		"tags": ["Sandbox", "Survival"]
+	},
+	{
+		"name": "Monster Prom",
+		"studio": "Beautiful Glitch",
+		"publisher": "Those Awesome Guys",
+		"year": 2018,
+		"img": "MonsterProm.png",
+		"tags": ["Comedy", "Dating-Sim", "Visual Novel"]
 	},
 	{
 		"name": "NieR: Automata",
@@ -75,6 +169,64 @@
 		"tags": ["Action", "Magic", "Physics", "Roguelite"]
 	},
 	{
+		"name": "Outer Wilds",
+		"studio": "Mobius Digital",
+		"publisher": "Annapurna Interactive",
+		"year": 2019,
+		"img": "OuterWilds.png",
+		"faved": true,
+		"tags": ["Adventure", "Puzzles", "Space", "Visual Novel"]
+	},
+	{
+		"name": "Oxygen Not Included",
+		"studio": "Klei Entertainment",
+		"year": 2019,
+		"img": "OxygenNotIncluded.png",
+		"tags": ["Sci-Fi", "Simulation", "Space", "Strategy"]
+	},
+	{
+		"name": "Overwatch",
+		"studio": "Blizzard",
+		"year": 2016,
+		"img": "Overwatch.png",
+		"tags": ["Competitive", "Sci-Fi", "Shooter"]
+	},
+	{
+		"name": "Roadwarden",
+		"studio": "Moral Anxiety Studio",
+		"year": 2022,
+		"img": "Roadwarden.png",
+		"tags": ["Adventure", "Fantasy", "Point-and-Click", "RPG", "Visual Novel"]
+	},
+	{
+		"name": "Robocraft",
+		"studio": "Freejam Games",
+		"year": 2017,
+		"img": "Robocraft.png",
+		"tags": ["Sci-Fi", "Shooter", "Space"]
+	},
+	{
+		"name": "Rocksmith 2014",
+		"studio": "Ubisoft",
+		"year": "2013 (ironically)",
+		"img": "Rocksmith.png",
+		"tags": ["Music"]
+	},
+	{
+		"name": "Rogue Legacy",
+		"studio": "Cellar Door Games",
+		"year": 2013,
+		"img": "RogueLegacy.png",
+		"tags": ["Adventure", "Fantasy", "Platformer", "Roguelite", "RPG"]
+	},
+	{
+		"name": "Rogue Legacy 2",
+		"studio": "Cellar Door Games",
+		"year": 2022,
+		"img": "RogueLegacy2.png",
+		"tags": ["Adventure", "Fantasy", "Platformer", "Roguelite", "RPG"]
+	},
+	{
 		"name": "Slay the Spire",
 		"studio": "Mega Crit",
 		"year": 2019,
@@ -91,6 +243,13 @@
 		"tags": ["Evolution", "Sandbox", "Simulation", "Space"]
 	},
 	{
+		"name": "Starbound",
+		"studio": "Chucklefish Games",
+		"year": 2016,
+		"img": "Starbound.png",
+		"tags": ["Action", "Adventure", "RPG", "Sci-Fi", "Sandbox", "Space"]
+	},
+	{
 		"name": "Stardew Valley",
 		"studio": "Concerned Ape",
 		"publisher": "Chucklefish",
@@ -104,7 +263,30 @@
 		"year": 2011,
 		"img": "Terraria.png",
 		"faved": true,
-		"tags": ["Action", "Adventure", "Sandbox"]
+		"tags": ["Action", "Adventure", "Fantasy", "Sandbox"]
+	},
+	{
+		"name": "The Binding of Isaac: Rebirth",
+		"author": "Edmund McMillen",
+		"studio": "Nicalis",
+		"year": 2014,
+		"img": "Isaac.png",
+		"tags": ["Action", "Horror", "Roguelike", "Shooter"]
+	},
+	{
+		"name": "The Longing",
+		"studio": "Studio Seufz",
+		"year": 2020,
+		"img": "Longing.png",
+		"tags": ["Puzzles", "Simulation"]
+	},
+	{
+		"name": "VA-11 Hall-A: Cyberpunk Bartender Action",
+		"studio": "SUKEBAN",
+		"publisher": "Ysbryd Games",
+		"year": 2016,
+		"img": "Vallhalla.png",
+		"tags": ["Cyberpunk", "Sci-Fi", "Visual Novel"]
 	},
 	{
 		"name": "Wildfrost",
