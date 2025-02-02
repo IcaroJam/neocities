@@ -4,35 +4,56 @@
 		"director": "Koldo Serra",
 		"year": 2018,
 		"img": "70Binladens.png",
-		"tags": ["Heist", "Thriller"]
+		"tags": [
+			"Heist",
+			"Thriller"
+		]
 	},
 	{
 		"name": "A Clockwork Orange",
 		"director": "Stanley Kubrick",
 		"year": 1971,
 		"img": "ClockworkOrange.png",
-		"tags": ["Crime", "Drama", "Psychological", "Sci-Fi", "Thriller"]
+		"tags": [
+			"Crime",
+			"Drama",
+			"Psychological",
+			"Sci-Fi",
+			"Thriller"
+		]
 	},
 	{
 		"name": "Asteroid City",
 		"director": "Wes Anderson",
 		"year": 2023,
 		"img": "AsteroidCity.png",
-		"tags": ["Comedy", "Sci-Fi"]
+		"tags": [
+			"Comedy",
+			"Sci-Fi"
+		]
 	},
 	{
 		"name": "Avatar",
 		"director": "James Cameron",
 		"year": 2009,
 		"img": "Avatar.png",
-		"tags": ["CGI", "Fantasy", "Sci-Fi"]
+		"tags": [
+			"CGI",
+			"Fantasy",
+			"Sci-Fi"
+		]
 	},
 	{
 		"name": "Chronicle",
 		"director": "Josh Trank",
 		"year": 2012,
 		"img": "Chronicle.png",
-		"tags": ["Action", "Fantasy", "Found Footage", "Superheroes"]
+		"tags": [
+			"Action",
+			"Fantasy",
+			"Found Footage",
+			"Superheroes"
+		]
 	},
 	{
 		"name": "Evangelion: 1.0 You Are (Not) Alone",
@@ -40,7 +61,14 @@
 		"studio": "Khara",
 		"year": 2007,
 		"img": "Eva1.png",
-		"tags": ["Action", "Animation", "Anime", "Mechas", "Psychological", "Sci-Fi"]
+		"tags": [
+			"Action",
+			"Animation",
+			"Anime",
+			"Mechas",
+			"Psychological",
+			"Sci-Fi"
+		]
 	},
 	{
 		"name": "Evangelion: 2.0 You Can (Not) Advance",
@@ -48,7 +76,14 @@
 		"studio": "Khara",
 		"year": 2009,
 		"img": "Eva2.png",
-		"tags": ["Action", "Animation", "Anime", "Mechas", "Psychological", "Sci-Fi"]
+		"tags": [
+			"Action",
+			"Animation",
+			"Anime",
+			"Mechas",
+			"Psychological",
+			"Sci-Fi"
+		]
 	},
 	{
 		"name": "Evangelion: 3.0 You Can (Not) Redo",
@@ -56,7 +91,14 @@
 		"studio": "Khara",
 		"year": 2012,
 		"img": "Eva3.png",
-		"tags": ["Action", "Animation", "Anime", "Mechas", "Psychological", "Sci-Fi"]
+		"tags": [
+			"Action",
+			"Animation",
+			"Anime",
+			"Mechas",
+			"Psychological",
+			"Sci-Fi"
+		]
 	},
 	{
 		"name": "Evangelion: 3.0+1.0 Thrice Upon a Time",
@@ -64,21 +106,37 @@
 		"studio": "Khara",
 		"year": 2021,
 		"img": "Eva4.png",
-		"tags": ["Action", "Animation", "Anime", "Mechas", "Psychological", "Sci-Fi"]
+		"tags": [
+			"Action",
+			"Animation",
+			"Anime",
+			"Mechas",
+			"Psychological",
+			"Sci-Fi"
+		]
 	},
 	{
 		"name": "Everything Everywhere All at Once",
 		"director": "Dan Kwan, Daniel Scheinert",
 		"year": 2022,
 		"img": "EEAaO.png",
-		"tags": ["Action", "Comedy", "Sci-Fi", "Weird"]
+		"tags": [
+			"Action",
+			"Comedy",
+			"Sci-Fi",
+			"Weird"
+		]
 	},
 	{
 		"name": "Fantastic Mr. Fox",
 		"director": "Wes Anderson",
 		"year": 2009,
 		"img": "MrFox.png",
-		"tags": ["Animation", "Comedy", "Stop Motion"]
+		"tags": [
+			"Animation",
+			"Comedy",
+			"Stop Motion"
+		]
 	},
 	{
 		"name": "Hilda and the Mountain King",
@@ -86,14 +144,21 @@
 		"author": "Luke Pearson",
 		"year": 2021,
 		"img": "Hilda.png",
-		"tags": ["Adventure", "Animation", "Fantasy"]
+		"tags": [
+			"Adventure",
+			"Animation",
+			"Fantasy"
+		]
 	},
 	{
 		"name": "Hot Fuzz",
 		"director": "Edgar Wright",
 		"year": 2007,
 		"img": "HotFuzz.png",
-		"tags": ["Action", "Comedy"]
+		"tags": [
+			"Action",
+			"Comedy"
+		]
 	},
 	{
 		"name": "La La Land",
@@ -101,77 +166,111 @@
 		"year": 2016,
 		"img": "LaLaLand.png",
 		"dropped": true,
-		"tags": ["Musical"]
+		"tags": [
+			"Musical"
+		]
 	},
 	{
 		"name": "La Sociedad de la Nieve",
 		"director": "J.A. Bayona",
 		"year": 2024,
 		"img": "SociedadNieve.png",
-		"tags": ["Drama", "Survival"]
+		"tags": [
+			"Drama",
+			"Survival"
+		]
 	},
 	{
 		"name": "La Vita è Bella",
 		"director": "Roberto Benigni",
 		"year": 1997,
 		"img": "VidaBella.png",
-		"tags": ["Comedy", "Drama"]
+		"tags": [
+			"Comedy",
+			"Drama"
+		]
 	},
 	{
 		"name": "Mientras Dure la Guerra",
 		"director": "Alejandro Amenábar",
 		"year": 2019,
 		"img": "Guerra.png",
-		"tags": ["Drama", "Historical Drama"]
+		"tags": [
+			"Drama",
+			"Historical Drama"
+		]
 	},
 	{
 		"name": "Miss Peregrine's Home for Peculiar Children",
 		"director": "Tim Burton",
 		"year": 2016,
 		"img": "MissPeregrine.png",
-		"tags": ["Adventure", "Fantasy"]
+		"tags": [
+			"Adventure",
+			"Fantasy"
+		]
 	},
 	{
 		"name": "Monkey Man",
 		"director": "Dev Patel",
 		"year": 2024,
 		"img": "MonkeyMan.png",
-		"tags": ["Action", "Thriller"]
+		"tags": [
+			"Action",
+			"Thriller"
+		]
 	},
 	{
 		"name": "Nope",
 		"director": "Jordan Peele",
 		"year": 2022,
 		"img": "Nope.png",
-		"tags": ["Aliens", "Horror", "Mystery", "Western"]
+		"tags": [
+			"Aliens",
+			"Horror",
+			"Mystery",
+			"Western"
+		]
 	},
 	{
 		"name": "Nosferatu",
 		"director": "Robert Eggers",
 		"year": 2024,
 		"img": "Nosferatu.png",
-		"tags": ["Horror", "Vampires"]
+		"tags": [
+			"Horror",
+			"Vampires"
+		]
 	},
 	{
 		"name": "One Cut of the Dead",
 		"director": "Shinichirou Ueda",
 		"year": 2017,
 		"img": "OneCut.png",
-		"tags": ["Comedy", "Zombies"]
+		"tags": [
+			"Comedy",
+			"Zombies"
+		]
 	},
 	{
 		"name": "Pulp Fiction",
 		"director": "Quentin Tarantino",
 		"year": 1994,
 		"img": "PulpFiction.png",
-		"tags": ["Black Comedy", "Thriller"]
+		"tags": [
+			"Black Comedy",
+			"Thriller"
+		]
 	},
 	{
 		"name": "Shaun of the Dead",
 		"director": "Edgar Wright",
 		"year": 2004,
 		"img": "ShaunDead.png",
-		"tags": ["Comedy", "Zombies"]
+		"tags": [
+			"Comedy",
+			"Zombies"
+		]
 	},
 	{
 		"name": "The Grand Budapest Hotel",
@@ -179,21 +278,33 @@
 		"year": 2014,
 		"img": "BudapestHotel.png",
 		"faved": true,
-		"tags": ["Adventure", "Comedy"]
+		"tags": [
+			"Adventure",
+			"Comedy"
+		]
 	},
 	{
 		"name": "The House",
 		"director": "Emma De Swaef, Marc James Roels, Niki Lindroth von Bahr, Paloma Baeza",
 		"year": 2022,
 		"img": "TheHouse.png",
-		"tags": ["Animation", "Creepy", "Stop Motion", "Weird"]
+		"tags": [
+			"Animation",
+			"Creepy",
+			"Stop Motion",
+			"Weird"
+		]
 	},
 	{
 		"name": "The Polar Express",
 		"director": "Robert Zemeckis",
 		"year": 2004,
 		"img": "PolarExpress.png",
-		"tags": ["Animation", "CGI", "Christmas"]
+		"tags": [
+			"Animation",
+			"CGI",
+			"Christmas"
+		]
 	},
 	{
 		"name": "The Rocky Horror Picture Show",
@@ -202,27 +313,38 @@
 		"year": 1975,
 		"img": "RockyHorror.png",
 		"faved": true,
-		"tags": ["Musical", "Weird"]
+		"tags": [
+			"Musical",
+			"Weird"
+		]
 	},
 	{
 		"name": "The Substance",
 		"director": "Coralie Fargeat",
 		"year": 2024,
 		"img": "TheSubstance.png",
-		"tags": ["Black Comedy", "Body Horror"]
+		"tags": [
+			"Black Comedy",
+			"Body Horror"
+		]
 	},
 	{
 		"name": "The Wave",
 		"director": "Dennis Gansel",
 		"year": 2008,
 		"img": "TheWave.png",
-		"tags": ["Drama"]
+		"tags": [
+			"Drama"
+		]
 	},
 	{
 		"name": "The World's End",
 		"director": "Edgar Wright",
 		"year": 2013,
 		"img": "WorldsEnd.png",
-		"tags": ["Comedy", "Sci-Fi"]
+		"tags": [
+			"Comedy",
+			"Sci-Fi"
+		]
 	}
 ]

@@ -6,7 +6,12 @@
 		"end": 2015,
 		"chapters": 41,
 		"img": "BokuraNoHen.png",
-		"tags": ["Drama", "Manga", "Psychological", "Romance"]
+		"tags": [
+			"Drama",
+			"Manga",
+			"Psychological",
+			"Romance"
+		]
 	},
 	{
 		"name": "Call of the Night",
@@ -16,7 +21,13 @@
 		"chapters": 203,
 		"img": "Yofukashi.png",
 		"faved": true,
-		"tags": ["Manga", "Romance", "Supernatural", "Urban Fantasy", "Vampires"]
+		"tags": [
+			"Manga",
+			"Romance",
+			"Supernatural",
+			"Urban Fantasy",
+			"Vampires"
+		]
 	},
 	{
 		"name": "Chainsaw Man",
@@ -26,7 +37,12 @@
 		"chapters": "186/TBD",
 		"img": "Chainsaw.png",
 		"faved": true,
-		"tags": ["Action", "Gore", "Manga", "Urban Fantasy"]
+		"tags": [
+			"Action",
+			"Gore",
+			"Manga",
+			"Urban Fantasy"
+		]
 	},
 	{
 		"name": "Dungeon Meshi",
@@ -36,7 +52,11 @@
 		"chapters": 102,
 		"img": "DungeonMeshi.png",
 		"faved": true,
-		"tags": ["Comedy", "Fantasy", "Manga"]
+		"tags": [
+			"Comedy",
+			"Fantasy",
+			"Manga"
+		]
 	},
 	{
 		"name": "Fire Punch",
@@ -45,14 +65,23 @@
 		"end": 2018,
 		"chapters": 83,
 		"img": "FirePunch.png",
-		"tags": ["Action", "Gore", "Manga", "Post Apocalyptic", "Supernatural"]
+		"tags": [
+			"Action",
+			"Gore",
+			"Manga",
+			"Post Apocalyptic",
+			"Supernatural"
+		]
 	},
 	{
 		"name": "I Hate Fairyland - Madly Ever After",
 		"author": "Skottie Young",
 		"year": 2015,
 		"img": "FairyHate.png",
-		"tags": ["Comedy", "Fantasy"]
+		"tags": [
+			"Comedy",
+			"Fantasy"
+		]
 	},
 	{
 		"name": "Inside Mari",
@@ -61,6 +90,12 @@
 		"end": 2016,
 		"chapters": 80,
 		"img": "InsideMari.png",
-		"tags": ["Drama", "Manga", "Mystery", "Romance", "Supernatural"]
+		"tags": [
+			"Drama",
+			"Manga",
+			"Mystery",
+			"Romance",
+			"Supernatural"
+		]
 	}
 ]

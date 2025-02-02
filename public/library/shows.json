@@ -8,7 +8,12 @@
 		"eps": 283,
 		"img": "AdventureTime.png",
 		"faved": true,
-		"tags": ["Adventure", "Animation", "Comedy", "Fantasy"]
+		"tags": [
+			"Adventure",
+			"Animation",
+			"Comedy",
+			"Fantasy"
+		]
 	},
 	{
 		"name": "Aquí no hay quien viva",
@@ -18,7 +23,10 @@
 		"seasons": 5,
 		"eps": 90,
 		"img": "ANHQV.png",
-		"tags": ["Comedy", "Sitcom"]
+		"tags": [
+			"Comedy",
+			"Sitcom"
+		]
 	},
 	{
 		"name": "Arcane",
@@ -28,7 +36,13 @@
 		"seasons": 2,
 		"eps": 18,
 		"img": "Arcane.png",
-		"tags": ["Action", "Animation", "Fantasy", "Sci-Fi", "Steampunk"]
+		"tags": [
+			"Action",
+			"Animation",
+			"Fantasy",
+			"Sci-Fi",
+			"Steampunk"
+		]
 	},
 	{
 		"name": "Avatar: The Last Airbender",
@@ -38,7 +52,13 @@
 		"seasons": 3,
 		"eps": 61,
 		"img": "Avatar.png",
-		"tags": ["Action", "Adventure", "Animation", "Comedy", "Fantasy"]
+		"tags": [
+			"Action",
+			"Adventure",
+			"Animation",
+			"Comedy",
+			"Fantasy"
+		]
 	},
 	{
 		"name": "Avatar: The Legend of Korra",
@@ -48,7 +68,13 @@
 		"seasons": 4,
 		"eps": 52,
 		"img": "Korra.png",
-		"tags": ["Action", "Animation", "Comedy", "Fantasy", "Steampunk"]
+		"tags": [
+			"Action",
+			"Animation",
+			"Comedy",
+			"Fantasy",
+			"Steampunk"
+		]
 	},
 	{
 		"name": "Better Call Saul",
@@ -59,7 +85,12 @@
 		"eps": 63,
 		"img": "BetterCallSaul.png",
 		"dropped": true,
-		"tags": ["Black Comedy", "Crime", "Drama", "Thriller"]
+		"tags": [
+			"Black Comedy",
+			"Crime",
+			"Drama",
+			"Thriller"
+		]
 	},
 	{
 		"name": "Breaking Bad",
@@ -69,7 +100,12 @@
 		"seasons": 5,
 		"eps": 62,
 		"img": "BreakingBad.png",
-		"tags": ["Black Comedy", "Crime", "Drama", "Thriller"]
+		"tags": [
+			"Black Comedy",
+			"Crime",
+			"Drama",
+			"Thriller"
+		]
 	},
 	{
 		"name": "Chernobyl",
@@ -78,7 +114,11 @@
 		"seasons": 1,
 		"eps": 5,
 		"img": "Chernobyl.png",
-		"tags": ["Drama", "Disaster", "Historical Drama"]
+		"tags": [
+			"Disaster",
+			"Drama",
+			"Historical Drama"
+		]
 	},
 	{
 		"name": "Fallout",
@@ -88,7 +128,14 @@
 		"seasons": 1,
 		"eps": 8,
 		"img": "Fallout.png",
-		"tags": ["Action", "Black Comedy", "Comedy", "Post Apocalyptic", "Sci-Fi", "Western"]
+		"tags": [
+			"Action",
+			"Black Comedy",
+			"Comedy",
+			"Post Apocalyptic",
+			"Sci-Fi",
+			"Western"
+		]
 	},
 	{
 		"name": "Fear the Walking Dead",
@@ -96,10 +143,16 @@
 		"year": 2015,
 		"end": 2023,
 		"seasons": 8,
-		"eps":113,
+		"eps": 113,
 		"img": "FearWalkingDead.png",
 		"dropped": true,
-		"tags": ["Action", "Drama", "Horror", "Post Apocalyptic", "Zombies"]
+		"tags": [
+			"Action",
+			"Drama",
+			"Horror",
+			"Post Apocalyptic",
+			"Zombies"
+		]
 	},
 	{
 		"name": "Fleabag",
@@ -109,7 +162,10 @@
 		"seasons": 2,
 		"eps": 12,
 		"img": "Fleabag.png",
-		"tags": ["Black Comedy", "Comedy"]
+		"tags": [
+			"Black Comedy",
+			"Comedy"
+		]
 	},
 	{
 		"name": "Gravity Falls",
@@ -119,7 +175,13 @@
 		"seasons": 2,
 		"eps": 41,
 		"img": "GravityFalls.png",
-		"tags": ["Adventure", "Animation", "Comedy", "Fantasy", "Supernatural"]
+		"tags": [
+			"Adventure",
+			"Animation",
+			"Comedy",
+			"Fantasy",
+			"Supernatural"
+		]
 	},
 	{
 		"name": "Hilda",
@@ -130,7 +192,11 @@
 		"seasons": 3,
 		"eps": 34,
 		"img": "Hilda.png",
-		"tags": ["Adventure", "Animation", "Fantasy"]
+		"tags": [
+			"Adventure",
+			"Animation",
+			"Fantasy"
+		]
 	},
 	{
 		"name": "House, M.D.",
@@ -141,7 +207,10 @@
 		"eps": 177,
 		"img": "House.png",
 		"dropped": true,
-		"tags": ["Drama", "Medical"]
+		"tags": [
+			"Drama",
+			"Medical"
+		]
 	},
 	{
 		"name": "How I Met Your Mother",
@@ -152,7 +221,10 @@
 		"eps": 208,
 		"img": "HIMYM.png",
 		"faved": true,
-		"tags": ["Comedy", "Sitcom"]
+		"tags": [
+			"Comedy",
+			"Sitcom"
+		]
 	},
 	{
 		"name": "How to Sell Drugs Online (Fast)",
@@ -163,7 +235,10 @@
 		"eps": 18,
 		"img": "DrugsOnline.png",
 		"dropped": true,
-		"tags": ["Comedy", "Drama"]
+		"tags": [
+			"Comedy",
+			"Drama"
+		]
 	},
 	{
 		"name": "I Am Not Okay with This",
@@ -172,7 +247,11 @@
 		"seasons": 1,
 		"eps": 7,
 		"img": "OkayWithThis.png",
-		"tags": ["Black Comedy", "Comedy", "Supernatural"]
+		"tags": [
+			"Black Comedy",
+			"Comedy",
+			"Supernatural"
+		]
 	},
 	{
 		"name": "iZombie",
@@ -182,7 +261,11 @@
 		"seasons": 5,
 		"eps": 71,
 		"img": "iZombie.png",
-		"tags": ["Comedy", "Drama", "Zombies"]
+		"tags": [
+			"Comedy",
+			"Drama",
+			"Zombies"
+		]
 	},
 	{
 		"name": "Machos Alfa",
@@ -192,7 +275,9 @@
 		"seasons": 3,
 		"eps": 30,
 		"img": "MachosAlfa.png",
-		"tags": ["Comedy"]
+		"tags": [
+			"Comedy"
+		]
 	},
 	{
 		"name": "Neon Genesis Evangelion",
@@ -203,7 +288,14 @@
 		"seasons": 1,
 		"eps": 26,
 		"img": "Evangelion.png",
-		"tags": ["Action", "Animation", "Anime", "Mechas", "Psychological", "Sci-Fi"]
+		"tags": [
+			"Action",
+			"Animation",
+			"Anime",
+			"Mechas",
+			"Psychological",
+			"Sci-Fi"
+		]
 	},
 	{
 		"name": "Paquita Salas",
@@ -214,7 +306,9 @@
 		"eps": 16,
 		"img": "Paquita.png",
 		"faved": true,
-		"tags": ["Comedy"]
+		"tags": [
+			"Comedy"
+		]
 	},
 	{
 		"name": "Q-Force",
@@ -223,7 +317,13 @@
 		"seasons": 1,
 		"eps": 10,
 		"img": "QForce.png",
-		"tags": ["Animation", "Action", "Comedy", "LGBT", "Spies"]
+		"tags": [
+			"Action",
+			"Animation",
+			"Comedy",
+			"LGBT",
+			"Spies"
+		]
 	},
 	{
 		"name": "Santa Clarita Diet",
@@ -233,7 +333,12 @@
 		"seasons": 3,
 		"eps": 30,
 		"img": "SantaClarita.png",
-		"tags": ["Black Comedy", "Comedy", "Crime", "Zombies"]
+		"tags": [
+			"Black Comedy",
+			"Comedy",
+			"Crime",
+			"Zombies"
+		]
 	},
 	{
 		"name": "Scavenger's Reign",
@@ -242,7 +347,13 @@
 		"seasons": 1,
 		"eps": 12,
 		"img": "Scavengers.png",
-		"tags": ["Animation", "Adventure", "Drama", "Sci-Fi", "Space"]
+		"tags": [
+			"Adventure",
+			"Animation",
+			"Drama",
+			"Sci-Fi",
+			"Space"
+		]
 	},
 	{
 		"name": "Sex Education",
@@ -252,7 +363,9 @@
 		"seasons": 4,
 		"eps": 32,
 		"img": "SexEducation.png",
-		"tags": ["Comedy"]
+		"tags": [
+			"Comedy"
+		]
 	},
 	{
 		"name": "Silicon Valley",
@@ -262,7 +375,10 @@
 		"seasons": 6,
 		"eps": 53,
 		"img": "SiliconValley.png",
-		"tags": ["Comedy", "Sitcom"]
+		"tags": [
+			"Comedy",
+			"Sitcom"
+		]
 	},
 	{
 		"name": "The End of the F***ing World",
@@ -272,7 +388,12 @@
 		"seasons": 2,
 		"eps": 16,
 		"img": "TEOTFW.png",
-		"tags": ["Black Comedy", "Comedy", "Crime", "Drama"]
+		"tags": [
+			"Black Comedy",
+			"Comedy",
+			"Crime",
+			"Drama"
+		]
 	},
 	{
 		"name": "The Expanse",
@@ -283,7 +404,12 @@
 		"eps": 62,
 		"img": "TheExpanse.png",
 		"dropped": true,
-		"tags": ["Adventure", "Mystery", "Sci-Fi", "Space"]
+		"tags": [
+			"Adventure",
+			"Mystery",
+			"Sci-Fi",
+			"Space"
+		]
 	},
 	{
 		"name": "The Hundred",
@@ -294,7 +420,10 @@
 		"eps": 100,
 		"img": "100.png",
 		"dropped": true,
-		"tags": ["Post Apocalyptic", "Sci-Fi"]
+		"tags": [
+			"Post Apocalyptic",
+			"Sci-Fi"
+		]
 	},
 	{
 		"name": "The Last of Us",
@@ -304,7 +433,12 @@
 		"seasons": 1,
 		"eps": 9,
 		"img": "LastOfUs.png",
-		"tags": ["Action", "Drama", "Post Apocalyptic", "Thriller"]
+		"tags": [
+			"Action",
+			"Drama",
+			"Post Apocalyptic",
+			"Thriller"
+		]
 	},
 	{
 		"name": "The Leftovers",
@@ -314,7 +448,13 @@
 		"seasons": 3,
 		"eps": 28,
 		"img": "Leftovers.png",
-		"tags": ["Drama", "Fantasy", "Mystery", "Psychological", "Supernatural"]
+		"tags": [
+			"Drama",
+			"Fantasy",
+			"Mystery",
+			"Psychological",
+			"Supernatural"
+		]
 	},
 	{
 		"name": "The Terror",
@@ -322,7 +462,30 @@
 		"year": 2018,
 		"eps": 10,
 		"img": "Terror.png",
-		"tags": ["Drama", "Horror", "Psychological", "Supernatural", "Thriller"]
+		"tags": [
+			"Drama",
+			"Horror",
+			"Psychological",
+			"Supernatural",
+			"Thriller"
+		]
+	},
+	{
+		"name": "The Walking Dead",
+		"author": "Robert Kirkman",
+		"year": 2010,
+		"end": 2022,
+		"seasons": 11,
+		"eps": 177,
+		"img": "WalkingDead.png",
+		"dropped": true,
+		"tags": [
+			"Action",
+			"Drama",
+			"Horror",
+			"Post Apocalyptic",
+			"Zombies"
+		]
 	},
 	{
 		"name": "Twin Peaks",
@@ -332,18 +495,14 @@
 		"seasons": 2,
 		"eps": 30,
 		"img": "TwinPeaks.png",
-		"tags": ["Crime", "Drama", "Mystery", "Supernatural", "Thriller", "Weird"]
-	},
-	{
-		"name": "The Walking Dead",
-		"author": "Robert Kirkman",
-		"year": 2010,
-		"end": 2022,
-		"seasons": 11,
-		"eps":177,
-		"img": "WalkingDead.png",
-		"dropped": true,
-		"tags": ["Action", "Drama", "Horror", "Post Apocalyptic", "Zombies"]
+		"tags": [
+			"Crime",
+			"Drama",
+			"Mystery",
+			"Supernatural",
+			"Thriller",
+			"Weird"
+		]
 	},
 	{
 		"name": "What We Do in the Shadows",
@@ -351,8 +510,12 @@
 		"year": 2019,
 		"end": 2024,
 		"seasons": 6,
-		"eps":61,
+		"eps": 61,
 		"img": "WWDITS.png",
-		"tags": ["Comedy", "Mockumentary", "Vampires"]
+		"tags": [
+			"Comedy",
+			"Mockumentary",
+			"Vampires"
+		]
 	}
 ]
