@@ -15,7 +15,7 @@ YELLOW	:= \033[38;5;11m
 RESET	:= \033[0m
 ##########################
 
-all: initialmsg upDate deploy
+all: initialmsg upDate libSort deploy
 	@printf "$(GREEN)\t~ Done building$(RESET)\n"
 
 initialmsg:
@@ -29,6 +29,11 @@ upDate:
 # 	date=$$(date -r $$f +'%Y/%m/%d');\
 # 	echo "$$f: $$date" >> $(MODATES);\
 # done
+
+libSort:
+	@echo "Sorting library archives..."
+	@node scripts/libraryArchiveSort.js
+	@echo "All archives sorted!"
 
 deploy: $(TGTDIR) $(HTMLTGT)
 
@@ -55,4 +60,4 @@ clean:
 	@rm -rf $(TGTDIR)
 	@printf "$(RED)BUILT FILES DELETED$(RESET)\n"
 
-.PHONY: all clean colortest deploy upDate $(TGTDIR) $(HTMLTGT)
+.PHONY: all clean colortest deploy upDate libSort $(TGTDIR) $(HTMLTGT)
