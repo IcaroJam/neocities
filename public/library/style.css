@@ -190,6 +190,10 @@ main {
 					font-family: inherit;
 					accent-color: var(--col08);
 				}
+
+				input::placeholder {
+					color: var(--col01);
+				}
 			}
 
 			.querying {
