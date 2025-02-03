@@ -50,26 +50,33 @@ function loadCategory(data, selector, imgSrc, imgAlt) {
 		skel.appendChild(details);
 
 		wrapper.appendChild(skel);
+		entry.htmlElem = skel;
+		entry.tags.forEach(window.libraryTags.add, window.libraryTags);
 	});
 }
 
 function loadFilms(films) {
+	window.libraryFilms = films;
 	loadCategory(films, "#films > div", "/media/library/films/", "The movie poster of ");
 }
 
 function loadShows(shows) {
+	window.libraryShows = shows;
 	loadCategory(shows, "#shows > div", "/media/library/shows/", "A promotional poster of ");
 }
 
 function loadBooks(books) {
+	window.libraryBooks = books;
 	loadCategory(books, "#books > div", "/media/library/books/", "The cover art of ");
 }
 
 function loadComics(comics) {
+	window.libraryComics = comics;
 	loadCategory(comics, "#comics > div", "/media/library/comics/", "The cover art of ");
 }
 
 function loadGames(games) {
+	window.libraryGames = games;
 	loadCategory(games, "#games > div", "/media/library/games/", "The cover art of ");
 }
 // End content loaders
@@ -182,6 +189,7 @@ const fetchAndLoad = (from, into, failMsg, loadFn) => {
 	}).catch(er => console.error(failMsg, er));
 }
 
+window.libraryTags = new Set();
 fetchAndLoad("./films.json", data.films, "Films fetching failed!\n", loadFilms);
 fetchAndLoad("./shows.json", data.shows, "Shows fetching failed!\n", loadShows);
 fetchAndLoad("./books.json", data.books, "Books fetching failed!\n", loadBooks);

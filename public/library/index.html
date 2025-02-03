@@ -7,6 +7,7 @@
     <link rel="icon" type="image/x-icon" href="/media/library/bookIcon.png">
     <link href="/library/style.css" rel="stylesheet" type="text/css" media="all">
 	<script type="module" src="./entryBuilder.js"></script>
+	<script type="module" src="./libQuery.js"></script>
   </head>
 
   <body>
@@ -18,6 +19,37 @@
 	</header>
 	<main id="content">
 		<nav>
+			<div id="libQuery">
+				<h2>Query the librarian</h2>
+				<form>
+					<input type="text" name="search" placeholder="What to search for?">
+					<label for="nameOnly">
+						<input type="checkbox" name="nameOnly">
+						By name only
+					</label>
+					<label for="faved">
+						<input type="checkbox" name="faved">
+						Favourites
+					</label>
+					<label for="dropped">
+						<input type="checkbox" name="dropped">
+						Dropped ones
+					</label>
+					<label for="timeStart">
+						From
+						<input type="number" name="timeStart">
+					</label>
+					<label for="timeEnd">
+						To
+						<input type="number" name="timeEnd">
+					</label>
+					<label for="tagSearch">
+						Tags
+						<input type="text" name="tagSearch">
+					</label>
+					<div id="tagContainer"></div>
+				</form>
+			</div>
 			<a href="#films">
 				<h1>Films</h1>
 			</a>

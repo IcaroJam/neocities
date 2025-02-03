@@ -111,14 +111,18 @@ header {
 main {
 	min-height: 100%;
 
+	.hidden {
+		display: none;
+	}
+
 	nav {
-		width: 11rem;
+		width: 12rem;
 		height: 100vh;
 		padding: 1rem 0;
 		position: sticky;
 		top: 0;
 		float: left;
-		overflow-y: auto;
+		overflow: clip;
 		background: linear-gradient(to right, var(--col06) 92%, var(--col07));
 		color: var(--white);
 		font-family: JuniGardenSwash;
@@ -128,10 +132,17 @@ main {
 			text-decoration: none;
 		}
 
-		h1, p {
+		h1, h2, p, form {
 			margin: 0;
-			padding: 0.75rem;
+			padding: 0.5rem 0.75rem;
 			font-weight: normal;
+		}
+
+		h2 {
+			font-size: 1rem;
+			font-family: JuniGardenSerif;
+			cursor: pointer;
+			border-bottom: solid 2px var(--col06);
 		}
 
 		h1::before {
@@ -141,11 +152,46 @@ main {
 			transition: all 0.25s ease-out;
 		}
 
+		h1:hover, .nav-footer > a > p:hover {
+			backdrop-filter: brightness(90%);
+		}
+
 		/* a:focus-visible h1::before, a:hover h1::before {
 			transform: rotate(90deg);
 		} */
 
+		#libQuery {
+			margin-bottom: 1.5rem;
+			font-family: Philosopher;
+			background: linear-gradient(to right, var(--col07) 92%, var(--col06));
+
+			form {
+				display: none;
+				padding-right: 1.25rem;
+
+				input {
+					max-width: 100%;
+				}
+			}
+
+			.querying {
+				height: 32rem;
+				display: flex;
+				flex-direction: column;
+				gap: 0.25rem;
+			}
+
+			#tagContainer {
+				display: inherit;
+				flex-direction: inherit;
+				max-height: 16.75rem;
+				overflow: auto;
+			}
+		}
+
 		.nav-footer {
+			z-index: -1;
+			width: 100%;
 			position: absolute;
 			bottom: 0;
 			text-align: center;
@@ -172,7 +218,7 @@ main {
 		background-color: var(--art-bg);
 		color: var(--art-col);
 		padding: 1.5rem;
-		padding-left: 12.5rem;
+		padding-left: 13.5rem;
 
 		h1 {
 			margin: 0 0 0.5rem 0;
