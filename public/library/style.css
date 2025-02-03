@@ -116,13 +116,13 @@ main {
 	}
 
 	nav {
+		z-index: 5;
 		width: 12rem;
 		height: 100vh;
 		padding: 1rem 0;
 		position: sticky;
 		top: 0;
 		float: left;
-		overflow: clip;
 		background: linear-gradient(to right, var(--col06) 92%, var(--col07));
 		color: var(--white);
 		font-family: JuniGardenSwash;
@@ -150,13 +150,6 @@ main {
 			font-weight: normal;
 		}
 
-		h2 {
-			font-size: 1rem;
-			font-family: JuniGardenSerif;
-			cursor: pointer;
-			border-bottom: solid 2px var(--col06);
-		}
-
 		h1::before {
 			content: "↦";
 			display: inline-block;
@@ -173,13 +166,38 @@ main {
 		} */
 
 		#libQuery {
-			margin-bottom: 2.5rem;
 			font-family: Philosopher;
-			background: linear-gradient(to right, var(--col07) 92%, var(--col06));
+
+			h2 {
+				font-size: 1rem;
+				font-family: JuniGardenSerif;
+				cursor: pointer;
+				border-bottom: solid 2px var(--col06);
+				background: linear-gradient(to right, var(--col07) 92%, var(--col06));
+
+				&.querying {
+					padding-left: 12.75rem;
+					width: 25.25rem;
+					background: linear-gradient(to right, var(--col07) 96.5%, var(--col06));
+				}
+			}
 
 			form {
+				z-index: -1;
+				position: absolute;
+				left: 12rem;
+				top: 0;
 				display: none;
 				padding-right: 1.25rem;
+				padding-top: 4rem;
+				background: linear-gradient(to right, var(--col07) 92%, var(--col08));
+
+				&.querying {
+					height: 100%;
+					display: flex;
+					flex-direction: column;
+					gap: 0.25rem;
+				}
 
 				input {
 					max-width: 100%;
@@ -196,17 +214,9 @@ main {
 				}
 			}
 
-			.querying {
-				height: 32rem;
-				display: flex;
-				flex-direction: column;
-				gap: 0.25rem;
-			}
-
 			#tagContainer {
 				display: inherit;
 				flex-direction: inherit;
-				max-height: 16.75rem;
 				overflow: auto;
 			}
 		}
@@ -222,6 +232,10 @@ main {
 		#nav-mobile-toggle {
 			display: none;
 		}
+	}
+
+	section.querying {
+		padding-left: 13.25rem;
 	}
 
 	article {
