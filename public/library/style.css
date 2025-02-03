@@ -461,6 +461,24 @@ footer {
 				text-align: center;
 				border-top-left-radius: 4px;
 			}
+
+			#libQuery {
+				margin-bottom: 2.5rem;
+				font-size: 1.25rem;
+
+				h2 {
+					font-size: inherit;
+				}
+
+				.querying {
+					height: 46rem;
+					gap: 0.5rem;
+				}
+
+				#tagContainer {
+					max-height: 28.75rem;
+				}
+			}
 		}
 
 		nav:has(.nav-mobile:hover) {
