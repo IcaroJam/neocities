@@ -281,6 +281,7 @@
 		"publisher": "Sony Interactive Entertainment",
 		"year": 2017,
 		"img": "Horizon.png",
+		"dropped": true,
 		"tags": [
 			"Action",
 			"Adventure",
@@ -651,6 +652,7 @@
 		"studio": "CD Projekt RED",
 		"year": 2015,
 		"img": "Witcher3.png",
+		"dropped": true,
 		"tags": [
 			"Action",
 			"Adventure",
