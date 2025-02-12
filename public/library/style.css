@@ -175,11 +175,26 @@ main {
 				border-bottom: solid 2px var(--col06);
 				background: linear-gradient(to right, var(--col07) 92%, var(--col06));
 
+				&:hover {
+					text-shadow: 0 1px 4px var(--col08);
+					border-color: var(--col08);
+				}
+
 				&.querying {
 					padding-left: 12.75rem;
 					width: 25.25rem;
 					background: linear-gradient(to right, var(--col07) 96.5%, var(--col06));
 				}
+			}
+
+			h2.querying::before {
+				content: "➣";
+				display: inline-block;
+				transform: rotate(180deg);
+				margin-left: -1.5rem;
+				margin-right: 0.5rem;
+				line-height: 1rem;
+				padding-top: 2px;
 			}
 
 			form {
