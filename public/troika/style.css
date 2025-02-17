@@ -50,7 +50,7 @@ main {
 	max-width: 750px;
 	flex-grow: 1;
 	padding: 2rem;
-	padding-top: 0;
+	padding-top: 1rem;
 	background-color: var(--white);
 
 	div {
