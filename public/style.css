@@ -271,7 +271,6 @@ a:focus-visible {
 }
 
 #nav-lib {
-	margin-bottom: 0;
 	left: 7rem;
 	border-color: var(--col01);
 	font-family: Adventurer, LastPriestess;
@@ -280,6 +279,18 @@ a:focus-visible {
 
 #nav-lib:hover {
 	left: 6rem;
+}
+
+#nav-troika {
+	margin-bottom: 0;
+	left: 8rem;
+	border-color: var(--col03);
+	font-family: LastPriestess;
+	background-image: linear-gradient(to right, var(--white) 22rem, var(--col03));
+}
+
+#nav-troika:hover {
+	left: 7rem;
 }
 
 nav {
