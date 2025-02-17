@@ -47,16 +47,15 @@ a {
 }
 
 main {
+	min-height: 100vh;
+	height: fit-content;
 	max-width: 750px;
 	flex-grow: 1;
 	padding: 2rem;
 	padding-top: 1rem;
 	background-color: var(--white);
-
-	div {
-		position: sticky;
-		top: 0;
-	}
+	position: sticky;
+	top: 0;
 
 	h1 {
 		margin: 0;
