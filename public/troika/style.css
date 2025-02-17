@@ -1,0 +1,78 @@
+/* Various variables */
+:root {
+	--black: #252323;
+	--col01: #ed1969;
+	--white: #eeebd0;
+}
+@font-face { font-family: Atreyu; src: url(../media/fonts/Atreyu.otf); }
+
+
+
+/* Tag specific styling */
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	box-sizing: border-box;
+	scrollbar-width: thin;
+	scrollbar-color: var(--white) var(--white);
+}
+
+*::-webkit-scrollbar {
+	width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+	background-color: var(--white);
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: var(--black);
+}
+
+body {
+	color: var(--black);
+	background-color: var(--black);
+	font-family: Averia Libre;
+	display: flex;
+	overflow: auto;
+}
+
+a {
+	color: var(--col01);
+}
+
+main {
+	max-width: 750px;
+	flex-grow: 1;
+	padding: 2rem;
+	padding-top: 0;
+	background-color: var(--white);
+
+	div {
+		position: sticky;
+		top: 0;
+	}
+
+	h1 {
+		margin: 0;
+		font-size: 5rem;
+		font-family: Atreyu;
+		text-shadow: 2px 2px 0 var(--col01);
+	}
+
+	h2 {
+		font-family: Averia Serif Libre;
+	}
+}
+
+aside {
+	padding: 2rem;
+
+	img {
+		width: 100%;
+		max-width: 600px;
+	}
+}
