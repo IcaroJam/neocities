@@ -514,26 +514,42 @@ footer {
 
 			#libQuery {
 				margin-bottom: 2.5rem;
-				font-size: 2rem;
+				font-size: 1.75rem;
 
 				h2 {
+					padding: 1rem 1.5rem;
 					font-size: inherit;
 					background: var(--col07);
 
 					&.querying {
 						width: 100%;
-						padding-left: 0.75rem;
+						padding-left: 1.5rem;
 						background: var(--col07);
 					}
 				}
 
+				h2.querying::before {
+					content: "";
+					margin: 0;
+				}
+
 				form {
 					z-index: 1;
+					max-height: calc(100vh - 8.5rem);
 					position: static;
 					display: none;
-					padding-top: 1rem;
-					padding-right: 1.25rem;
+					padding: 1rem 1.5rem;
 					background: var(--col07);
+
+					&.querying {
+						gap: 0.5rem;
+					}
+
+					input[type=number], input[type=text] {
+						width: 100%;
+						padding: 0.5rem;
+						font-size: 1.5rem;
+					}
 				}
 
 				#tagContainer {
