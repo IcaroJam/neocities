@@ -8,6 +8,14 @@
     <link href="/library/style.css" rel="stylesheet" type="text/css" media="all">
 	<script type="module" src="./entryBuilder.js"></script>
 	<script type="module" src="./libQuery.js"></script>
+	<script>
+		function f2(ev) {
+			if (window.innerWidth < 700 && !ev.target.closest("#libQuery")) {
+				document.querySelector("#nav-mobile-toggle").classList.toggle("menuShow");
+				document.querySelector(".querying")?.classList.remove("querying");
+			}
+		}
+	</script>
   </head>
 
   <body>
@@ -18,7 +26,7 @@
 		<a href="#content" tabindex="-1"><button>↡</button></a>
 	</header>
 	<main id="content">
-		<nav>
+		<nav onclick="f2(event)">
 			<div id="libQuery">
 				<h2>Query the librarian</h2>
 				<form>
@@ -69,7 +77,7 @@
 				<p>Highly hoverable! 🖱</p>
 				<a href="#footer"><p>↡ Footer ↡</p></a>
 			</div>
-			<div class="nav-mobile">
+			<div id="nav-mobile-toggle">
 				X
 			</div>
 		</nav>
