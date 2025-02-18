@@ -188,9 +188,8 @@ main {
 			}
 
 			h2.querying::before {
-				content: "➣";
+				content: "⮘";
 				display: inline-block;
-				transform: rotate(180deg);
 				margin-left: -1.5rem;
 				margin-right: 0.5rem;
 				line-height: 1rem;
@@ -515,19 +514,32 @@ footer {
 
 			#libQuery {
 				margin-bottom: 2.5rem;
-				font-size: 1.5rem;
+				font-size: 2rem;
 
 				h2 {
 					font-size: inherit;
+					background: var(--col07);
+
+					&.querying {
+						width: 100%;
+						padding-left: 0.75rem;
+						background: var(--col07);
+					}
 				}
 
-				.querying {
-					height: 32rem;
-					gap: 0.5rem;
+				form {
+					z-index: 1;
+					position: static;
+					display: none;
+					padding-top: 1rem;
+					padding-right: 1.25rem;
+					background: var(--col07);
 				}
 
 				#tagContainer {
-					max-height: 28.75rem;
+					display: inherit;
+					flex-direction: inherit;
+					overflow: auto;
 				}
 			}
 		}
