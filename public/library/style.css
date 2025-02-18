@@ -189,11 +189,9 @@ main {
 
 			h2.querying::before {
 				content: "⮘";
-				display: inline-block;
 				margin-left: -1.5rem;
 				margin-right: 0.5rem;
 				line-height: 1rem;
-				padding-top: 2px;
 			}
 
 			form {
