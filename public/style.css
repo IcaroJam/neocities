@@ -202,10 +202,9 @@ a:focus-visible {
 
 .roll {
 	white-space: nowrap;
-	overflow: clip;
 	display: inline-block;
 	line-height: 0;
-	animation: roll-news 30s linear infinite;
+	animation: roll-news 40s linear infinite;
 	font-family: LastPriestess;
 }
 
@@ -215,8 +214,13 @@ a:focus-visible {
 	image-rendering: auto;
 }
 
-.roll > div > * {
+.roll > div * {
 	vertical-align: middle;
+	transition: transform ease .25s;
+}
+
+.roll > div img:hover {
+	transform: scale(1.075);
 }
 
 .back-txt-highlight.panel {
