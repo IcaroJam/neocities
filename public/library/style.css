@@ -244,6 +244,31 @@ main {
 		#nav-mobile-toggle {
 			display: none;
 		}
+
+		#PB {
+			display: none;
+			font-family: Philosopher;
+
+			width: 12rem;
+			position: absolute;
+			bottom: 5.5rem;
+			left: -12rem;
+
+			img {
+				display: block;
+				margin: auto;
+				width: 150px;
+				height: 200px;
+			}
+
+			p::before {
+				content: "φb: ";
+			}
+
+			&.querying {
+				display: block;
+			}
+		}
 	}
 
 	section.querying {
@@ -554,6 +579,16 @@ footer {
 					display: inherit;
 					flex-direction: inherit;
 					overflow: auto;
+				}
+
+				#PB {
+					width: unset;
+					position: static;
+					display: flex;
+
+					p {
+						align-content: end;
+					}
 				}
 			}
 		}

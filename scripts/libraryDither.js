@@ -49,3 +49,36 @@ fetch(url).then(async data => {
     })
 
 }).catch(err => console.error(err))
+
+/*
+const options = {
+	ditheringType: "ordered",
+	orderedDitheringMatrix: [2, 2],
+	// width: 160,
+	palette: [
+		"#2e2626",
+		"#574744",
+		"#946663",
+		"#bf9a84",
+		"#80627e",
+		"#b58b90",
+		"#4b4b5e",
+		"#797d91",
+		"#9cb3b8",
+		"#6d7a69",
+		"#a8a39d",
+		"#d4c9ba",
+	],
+}
+const output = argv[3] ? argv[3].replace(/\.\w+$/, ".png") : "output.png"
+
+const file = fs.readFileSync(url)
+dither(file, options).then(dithered =>
+    fs.writeFile(output, dithered, (err) => {
+
+        if (err) throw err
+
+    })
+)
+
+*/

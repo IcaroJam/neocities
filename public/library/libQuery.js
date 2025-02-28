@@ -1,7 +1,8 @@
-function toggleQuery(title, form, section) {
+function toggleQuery(title, form, section, phoebe) {
 	title.classList.toggle("querying");
 	form.classList.toggle("querying");
 	section.classList.toggle("querying");
+	phoebe.classList.toggle("querying");
 }
 
 function toggleVis(entry, condition) {
@@ -89,7 +90,8 @@ const queryTitle = queryBox.querySelector("h2");
 const form = queryBox.querySelector("form");
 const tagContainer = form.querySelector("#tagContainer");
 const mainSection = document.querySelector("section");
-queryTitle.addEventListener("click", _ => toggleQuery(queryTitle, form, mainSection));
+const PB = document.getElementById("PB");
+queryTitle.addEventListener("click", _ => toggleQuery(queryTitle, form, mainSection, PB));
 
 // Build script input boxes
 const tagHtmlElems = [];
