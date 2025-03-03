@@ -139,6 +139,16 @@
 		]
 	},
 	{
+		"name": "Flow",
+		"director": "Gints Zilbalodis",
+		"year": 2024,
+		"img": "Flow.png",
+		"tags": [
+			"Adventure",
+			"Animation"
+		]
+	},
+	{
 		"name": "Hilda and the Mountain King",
 		"director": "Andy Coyle",
 		"author": "Luke Pearson",
@@ -158,6 +168,78 @@
 		"tags": [
 			"Action",
 			"Comedy"
+		]
+	},
+	{
+		"name": "Jurassic Park",
+		"director": "Steven Spielberg",
+		"year": 1993,
+		"img": "JurassicPark1.png",
+		"tags": [
+			"Action",
+			"Adventure",
+			"Dinosaurs",
+			"Sci-Fi"
+		]
+	},
+	{
+		"name": "Jurassic Park II: The Lost World",
+		"director": "Steven Spielberg",
+		"year": 1997,
+		"img": "JurassicPark2.png",
+		"tags": [
+			"Action",
+			"Adventure",
+			"Dinosaurs",
+			"Sci-Fi"
+		]
+	},
+	{
+		"name": "Jurassic Park III",
+		"director": "Joe Johnston",
+		"year": 2001,
+		"img": "JurassicPark3.png",
+		"tags": [
+			"Action",
+			"Adventure",
+			"Dinosaurs",
+			"Sci-Fi"
+		]
+	},
+	{
+		"name": "Jurassic World",
+		"director": "Collin Trevorrow",
+		"year": 2015,
+		"img": "JurassicWorld1.png",
+		"tags": [
+			"Action",
+			"Adventure",
+			"Dinosaurs",
+			"Sci-Fi"
+		]
+	},
+	{
+		"name": "Jurassic World: Dominion",
+		"director": "Collin Trevorrow",
+		"year": 2022,
+		"img": "JurassicWorld3.png",
+		"tags": [
+			"Action",
+			"Adventure",
+			"Dinosaurs",
+			"Sci-Fi"
+		]
+	},
+	{
+		"name": "Jurassic World: Fallen Kingdom",
+		"director": "J.A. Bayona",
+		"year": 2018,
+		"img": "JurassicWorld2.png",
+		"tags": [
+			"Action",
+			"Adventure",
+			"Dinosaurs",
+			"Sci-Fi"
 		]
 	},
 	{
@@ -270,6 +352,16 @@
 		"tags": [
 			"Comedy",
 			"Zombies"
+		]
+	},
+	{
+		"name": "Te Estoy Amando Locamente",
+		"director": "Alejandro Marín",
+		"year": 2023,
+		"img": "Locamente.png",
+		"tags": [
+			"Drama",
+			"LGBT"
 		]
 	},
 	{
