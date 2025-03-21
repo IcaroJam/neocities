@@ -249,13 +249,14 @@ main {
 			display: none;
 			font-family: Philosopher;
 
-			width: 12rem;
+			overflow: clip;
 			position: absolute;
-			bottom: 5.5rem;
-			left: -12rem;
+			top: 0;
+			left: 100%;
+			border-radius: 0 0 8px 0;
+			box-shadow: 4px 0 4px var(--black);
 
 			img, p {
-				margin: auto;
 				width: 150px;
 			}
 
@@ -269,8 +270,6 @@ main {
 				padding: 0.5rem;
 				background-color: var(--col08);
 				color: var(--black);
-				border-radius: 0 0 8px 8px;
-				border-bottom: 4px solid var(--col07);
 				font-size: 0.85rem;
 			}
 
@@ -595,10 +594,10 @@ footer {
 				}
 
 				#PB {
-					width: unset;
 					height: 200px;
 					position: static;
 					display: flex;
+					box-shadow: none;
 
 					img, p {
 						margin: unset;
