@@ -53,21 +53,35 @@ fetch(url).then(async data => {
 /*
 const options = {
 	ditheringType: "ordered",
-	orderedDitheringMatrix: [2, 2],
+	orderedDitheringMatrix: [4, 4],
 	// width: 160,
 	palette: [
-		"#2e2626",
-		"#574744",
-		"#946663",
-		"#bf9a84",
-		"#80627e",
-		"#b58b90",
-		"#4b4b5e",
-		"#797d91",
-		"#9cb3b8",
-		"#6d7a69",
-		"#a8a39d",
-		"#d4c9ba",
+		"#1e2326",
+		"#272e33",
+		"#2e383c",
+		"#374145",
+		"#414b50",
+		"#495156",
+		"#4f5b58",
+		"#4c3743",
+		"#493b40",
+		"#3c4841",
+		"#384b55",
+		"#45443c",
+		"#d3c6aa",
+		"#e67e80",
+		"#e69875",
+		"#dbbc7f",
+		"#a7c080",
+		"#83c092",
+		"#7fbbb3",
+		"#d699b6",
+		"#7a8478",
+		"#859289",
+		"#9da9a0",
+		"#a7c080",
+		"#d3c6aa",
+		"#e67e80",
 	],
 }
 const output = argv[3] ? argv[3].replace(/\.\w+$/, ".png") : "output.png"
@@ -79,6 +93,4 @@ dither(file, options).then(dithered =>
         if (err) throw err
 
     })
-)
-
-*/
+)*/

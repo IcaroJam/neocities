@@ -97,5 +97,18 @@
 			"Romance",
 			"Supernatural"
 		]
+	},
+	{
+		"name": "The Umbrella Academy - Apocalypse Suite",
+		"author": "Gerard Way, Gabriel Bá",
+		"year": 2007,
+		"img": "Umbrella.png",
+		"tags": [
+			"Action",
+			"Alternate History",
+			"Black Comedy",
+			"Sci-Fi",
+			"Superheroes"
+		]
 	}
 ]

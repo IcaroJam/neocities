@@ -93,6 +93,22 @@
 		]
 	},
 	{
+		"name": "Black Sails",
+		"director": "Jonathan E. Steinberg, Robert Levine",
+		"year": 2014,
+		"end": 2017,
+		"seasons": 4,
+		"eps": 38,
+		"img": "BlackSails.png",
+		"dropped": true,
+		"tags": [
+			"Action",
+			"Adventure",
+			"Drama",
+			"Pirates"
+		]
+	},
+	{
 		"name": "Breaking Bad",
 		"author": "Vince Gilligan",
 		"year": 2008,
@@ -118,6 +134,21 @@
 			"Disaster",
 			"Drama",
 			"Historical Drama"
+		]
+	},
+	{
+		"name": "Community",
+		"director": "Dan Harmon",
+		"year": 2009,
+		"end": 2015,
+		"seasons": 6,
+		"eps": 110,
+		"img": "Community.png",
+		"faved": true,
+		"tags": [
+			"Comedy",
+			"Sitcom",
+			"Weird"
 		]
 	},
 	{
@@ -165,6 +196,20 @@
 		"tags": [
 			"Black Comedy",
 			"Comedy"
+		]
+	},
+	{
+		"name": "From",
+		"author": "John Griffin",
+		"year": 2022,
+		"end": "ongoing",
+		"eps": 30,
+		"seasons": 3,
+		"img": "From.png",
+		"tags": [
+			"Drama",
+			"Horror",
+			"Mystery"
 		]
 	},
 	{
@@ -254,6 +299,23 @@
 		]
 	},
 	{
+		"name": "Invincible",
+		"director": "Robert Kirkman, Cory Walker",
+		"year": 2021,
+		"end": 2025,
+		"seasons": 3,
+		"eps": 24,
+		"img": "Invincible.png",
+		"tags": [
+			"Action",
+			"Animation",
+			"Black Comedy",
+			"Drama",
+			"Gore",
+			"Superheroes"
+		]
+	},
+	{
 		"name": "iZombie",
 		"author": "Diane Ruggiero-Wright, Rob Thomas",
 		"year": 2015,
@@ -265,6 +327,38 @@
 			"Comedy",
 			"Drama",
 			"Zombies"
+		]
+	},
+	{
+		"name": "Kipo and the Age of Wonderbeasts",
+		"director": "Radford Sechrist, Bill Wolkoff",
+		"year": 2020,
+		"seasons": 3,
+		"eps": 30,
+		"img": "Kipo.png",
+		"tags": [
+			"Action",
+			"Adventure",
+			"Animation",
+			"Post Apocalyptic",
+			"Sci-Fi"
+		]
+	},
+	{
+		"name": "Lost",
+		"director": "J.J. Abrams, Damon Lindelof, Jeffrey Lieber, Carlton Cuse",
+		"year": 2004,
+		"end": 2010,
+		"seasons": 6,
+		"eps": 121,
+		"img": "Lost.png",
+		"tags": [
+			"Adventure",
+			"Drama",
+			"Mystery",
+			"Supernatural",
+			"Survival",
+			"Time Travel"
 		]
 	},
 	{
@@ -298,6 +392,31 @@
 		]
 	},
 	{
+		"name": "Once Upon a Time... Life",
+		"author": "Albert Barillé",
+		"year": 1986,
+		"eps": 26,
+		"img": "EraseVida.png",
+		"tags": [
+			"Animation",
+			"Documentary",
+			"Educational"
+		]
+	},
+	{
+		"name": "Once Upon a Time... Man",
+		"author": "Albert Barillé",
+		"year": 1978,
+		"eps": 26,
+		"img": "EraseHombre.png",
+		"tags": [
+			"Animation",
+			"Documentary",
+			"Educational",
+			"Historical"
+		]
+	},
+	{
 		"name": "Paquita Salas",
 		"author": "Javier Ambrossi, Javier Calvo",
 		"year": 2016,
@@ -308,6 +427,21 @@
 		"faved": true,
 		"tags": [
 			"Comedy"
+		]
+	},
+	{
+		"name": "Pluto",
+		"director": "Toshio Kawaguchi",
+		"studio": "Studio M2",
+		"year": 2023,
+		"eps": 8,
+		"img": "Pluto.png",
+		"tags": [
+			"Action",
+			"Animation",
+			"Mystery",
+			"Sci-Fi",
+			"Thriller"
 		]
 	},
 	{
@@ -368,6 +502,22 @@
 		]
 	},
 	{
+		"name": "Shameless",
+		"director": "Paul Abbott",
+		"year": 2011,
+		"end": 2021,
+		"seasons": 11,
+		"eps": 134,
+		"img": "Shameless.png",
+		"faved": true,
+		"tags": [
+			"Black Comedy",
+			"Comedy",
+			"Drama",
+			"Sitcom"
+		]
+	},
+	{
 		"name": "Silicon Valley",
 		"author": "Mike Judge, John Altschuler, Dave Krinsky",
 		"year": 2014,
@@ -378,6 +528,56 @@
 		"tags": [
 			"Comedy",
 			"Sitcom"
+		]
+	},
+	{
+		"name": "Snowpiercer",
+		"director": "Graeme Manson",
+		"year": 2020,
+		"end": 2024,
+		"seasons": 4,
+		"eps": 40,
+		"img": "Snowpiercer.png",
+		"dropped": true,
+		"tags": [
+			"Action",
+			"Black Comedy",
+			"Post Apocalyptic",
+			"Sci-Fi",
+			"Thriller"
+		]
+	},
+	{
+		"name": "Stranger Things",
+		"author": "Matt Duffer, Ross Duffer",
+		"year": 2016,
+		"end": "ongoing",
+		"eps": 34,
+		"seasons": 4,
+		"img": "StrangerThings.png",
+		"tags": [
+			"Drama",
+			"Horror",
+			"Mystery",
+			"Sci-Fi",
+			"Supernatural"
+		]
+	},
+	{
+		"name": "The Boys",
+		"director": "Evan Goldberg, Seth Rogen, Eric Kripke",
+		"year": 2019,
+		"end": "ongoing",
+		"seasons": 4,
+		"eps": 32,
+		"img": "TheBoys.png",
+		"tags": [
+			"Action",
+			"Black Comedy",
+			"Drama",
+			"Gore",
+			"Social Commentary",
+			"Superheroes"
 		]
 	},
 	{
@@ -468,6 +668,23 @@
 			"Psychological",
 			"Supernatural",
 			"Thriller"
+		]
+	},
+	{
+		"name": "The Umbrella Academy",
+		"director": "Steve Blackman, Jeremy Slater",
+		"year": 2019,
+		"end": 2024,
+		"seasons": 4,
+		"eps": 36,
+		"img": "Umbrella.png",
+		"faved": true,
+		"tags": [
+			"Action",
+			"Black Comedy",
+			"Fantasy",
+			"Superheroes",
+			"Time Travel"
 		]
 	},
 	{

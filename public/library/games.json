@@ -149,6 +149,22 @@
 		]
 	},
 	{
+		"name": "Deep Rock Galactic",
+		"studio": "Ghost Ship Games",
+		"publisher": "Coffee Stain Publishing",
+		"year": 2020,
+		"img": "DeepRock.png",
+		"tags": [
+			"Action",
+			"Aliens",
+			"Co-op",
+			"Dwarves",
+			"Sci-Fi",
+			"Shooter",
+			"Space"
+		]
+	},
+	{
 		"name": "Disco Elysium",
 		"studio": "ZA/UM",
 		"year": 2019,
@@ -645,6 +661,18 @@
 		"tags": [
 			"Puzzles",
 			"Simulation"
+		]
+	},
+	{
+		"name": "The Red Strings Club",
+		"studio": "Deconstructeam",
+		"publisher": "Devolver Digital",
+		"year": 2018,
+		"img": "RedStrings.png",
+		"tags": [
+			"Cyberpunk",
+			"Sci-Fi",
+			"Visual Novel"
 		]
 	},
 	{

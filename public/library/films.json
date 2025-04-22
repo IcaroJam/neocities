@@ -23,6 +23,31 @@
 		]
 	},
 	{
+		"name": "A Minecraft Movie",
+		"director": "Jared Hess",
+		"year": 2025,
+		"img": "Minecraft.png",
+		"tags": [
+			"Adventure",
+			"CGI",
+			"Comedy",
+			"Fantasy"
+		]
+	},
+	{
+		"name": "Annihilation",
+		"director": "Alex Garland",
+		"year": 2018,
+		"img": "Annihilation.png",
+		"tags": [
+			"Body Horror",
+			"Horror",
+			"Psychological",
+			"Sci-Fi",
+			"Thriller"
+		]
+	},
+	{
 		"name": "Asteroid City",
 		"director": "Wes Anderson",
 		"year": 2023,
@@ -273,6 +298,20 @@
 		]
 	},
 	{
+		"name": "Mickey 17",
+		"director": "Bong Joon-ho",
+		"year": 2025,
+		"img": "Mickey17.png",
+		"tags": [
+			"Aliens",
+			"Black Comedy",
+			"Sci-Fi",
+			"Social Commentary",
+			"Space",
+			"Thriller"
+		]
+	},
+	{
 		"name": "Mientras Dure la Guerra",
 		"director": "Alejandro Amenábar",
 		"year": 2019,
@@ -335,6 +374,19 @@
 		]
 	},
 	{
+		"name": "Parasite",
+		"director": "Bong Joon-ho",
+		"year": 2019,
+		"img": "Parasite.png",
+		"tags": [
+			"Black Comedy",
+			"Drama",
+			"Mystery",
+			"Social Commentary",
+			"Thriller"
+		]
+	},
+	{
 		"name": "Pulp Fiction",
 		"director": "Quentin Tarantino",
 		"year": 1994,
@@ -352,6 +404,20 @@
 		"tags": [
 			"Comedy",
 			"Zombies"
+		]
+	},
+	{
+		"name": "Snowpiercer",
+		"director": "Bong Joon-ho",
+		"year": 2013,
+		"img": "Snowpiercer.png",
+		"tags": [
+			"Action",
+			"Black Comedy",
+			"Post Apocalyptic",
+			"Sci-Fi",
+			"Social Commentary",
+			"Thriller"
 		]
 	},
 	{
@@ -373,6 +439,20 @@
 		"tags": [
 			"Adventure",
 			"Comedy"
+		]
+	},
+	{
+		"name": "The Host",
+		"director": "Bong Joon-ho",
+		"year": 2006,
+		"img": "Host.png",
+		"tags": [
+			"Action",
+			"Black Comedy",
+			"Drama",
+			"Horror",
+			"Monsters",
+			"Social Commentary"
 		]
 	},
 	{
@@ -437,6 +517,73 @@
 		"tags": [
 			"Comedy",
 			"Sci-Fi"
+		]
+	},
+	{
+		"name": "Walking With Dinosaurs",
+		"author": "Tim Haines, Jasper James",
+		"year": 1999,
+		"img": "WalkingWithDinosaurs.png",
+		"tags": [
+			"Dinosaurs",
+			"Documentary"
+		]
+	},
+	{
+		"name": "Wallace & Gromit: A Grand Day Out",
+		"director": "Nick Park",
+		"studio": "Aardman",
+		"year": 1989,
+		"img": "W&GGrandDay.png",
+		"tags": [
+			"Adventure",
+			"Animation",
+			"Comedy",
+			"Sci-Fi",
+			"Stop Motion"
+		]
+	},
+	{
+		"name": "Wallace & Gromit: In the Wrong Trousers",
+		"director": "Nick Park",
+		"studio": "Aardman",
+		"year": 1993,
+		"img": "W&GTrousers.png",
+		"tags": [
+			"Adventure",
+			"Animation",
+			"Comedy",
+			"Crime",
+			"Heist",
+			"Mystery",
+			"Stop Motion"
+		]
+	},
+	{
+		"name": "Wallace & Gromit: The Curse of the Were-Rabbit",
+		"director": "Nick Park, Steve Box",
+		"studio": "Aardman",
+		"year": 2005,
+		"img": "W&GCurse.png",
+		"tags": [
+			"Adventure",
+			"Animation",
+			"Comedy",
+			"Mystery",
+			"Stop Motion"
+		]
+	},
+	{
+		"name": "Wallace & Gromit: Vengeance Most Fowl",
+		"director": "Nick Park, Merlin Crossingham",
+		"studio": "Aardman",
+		"year": 2024,
+		"img": "W&GVengance.png",
+		"tags": [
+			"Animation",
+			"Comedy",
+			"Crime",
+			"Stop Motion"
 		]
 	}
 ]
