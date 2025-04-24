@@ -74,9 +74,8 @@ header {
 main {
 	padding: 2rem;
 	display: grid;
-	grid-template-columns: 48rem auto;
-	grid-template-rows: auto 1fr;
-	gap: 2rem;
+	grid-template-columns: auto 32rem;
+	gap: 1.5rem;
 }
 
 footer {
@@ -231,7 +230,14 @@ a:focus-visible {
 	font-family: LastPriestess, Battlenet, Kiwisoda;
 }
 
+.left-col, .right-col {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
 #smol-about {
+	height: fit-content;
 	grid-row: span 2;
 	background: linear-gradient(to top, var(--col02) 16px, var(--col06) 128px, var(--white) 256px);
 	background-origin: border-box;
@@ -239,6 +245,36 @@ a:focus-visible {
 
 #smol-about p {
 	margin: 0.2rem 0;
+}
+
+#goodies {
+	image-rendering: auto;
+
+	p {
+		margin: 0;
+	}
+
+	div {
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+		margin-bottom: 1rem;
+	}
+
+	img {
+		width: 88px;
+		height: 31px;
+	}
+
+	textarea {
+		flex-grow: 1;
+		resize: none;
+		background-color: var(--black);
+		color: var(--col06);
+		font-family: Battlenet;
+		border: solid 2px var(--col04);
+		border-radius: 0;
+	}
 }
 
 #news {
@@ -259,7 +295,7 @@ a:focus-visible {
 
 #nav-head {
 	width: 105%;
-	margin-bottom: 2rem;
+	margin-bottom: 1rem;
 	background-image: linear-gradient(to right, var(--white) 30rem, var(--col05));
 }
 
@@ -311,7 +347,7 @@ nav > .nav-item-hi, nav > .nav-item-lo {
 	gap: 0.75rem;
 	position: relative;
 	left: 1rem;
-	margin-bottom: 1rem;
+	margin-bottom: 0.5rem;
 	padding-left: 1.5rem;
 	border-left: solid 4px var(--col05);
 }
@@ -407,12 +443,6 @@ nav > .nav-item-hi, nav > .nav-item-lo {
 
 
 /* Queries */
-@media (max-width: 1400px) {
-	main {
-		grid-template-columns: 24rem auto;
-	}
-}
-
 @media (max-width: 960px) {
 	main {
 		grid-template-columns: unset;
@@ -455,5 +485,9 @@ nav > .nav-item-hi, nav > .nav-item-lo {
 
 	#nav-lib {
 		left: 4.5rem;
+	}
+
+	.left-col {
+		order: 1;
 	}
 }
