@@ -322,7 +322,6 @@ a:focus-visible {
 }
 
 #nav-troika {
-	margin-bottom: 0;
 	left: 8rem;
 	border-color: var(--col03);
 	font-family: LastPriestess;
@@ -331,6 +330,18 @@ a:focus-visible {
 
 #nav-troika:hover {
 	left: 7rem;
+}
+
+#nav-neocities {
+	margin-bottom: 0;
+	left: 10rem;
+	border-color: var(--col05);
+	font-family: LastPriestess;
+	background-image: linear-gradient(to right, var(--white) 16rem, var(--col05));
+}
+
+#nav-neocities:hover {
+	left: 8rem;
 }
 
 nav {
