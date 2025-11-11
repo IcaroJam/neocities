@@ -1,18 +1,18 @@
 /* Various variables */
 :root {
-	--black: #1a1016;
-	--col01: #271854;
-	--col02: #317c87;
-	--col03: #74c99e;
-	--col04: #5e2052;
-	--col05: #b13353;
-	--col06: #db604c;
-	--white: #f6dbba;
+	--black: #1a1016; /* rgb(26, 16, 22) */
+	--col01: #271854; /* rgb(39, 24, 84) */
+	--col02: #317c87; /* rgb(49, 124, 135) */
+	--col03: #74c99e; /* rgb(116, 201, 158) */
+	--col04: #5e2052; /* rgb(94, 32, 82) */
+	--col05: #b13353; /* rgb(177, 51, 83) */
+	--col06: #db604c; /* rgb(219, 96, 76) */
+	--white: #f6dbba; /* rgb(246, 219, 186) */
 }
-@font-face { font-family: BlueScreen; src: url(../media/fonts/BlueScreen.ttf); }
-@font-face { font-family: LedLight; src: url(../media/fonts/LedLight.otf); }
-@font-face { font-family: Quantify; src: url(../media/fonts/Quantify.ttf); }
-@font-face { font-family: Philosopher; src: url(../media/fonts/Philosopher.ttf); }
+@font-face { font-family: BlueScreen; src: url(../media/fonts/BlueScreen.ttf); font-display: swap; }
+@font-face { font-family: LedLight; src: url(../media/fonts/LedLight.otf); font-display: swap; }
+@font-face { font-family: Quantify; src: url(../media/fonts/Quantify.ttf); font-display: swap; }
+@font-face { font-family: Philosopher; src: url(../media/fonts/Philosopher.ttf); font-display: swap; }
 
 
 

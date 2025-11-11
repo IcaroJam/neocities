@@ -1,15 +1,15 @@
 /* Various variables */
 :root {
-	--black: #040c06;
-	--col01: #112318;
-	--col02: #1e3a29;
-	--col03: #305d42;
-	--col04: #4d8061;
-	--col05: #89a257;
-	--col06: #bedc7f;
-	--white: #eeffcc;
+	--black: #040c06; /* rgb(4, 12, 6) */
+	--col01: #112318; /* rgb(17, 35, 24) */
+	--col02: #1e3a29; /* rgb(30, 58, 41) */
+	--col03: #305d42; /* rgb(48, 93, 66) */
+	--col04: #4d8061; /* rgb(77, 128, 97) */
+	--col05: #89a257; /* rgb(137, 162, 87) */
+	--col06: #bedc7f; /* rgb(190, 220, 127) */
+	--white: #eeffcc; /* rgb(238, 255, 204) */
 }
-@font-face { font-family: Adventurer; src: url(media/fonts/Adventurer.ttf); }
+@font-face { font-family: Adventurer; src: url(media/fonts/Adventurer.ttf); font-display: swap; }
 
 html {
 	overscroll-behavior: none;

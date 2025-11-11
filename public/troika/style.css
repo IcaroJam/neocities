@@ -1,8 +1,8 @@
 /* Various variables */
 :root {
-	--black: #252323;
-	--col01: #ed1969;
-	--white: #eeebd0;
+	--black: #252323; /* rgb(37, 35, 35) */
+	--col01: #ed1969; /* rgb(237, 25, 105) */
+	--white: rgb(238, 235, 208); /* rgb(238, 235, 208) */
 }
 @font-face { font-family: Atreyu; src: url(../media/fonts/Atreyu.otf); font-display: swap; }
 @font-face { font-family: Averia Libre; src: url(../media/fonts/AveriaLibre.ttf); font-display: swap; }

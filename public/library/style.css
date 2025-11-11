@@ -1,18 +1,18 @@
 /* Various variables */
 :root {
 /* Twelve Fallen Leaves */
-	--black: #2e2626;
-	--col01: #574744;
-	--col02: #946663;
-	--col03: #bf9a84;
-	--col04: #80627e;
-	--col05: #b58b90;
-	--col06: #4b4b5e;
-	--col07: #797d91;
-	--col08: #9cb3b8;
-	--col09: #6d7a69;
-	--col10: #a8a39d;
-	--white: #d4c9ba;
+	--black: #2e2626; /* rgb(46, 38, 38) */
+	--col01: #574744; /* rgb(87, 71, 68) */
+	--col02: #946663; /* rgb(148, 102, 99) */
+	--col03: #bf9a84; /* rgb(191, 154, 132) */
+	--col04: #80627e; /* rgb(128, 98, 126) */
+	--col05: #b58b90; /* rgb(181, 139, 144) */
+	--col06: #4b4b5e; /* rgb(75, 75, 94) */
+	--col07: #797d91; /* rgb(121, 125, 145) */
+	--col08: #9cb3b8; /* rgb(156, 179, 184) */
+	--col09: #6d7a69; /* rgb(109, 122, 105) */
+	--col10: #a8a39d; /* rgb(168, 163, 157) */
+	--white: #d4c9ba; /* rgb(212, 201, 186) */
 /* Haunted Hollows */
 	/* --black: #060423;
 	--col01: #0e0b38;
@@ -24,11 +24,11 @@
 	--col07: #f28f61;
 	--white: #fab269; */
 }
-@font-face { font-family: JuniGardenSerif; src: url(../media/fonts/JunigardenSerif.otf); }
-@font-face { font-family: JuniGardenSwash; src: url(../media/fonts/JunigardenSwash.otf); }
-@font-face { font-family: LaMachine; src: url(../media/fonts/LaMachine.ttf); }
-@font-face { font-family: MomsTypewriter; src: url(../media/fonts/MomsTypewriter.ttf); }
-@font-face { font-family: Philosopher; src: url(../media/fonts/Philosopher.ttf); }
+@font-face { font-family: JuniGardenSerif; src: url(../media/fonts/JunigardenSerif.otf); font-display: swap; }
+@font-face { font-family: JuniGardenSwash; src: url(../media/fonts/JunigardenSwash.otf); font-display: swap; }
+@font-face { font-family: LaMachine; src: url(../media/fonts/LaMachine.ttf); font-display: swap; }
+@font-face { font-family: MomsTypewriter; src: url(../media/fonts/MomsTypewriter.ttf); font-display: swap; }
+@font-face { font-family: Philosopher; src: url(../media/fonts/Philosopher.ttf); font-display: swap; }
 
 
 
