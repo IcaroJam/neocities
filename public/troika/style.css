@@ -4,9 +4,9 @@
 	--col01: #ed1969;
 	--white: #eeebd0;
 }
-@font-face { font-family: Atreyu; src: url(../media/fonts/Atreyu.otf); }
-@font-face { font-family: Averia Libre; src: url(../media/fonts/AveriaLibre.ttf); }
-@font-face { font-family: Averia Serif Libre; src: url(../media/fonts/AveriaSerifLibre.ttf); }
+@font-face { font-family: Atreyu; src: url(../media/fonts/Atreyu.otf); font-display: swap; }
+@font-face { font-family: Averia Libre; src: url(../media/fonts/AveriaLibre.ttf); font-display: swap; }
+@font-face { font-family: Averia Serif Libre; src: url(../media/fonts/AveriaSerifLibre.ttf); font-display: swap; }
 
 
 
@@ -19,7 +19,7 @@ html, body {
 * {
 	box-sizing: border-box;
 	scrollbar-width: thin;
-	scrollbar-color: var(--white) var(--white);
+	scrollbar-color: var(--col01) var(--black);
 }
 
 *::-webkit-scrollbar {
@@ -27,11 +27,11 @@ html, body {
 }
 
 *::-webkit-scrollbar-track {
-	background-color: var(--white);
+	background-color: var(--black);
 }
 
 *::-webkit-scrollbar-thumb {
-	background-color: var(--black);
+	background-color: var(--col01);
 }
 
 body {
@@ -55,6 +55,8 @@ main {
 	padding-top: 1rem;
 	background-color: var(--white);
 	position: sticky;
+	display: flex;
+	flex-direction: column;
 	top: 0;
 
 	h1 {
@@ -66,6 +68,11 @@ main {
 
 	h2 {
 		font-family: Averia Serif Libre;
+	}
+
+	#back {
+		display: block;
+		margin-top: auto;
 	}
 }
 
