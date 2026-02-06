@@ -65,6 +65,19 @@
 		]
 	},
 	{
+		"name": "Dune",
+		"author": "Frank Herbert",
+		"year": 1965,
+		"img": "Dune.png",
+		"tags": [
+			"Fantasy",
+			"Religion",
+			"Sci-Fi",
+			"Space",
+			"Space Opera"
+		]
+	},
+	{
 		"name": "El Aleph",
 		"author": "Jorge Luis Borges",
 		"year": 1949,
@@ -157,6 +170,16 @@
 			"Fantasy",
 			"High Fantasy",
 			"Magic"
+		]
+	},
+	{
+		"name": "La Casa de los Espíritus",
+		"author": "Isabel Allende",
+		"year": 1982,
+		"img": "CasaEspiritus.png",
+		"tags": [
+			"Fiction",
+			"Magical Realism"
 		]
 	},
 	{

@@ -1,5 +1,21 @@
 [
 	{
+		"name": "1670",
+		"author": "Maciej Buchwald, Kordian Kądziela",
+		"year": 2023,
+		"end": "ongoing",
+		"seasons": 2,
+		"eps": 16,
+		"img": "1670.png",
+		"faved": true,
+		"tags": [
+			"Black Comedy",
+			"Comedy",
+			"Historical",
+			"Mockumentary"
+		]
+	},
+	{
 		"name": "Adventure Time",
 		"director": "Pendleton Ward, Adam Muto",
 		"year": 2010,
@@ -13,6 +29,19 @@
 			"Animation",
 			"Comedy",
 			"Fantasy"
+		]
+	},
+	{
+		"name": "Águila Roja",
+		"author": "Daniel Écija, Ernesto Pozuelo, Carmen Ortiz, Pilar Nadal",
+		"year": 2009,
+		"end": 2016,
+		"seasons": 9,
+		"eps": 116,
+		"img": "AguilaRoja.png",
+		"tags": [
+			"Action",
+			"Adventure"
 		]
 	},
 	{
@@ -84,7 +113,6 @@
 		"seasons": 6,
 		"eps": 63,
 		"img": "BetterCallSaul.png",
-		"dropped": true,
 		"tags": [
 			"Black Comedy",
 			"Crime",
@@ -374,6 +402,21 @@
 		]
 	},
 	{
+		"name": "Mo",
+		"author": "Mo Amer, Ramy Youssef, Azhar Usman",
+		"director": "Solvan Naim",
+		"year": 2022,
+		"end": 2025,
+		"seasons": 2,
+		"eps": 16,
+		"img": "Mo.png",
+		"tags": [
+			"Comedy",
+			"Drama",
+			"Social Commentary"
+		]
+	},
+	{
 		"name": "Neon Genesis Evangelion",
 		"director": "Hideaki Anno",
 		"studio": "GAINAX",
@@ -445,6 +488,21 @@
 		]
 	},
 	{
+		"name": "Pokémon Concierge",
+		"director": "Iku Ogawa",
+		"studio": "Dwarf",
+		"year": 2023,
+		"end": 2025,
+		"seasons": 2,
+		"eps": 8,
+		"img": "PokeConcierge.png",
+		"tags": [
+			"Animation",
+			"Comedy",
+			"Stop-Motion"
+		]
+	},
+	{
 		"name": "Q-Force",
 		"author": "Michael Schur, Sean Hayes",
 		"year": 2021,
@@ -487,6 +545,23 @@
 			"Drama",
 			"Sci-Fi",
 			"Space"
+		]
+	},
+	{
+		"name": "Severance",
+		"director": "Dan Erickson, Ben Stiller, Aoife McArdle, Uta Briesewitz, Samuel Donovan, Jessica Lee Gagné",
+		"year": 2022,
+		"end": "ongoing",
+		"seasons": 2,
+		"eps": 19,
+		"img": "Severance.png",
+		"tags": [
+			"Black Comedy",
+			"Drama",
+			"Mystery",
+			"Sci-Fi",
+			"Thriller",
+			"Weird"
 		]
 	},
 	{
@@ -551,9 +626,9 @@
 		"name": "Stranger Things",
 		"author": "Matt Duffer, Ross Duffer",
 		"year": 2016,
-		"end": "ongoing",
-		"eps": 34,
-		"seasons": 4,
+		"end": 2026,
+		"eps": 42,
+		"seasons": 5,
 		"img": "StrangerThings.png",
 		"tags": [
 			"Drama",

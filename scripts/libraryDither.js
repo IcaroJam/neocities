@@ -33,6 +33,8 @@ const options = {
 const output = argv[3] ? argv[3].replace(/\.\w+$/, ".png") : "output.png"
 
 fetch(url).then(async data => {
+	if (!data.ok)
+      throw new Error(`FETCHING FAILED: ${data.status} ${data.statusText}`)
 
 	const buffer = await data.buffer()
 

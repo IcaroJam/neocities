@@ -69,6 +69,31 @@
 		]
 	},
 	{
+		"name": "Bohemian Rhapsody",
+		"director": "Bryan Singer",
+		"year": 2018,
+		"img": "BohemianRhapsody.png",
+		"tags": [
+			"Biopic",
+			"Drama",
+			"LGBT",
+			"Musical"
+		]
+	},
+	{
+		"name": "Chainsaw Man: Reze Arc",
+		"director": "Tatsuya Yoshihara",
+		"studio": "MAPPA",
+		"year": 2025,
+		"img": "Reze.png",
+		"tags": [
+			"Action",
+			"Animation",
+			"Gore",
+			"Urban Fantasy"
+		]
+	},
+	{
 		"name": "Chronicle",
 		"director": "Josh Trank",
 		"year": 2012,
@@ -78,6 +103,56 @@
 			"Fantasy",
 			"Found Footage",
 			"Superheroes"
+		]
+	},
+	{
+		"name": "Corpse Bride",
+		"director": "Tim Burton, Mike Johnson",
+		"year": 2005,
+		"img": "CorpseBride.png",
+		"tags": [
+			"Animation",
+			"Black Comedy",
+			"Fantasy",
+			"Horror",
+			"Musical",
+			"Romance",
+			"Stop Motion"
+		]
+	},
+	{
+		"name": "Dallas Buyers Club",
+		"director": "Jean-Marc Vallée",
+		"year": 2013,
+		"img": "DallasClub.png",
+		"tags": [
+			"Biopic",
+			"Drama",
+			"LGBT"
+		]
+	},
+	{
+		"name": "Detective Pikachu",
+		"director": "Rob Letterman",
+		"year": 2019,
+		"img": "DetectivePikachu.png",
+		"tags": [
+			"Adventure",
+			"CGI",
+			"Comedy",
+			"Mystery"
+		]
+	},
+	{
+		"name": "Django Unchained",
+		"director": "Quentin Tarantino",
+		"year": 2012,
+		"img": "DjangoUnchained.png",
+		"tags": [
+			"Black Comedy",
+			"Racism",
+			"Revenge",
+			"Western"
 		]
 	},
 	{
@@ -268,6 +343,51 @@
 		]
 	},
 	{
+		"name": "Knives Out",
+		"director": "Rian Johnson",
+		"year": 2019,
+		"img": "KnivesOut.png",
+		"tags": [
+			"Black Comedy",
+			"Crime",
+			"Mystery"
+		]
+	},
+	{
+		"name": "Knives Out: Glass Onion",
+		"director": "Rian Johnson",
+		"year": 2022,
+		"img": "GlassOnion.png",
+		"tags": [
+			"Black Comedy",
+			"Crime",
+			"Mystery"
+		]
+	},
+	{
+		"name": "Knives Out: Wake up Dead Man",
+		"director": "Rian Johnson",
+		"year": 2025,
+		"img": "WakeUpDeadMan.png",
+		"tags": [
+			"Black Comedy",
+			"Crime",
+			"Mystery",
+			"Religion"
+		]
+	},
+	{
+		"name": "La Gran Familia Española",
+		"director": "Daniel Sánchez Arévalo",
+		"year": 2013,
+		"img": "FamiliaEspanola.png",
+		"tags": [
+			"Comedy",
+			"Romance",
+			"Romantic Comedy"
+		]
+	},
+	{
 		"name": "La La Land",
 		"director": "Damien Chazelle",
 		"year": 2016,
@@ -275,6 +395,17 @@
 		"dropped": true,
 		"tags": [
 			"Musical"
+		]
+	},
+	{
+		"name": "La Misteriosa Mirada del Flamenco",
+		"director": "Diego Céspedes",
+		"year": 2025,
+		"img": "Flamenco.png",
+		"tags": [
+			"Black Comedy",
+			"Drama",
+			"LGBT"
 		]
 	},
 	{
@@ -342,6 +473,17 @@
 		]
 	},
 	{
+		"name": "Monty Python's Life of Brian",
+		"director": "Terry Jones",
+		"year": 1979,
+		"img": "VidaBrian.png",
+		"tags": [
+			"Comedy",
+			"Religion",
+			"Social Commentary"
+		]
+	},
+	{
 		"name": "Nope",
 		"director": "Jordan Peele",
 		"year": 2022,
@@ -364,6 +506,19 @@
 		]
 	},
 	{
+		"name": "Old Boy",
+		"director": "Park Chan-wook",
+		"year": 2003,
+		"img": "OldBoy.png",
+		"tags": [
+			"Black Comedy",
+			"Drama",
+			"Mystery",
+			"Revenge",
+			"Thriller"
+		]
+	},
+	{
 		"name": "One Cut of the Dead",
 		"director": "Shinichirou Ueda",
 		"year": 2017,
@@ -371,6 +526,18 @@
 		"tags": [
 			"Comedy",
 			"Zombies"
+		]
+	},
+	{
+		"name": "Palm Springs",
+		"director": "Max Barbakow",
+		"year": 2020,
+		"img": "PalmSprings.png",
+		"tags": [
+			"Comedy",
+			"Fantasy",
+			"Romance",
+			"Romantic Comedy"
 		]
 	},
 	{
@@ -394,6 +561,30 @@
 		"tags": [
 			"Black Comedy",
 			"Thriller"
+		]
+	},
+	{
+		"name": "Rango",
+		"director": "Gore Verbinski",
+		"studio": "Industrial Light & Magic",
+		"year": 2011,
+		"img": "Rango.png",
+		"tags": [
+			"Adventure",
+			"Animation",
+			"Black Comedy",
+			"CGI",
+			"Western"
+		]
+	},
+	{
+		"name": "School of Rock",
+		"director": "Richard Linklater",
+		"year": 2003,
+		"img": "SchoolRock.png",
+		"tags": [
+			"Comedy",
+			"Musical"
 		]
 	},
 	{
@@ -431,6 +622,29 @@
 		]
 	},
 	{
+		"name": "Tenacious D: the Pick of Destiny",
+		"director": "Liam Lynch",
+		"year": 2006,
+		"img": "POD.png",
+		"tags": [
+			"Comedy",
+			"Musical",
+			"Weird"
+		]
+	},
+	{
+		"name": "The Captive",
+		"director": "Alejandro Amenábar",
+		"year": 2025,
+		"img": "Cautivo.png",
+		"tags": [
+			"Biopic",
+			"Drama",
+			"Historical Drama",
+			"LGBT"
+		]
+	},
+	{
 		"name": "The Grand Budapest Hotel",
 		"director": "Wes Anderson",
 		"year": 2014,
@@ -439,6 +653,17 @@
 		"tags": [
 			"Adventure",
 			"Comedy"
+		]
+	},
+	{
+		"name": "The Help",
+		"director": "Tate Taylor",
+		"year": 2011,
+		"img": "TheHelp.png",
+		"faved": true,
+		"tags": [
+			"Drama",
+			"Racism"
 		]
 	},
 	{
@@ -465,6 +690,16 @@
 			"Creepy",
 			"Stop Motion",
 			"Weird"
+		]
+	},
+	{
+		"name": "The Long Walk",
+		"director": "Francis Lawrence",
+		"year": 2025,
+		"img": "LongWalk.png",
+		"tags": [
+			"Dystopian",
+			"Thriller"
 		]
 	},
 	{
@@ -510,6 +745,18 @@
 		]
 	},
 	{
+		"name": "The Wonderful Story of Henry Sugar",
+		"director": "Wes Anderson",
+		"year": 2023,
+		"img": "HenrySugar.png",
+		"tags": [
+			"Adventure",
+			"Comedy",
+			"Fantasy",
+			"Magical Realism"
+		]
+	},
+	{
 		"name": "The World's End",
 		"director": "Edgar Wright",
 		"year": 2013,
@@ -517,6 +764,15 @@
 		"tags": [
 			"Comedy",
 			"Sci-Fi"
+		]
+	},
+	{
+		"name": "Un Lío de Millones",
+		"director": "Susan Béjar",
+		"year": 2024,
+		"img": "LioMillones.png",
+		"tags": [
+			"Comedy"
 		]
 	},
 	{
@@ -584,6 +840,19 @@
 			"Comedy",
 			"Crime",
 			"Stop Motion"
+		]
+	},
+	{
+		"name": "Yesterday",
+		"director": "Danny Boyle",
+		"year": 2019,
+		"img": "Yesterday.png",
+		"tags": [
+			"Comedy",
+			"Fantasy",
+			"Musical",
+			"Romance",
+			"Romantic Comedy"
 		]
 	}
 ]
