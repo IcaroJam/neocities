@@ -551,6 +551,10 @@ footer {
 				margin-bottom: 2.5rem;
 				font-size: 1.75rem;
 
+				&:has(.querying) {
+					height: 100%;
+				}
+
 				h2 {
 					padding: 1rem 1.5rem;
 					font-size: inherit;
@@ -595,6 +599,7 @@ footer {
 
 				#PB {
 					height: 200px;
+					margin-top: auto;
 					position: static;
 					display: flex;
 					box-shadow: none;
@@ -619,6 +624,10 @@ footer {
 
 		nav:has(#nav-mobile-toggle.menuShow) {
 			right: 0;
+		}
+
+		section.querying {
+			padding-left: initial;
 		}
 
 		article {
