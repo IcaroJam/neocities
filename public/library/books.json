@@ -257,6 +257,19 @@
 		]
 	},
 	{
+		"name": "The Elegance of the Hedgehog",
+		"author": "Muriel Barbery",
+		"year": "2006",
+		"img": "Erizo.png",
+		"tags": [
+			"Comedy",
+			"Contemporary Fiction",
+			"Fiction",
+			"Philosophy",
+			"Social Commentary"
+		]
+	},
+	{
 		"name": "The Gunslinger",
 		"author": "Stephen King",
 		"year": 1982,
@@ -324,6 +337,20 @@
 			"Horror",
 			"Sci-Fi",
 			"Thriller"
+		]
+	},
+	{
+		"name": "The Priory of the Orange Tree",
+		"author": "Samantha Shannon",
+		"year": 2019,
+		"img": "Priory.png",
+		"tags": [
+			"Dragons",
+			"Fantasy",
+			"High Fantasy",
+			"LGBT",
+			"Magic",
+			"Romance"
 		]
 	},
 	{

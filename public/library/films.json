@@ -69,6 +69,44 @@
 		]
 	},
 	{
+		"name": "Baby Driver",
+		"director": "Edgar Wright",
+		"year": 2017,
+		"img": "BabyDriver.png",
+		"tags": [
+			"Action",
+			"Black Comedy",
+			"Comedy",
+			"Crime",
+			"Heist",
+			"Thriller"
+		]
+	},
+	{
+		"name": "Babylon",
+		"director": "Damien Chazelle",
+		"year": 2022,
+		"img": "Babylon.png",
+		"tags": [
+			"Black Comedy",
+			"Comedy",
+			"Drama",
+			"Romance"
+		]
+	},
+	{
+		"name": "Barbie",
+		"director": "Greta Gerwig",
+		"year": 2023,
+		"img": "Barbie.png",
+		"tags": [
+			"Comedy",
+			"Fantasy",
+			"Magical Realism",
+			"Social Commentary"
+		]
+	},
+	{
 		"name": "Bohemian Rhapsody",
 		"director": "Bryan Singer",
 		"year": 2018,
@@ -78,6 +116,19 @@
 			"Drama",
 			"LGBT",
 			"Musical"
+		]
+	},
+	{
+		"name": "Bugonia",
+		"director": "Yorgos Lanthimos",
+		"year": 2025,
+		"img": "Bugonia.png",
+		"tags": [
+			"Aliens",
+			"Black Comedy",
+			"Comedy",
+			"Sci-Fi",
+			"Weird"
 		]
 	},
 	{
@@ -249,6 +300,30 @@
 		]
 	},
 	{
+		"name": "Green Book",
+		"director": "Peter Farrelly",
+		"year": 2018,
+		"img": "GreenBook.png",
+		"tags": [
+			"Comedy",
+			"Drama",
+			"LGBT",
+			"Racism"
+		]
+	},
+	{
+		"name": "Greenland",
+		"director": "Ric Roman Waugh",
+		"year": 2020,
+		"img": "Greenland.png",
+		"tags": [
+			"Action",
+			"Disaster",
+			"Survival",
+			"Thriller"
+		]
+	},
+	{
 		"name": "Hilda and the Mountain King",
 		"director": "Andy Coyle",
 		"author": "Luke Pearson",
@@ -268,6 +343,30 @@
 		"tags": [
 			"Action",
 			"Comedy"
+		]
+	},
+	{
+		"name": "Jojo Rabbit",
+		"director": "Taika Waititi",
+		"year": 2019,
+		"img": "JojoRabbit.png",
+		"tags": [
+			"Black Comedy",
+			"Comedy",
+			"Drama",
+			"Historical Drama"
+		]
+	},
+	{
+		"name": "Joker",
+		"director": "Todd Phillips",
+		"year": 2019,
+		"img": "Joker.png",
+		"tags": [
+			"Crime",
+			"Drama",
+			"Psychological",
+			"Thriller"
 		]
 	},
 	{
@@ -335,6 +434,18 @@
 		"director": "J.A. Bayona",
 		"year": 2018,
 		"img": "JurassicWorld2.png",
+		"tags": [
+			"Action",
+			"Adventure",
+			"Dinosaurs",
+			"Sci-Fi"
+		]
+	},
+	{
+		"name": "Jurassic World: Rebirth",
+		"director": "Gareth Edwards",
+		"year": 2025,
+		"img": "JurassicWorld4.png",
 		"tags": [
 			"Action",
 			"Adventure",
@@ -484,6 +595,19 @@
 		]
 	},
 	{
+		"name": "Nobody",
+		"director": "Ilya Naishuller",
+		"year": 2021,
+		"img": "Nobody.png",
+		"tags": [
+			"Action",
+			"Black Comedy",
+			"Comedy",
+			"Crime",
+			"Thriller"
+		]
+	},
+	{
 		"name": "Nope",
 		"director": "Jordan Peele",
 		"year": 2022,
@@ -526,6 +650,18 @@
 		"tags": [
 			"Comedy",
 			"Zombies"
+		]
+	},
+	{
+		"name": "Oppenheimer",
+		"director": "Christopher Nolan",
+		"year": 2023,
+		"img": "Oppenheimer.png",
+		"tags": [
+			"Biopic",
+			"Drama",
+			"Historical Drama",
+			"Thriller"
 		]
 	},
 	{
