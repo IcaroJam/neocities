@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Library Entry!</title>
+
+	<style>
+		:root {
+		/* Twelve Fallen Leaves */
+			--black: #2e2626; /* rgb(46, 38, 38) */
+			--col01: #574744; /* rgb(87, 71, 68) */
+			--col02: #946663; /* rgb(148, 102, 99) */
+			--col03: #bf9a84; /* rgb(191, 154, 132) */
+			--col04: #80627e; /* rgb(128, 98, 126) */
+			--col05: #b58b90; /* rgb(181, 139, 144) */
+			--col06: #4b4b5e; /* rgb(75, 75, 94) */
+			--col07: #797d91; /* rgb(121, 125, 145) */
+			--col08: #9cb3b8; /* rgb(156, 179, 184) */
+			--col09: #6d7a69; /* rgb(109, 122, 105) */
+			--col10: #a8a39d; /* rgb(168, 163, 157) */
+			--white: #d4c9ba; /* rgb(212, 201, 186) */
+		}
+
+		body {
+			box-sizing: border-box;
+			margin: 0;
+			padding: 2rem;
+			max-height: 100vh;
+			display: flex;
+			gap: 1rem;
+			justify-content: center;
+			align-content: center;
+		}
+
+		#entryForm {
+			overflow: auto;
+			padding-right: 1rem;
+			display: grid;
+			gap: 1rem;
+			grid-template-columns: auto auto;
+
+			& > button {
+				grid-column: span 2;
+			}
+
+			& input {
+				place-self: end;
+			}
+
+			& #tagWrapper {
+				grid-column: span 2;
+				display: flex;
+				flex-direction: column;
+				align-items: end;
+			}
+		}
+
+		#saveForm {
+			margin-top: 1rem;
+			& > button {
+				width: 100%;
+			}
+		}
+
+		ul {
+			list-style: none;
+			margin-left: 0;
+			padding-left: 0;
+			color: red;
+
+			& > li::before {
+				content: "⚠";
+				padding-right: 1ch;
+			}
+		}
+
+		#demoWrapper { /* Stuff wrapper */
+			--art-bg: var(--black);
+			--art-col: var(--white);
+			--art-fnt: LaMachine;
+			--itm-bg: var(--col04);
+			--itm-col: var(--white);
+			--itm-fnt: Philosopher;
+			--itm-brd: var(--col05);
+			--itm-drp-bg: var(--col02);
+			--itm-drp-col: var(--black);
+			--itm-fav-bg: var(--col03);
+			--itm-fav-col: var(--black);
+			display: flex;
+			flex-wrap: wrap;
+			gap: 1rem;
+			text-align: center;
+
+			& > div { /* Container for the entry itself */
+				width: 10rem;
+				background-color: var(--itm-bg);
+				border-bottom: 4px solid var(--itm-brd);
+				border-radius: 0 0 8px 8px;
+				position: relative;
+				overflow: clip;
+
+				img {
+					width: 10rem;
+					height: 15rem;
+					display: block;
+				}
+
+				h4, h5, h6, p {
+					padding: 0 0.25rem;
+					margin: 0.15rem 0;
+					font-family: var(--itm-fnt);
+					color: var(--itm-col);
+				}
+
+				h4, h5, h6 {
+					overflow: hidden;
+					display: -webkit-box;
+					-webkit-box-orient: vertical;
+					-webkit-line-clamp: 2;
+				}
+
+				h5, h6 {
+					font-weight: normal;
+				}
+
+				.entry-mod {
+					width: 4rem;
+					height: 4rem;
+					position: absolute;
+					top: -2rem;
+					right: -2rem;
+					transform: rotate(45deg);
+					align-content: end;
+				}
+
+				&.dropped > .entry-mod {
+					background-color: var(--itm-drp-bg);
+					border: 6px solid var(--art-bg);
+				}
+
+				&.dropped > .entry-mod::after {
+					content: "✚";
+					color: var(--itm-drp-col);
+					display: block;
+				}
+
+				&.faved > .entry-mod {
+					background-color: var(--itm-fav-bg);
+					border: 6px solid var(--art-bg);
+				}
+
+				&.faved > .entry-mod::after {
+					content: "✦";
+					color: var(--itm-fav-col);
+					display: block;
+					transform: rotate(-45deg);
+				}
+
+				&:hover > .details {
+					display: flex;
+				}
+
+				& > .details {
+					width: 100%;
+					height: 100%;
+					display: none;
+					flex-direction: column;
+					position: absolute;
+					top: 0;
+					background-color: var(--itm-bg);
+					overflow: auto;
+
+					div {
+						padding-top: 0.5rem;
+						margin-top: auto;
+					}
+
+					p {
+						padding: 0 0.5rem;
+						margin: 0.5rem 0;
+						text-align: left;
+						flex-shrink: 0;
+					}
+				}
+			}
+		}
+	</style>
+
+  </head>
+
+  <body>
+	<form id="entryForm" enctype="multipart/form-data">
+		<button type="submit">Preview</button>
+		<label for="type">Type:</label>
+		<select name="type">
+			<option value="film">Film</option>
+			<option value="show">Show</option>
+			<option value="book">Book</option>
+			<option value="comic">Comic</option>
+			<option value="game">Game</option>
+		</select>
+		<label for="name">Name:</label>
+			<input type="text" name="name" required>
+		<label for="imgUrl">Image url:</label>
+			<input type="text" name="imgUrl" required>
+		<label for="year">Year:</label>
+			<input type="number" name="year" required>
+		<label for="end">End:</label>
+			<input type="number" name="end">
+		<label for="author">Author:</label>
+			<input type="text" name="author">
+		<label for="director">Director:</label>
+			<input type="text" name="director">
+		<label for="studio">Studio:</label>
+			<input type="text" name="studio">
+		<label for="publisher">Publisher:</label>
+			<input type="text" name="publisher">
+		<label for="seasons">Seasons:</label>
+			<input type="number" name="seasons">
+		<label for="eps">Episodes:</label>
+			<input type="text" name="eps">
+		<label for="chapters">Chapters:</label>
+			<input type="text" name="chapters">
+		<label for="faved">Favourite:</label>
+			<input type="checkbox" name="faved">
+		<label for="dropped">Dropped:</label>
+			<input type="checkbox" name="dropped">
+		<label>Create tag:</label> <!-- This one isn't submitted -->
+			<input form="tagCreateForm" id="newTagInput" type="text">
+		<label>Tag search:</label> <!-- This one neither -->
+			<input form="tagSearchForm" id="tagSearchInput" type="text">
+		<div id="tagWrapper"></div>
+	</form>
+	<form id="tagCreateForm"></form> <!-- Dummy form to prevent tag stuff from submitting -->
+	<form id="tagSearchForm"></form> <!-- Dummy form to prevent tag stuff from submitting -->
+	<div>
+		<div id="demoWrapper"></div>
+		<span style="display: block;">Run "node metaForm/app.js" to get<br>the backend running for upload</span>
+		<form id="saveForm">
+			<button type="submit">Save to db</button>
+		</form>
+		<ul role="alert">
+			<li id="nameWarn" hidden>Name already exists in the db!!</li>
+			<li id="authorWarn" hidden>Author already registered for a work with this name!</li>
+			<li id="directorWarn" hidden>Director already registered for a work with this name!</li>
+			<li id="studioWarn" hidden>Studio already registered for a work with this name!</li>
+			<li id="yearWarn" hidden>Year already registered for a work with this name!</li>
+		</ul>
+	</div>
+
+	<script type="module">
+		import Fuse from 'https://cdn.jsdelivr.net/npm/fuse.js@7.5.0/dist/fuse.mjs'
+		window.Fuse = Fuse
+	</script>
+	<script>
+		function slugify(input) {
+			if (!input)
+				return ''
+
+			// make lower case and trim
+			var slug = input.toLowerCase().trim()
+
+			// remove accents from charaters
+			slug = slug.normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+
+			// replace invalid chars with spaces
+			slug = slug.replace(/[^a-z0-9\s-]/g, ' ').trim()
+
+			// replace multiple spaces or hyphens with a single hyphen
+			slug = slug.replace(/[\s-]+/g, '-')
+
+			return slug
+		}
+	</script>
+	<script>
+		const db = {
+			films: fetchDB("../public/library/films.json", "films"),
+			shows: fetchDB("../public/library/shows.json", "shows"),
+			books: fetchDB("../public/library/books.json", "books"),
+			comics: fetchDB("../public/library/comics.json", "comics"),
+			games: fetchDB("../public/library/games.json", "games"),
+		}
+		const allTags = new Set()
+		const disallowed = {
+			film: ["publisher", "end", "seasons", "eps", "chapters"],
+			show: ["publisher", "chapters"],
+			book: ["director", "studio", "publisher", "end", "seasons", "eps", "chapters"],
+			comic: ["director", "studio", "publisher", "seasons", "eps"],
+			game: ["director", "seasons", "eps", "chapters"]
+		}
+		let sendData
+
+		const form = document.querySelector("form")
+		const typeInput = document.getElementsByName("type")[0]
+		const baseInputs = document.querySelectorAll("form > input")
+		const nameInput = document.getElementsByName("name")[0]
+		const authorInput = document.getElementsByName("author")[0]
+		const directorInput = document.getElementsByName("director")[0]
+		const studioInput = document.getElementsByName("studio")[0]
+		const yearInput = document.getElementsByName("year")[0]
+		const tagCreate = document.getElementById("newTagInput")
+		const tagSearch = document.getElementById("tagSearchInput")
+		const tagWrapper = document.getElementById("tagWrapper")
+
+		const demoWrapper = document.getElementById("demoWrapper")
+
+		function fetchDB(from, into) {
+			return fetch(from).then(response => response.json())
+		}
+
+		async function fetchAllTags() {
+			let i = Object.keys(db).length
+			await new Promise(resolve => {
+				Object.values(db).forEach(async type => {
+					(await type).forEach(entry => entry.tags.forEach(allTags.add, allTags))
+					i--
+					if (i === 0) resolve()
+				})
+			})
+			const tags = Array.from(allTags).sort()
+			tags.forEach(tag => {
+				const tagLabel = document.createElement("label")
+				tagLabel.htmlFor = tag
+				tagLabel.textContent = tag
+				const tagInput = document.createElement("input")
+				tagInput.type = "checkbox"
+				tagInput.name = `tag_${tag}`
+
+				tagLabel.appendChild(tagInput)
+				tagWrapper.appendChild(tagLabel)
+			})
+		}
+
+		function getSelType() { return typeInput.options[typeInput.selectedIndex].value }
+
+		// Submit
+		async function submitForm(ev) {
+			ev.preventDefault()
+
+			// Stores iterable key-val pairs with the enabled inputs
+			const data = new FormData(form)
+
+			// Remove empty strings
+			const filtered = new URLSearchParams(data.entries().reduce((acc, [k, v]) => v !== "" ? {...acc, [k]: v} : acc, {}))
+			filtered.append("img", slugify(filtered.get("name")))
+
+			// Get the blob with the dithered image
+			let imgUrl
+			let blob
+			await fetch("http://localhost:3000", {method: "POST", body: filtered})
+			.then(resp => {
+				return resp.blob()
+			})
+			.then(b => {
+				blob = b
+				imgUrl = URL.createObjectURL(b)
+			})
+			filtered.delete("imgUrl")
+
+			// Parse the tags
+			const entry = {}
+			const tags = []
+			filtered.forEach((v, k) => {
+				if (k.startsWith("tag_"))
+					tags.push(k.substring(4))
+				else
+					entry[k] = v
+			})
+			entry.tags = tags
+			entry.imgBuf = blob
+
+			console.log(entry)
+
+			// Show the preview
+			const skel = createSkeleton(entry)
+			const img = createImg(imgUrl)
+			const name = createName(entry.name)
+			const author = createAuthor(entry.author, entry.director, entry.studio, entry.publisher)
+			const date = createDate(entry.year, entry.end)
+			const mod = createMod()
+			const details = createDetails(entry)
+
+			skel.appendChild(img)
+			skel.appendChild(name)
+			skel.appendChild(author)
+			skel.appendChild(date)
+			skel.appendChild(mod)
+			skel.appendChild(details)
+
+			demoWrapper.replaceChildren(skel)
+
+			sendData = entry
+		}
+
+		// Save new data
+		function saveToDB(ev) {
+			ev.preventDefault()
+			const data = new FormData()
+			Object.entries(sendData).forEach(([k, v]) => data.append(k, v))
+			console.log(data)
+			fetch("http://localhost:3000/save", {method: "POST", body: data})
+		}
+
+		// Warnings
+		const warnInputs = [nameInput, authorInput, directorInput, studioInput, yearInput]
+		function toggleWarnings() {
+			const findField = async (name, k, v) => {
+				const subDB = await db[`${getSelType()}s`]
+				// Other fields are only checked if the name is already present
+				return subDB.some(entry => entry.name === name && entry[k] == v)
+			}
+
+			warnInputs.forEach(async w => {
+				const warn = document.getElementById(`${w.name}Warn`)
+				const found = await findField(nameInput.value, w.name, w.value)
+				if (found)
+					warn.hidden = false
+				else
+					warn.hidden = true
+			})
+		}
+		function checkWarnings(ev) {
+			const checkList = ["type", "name", "author", "director", "studio", "year"]
+			if (!checkList.includes(ev.target.name))
+				return
+
+			toggleWarnings()
+		}
+
+		// Change
+		function chooseType() {
+			baseInputs.forEach(input => {
+				if (disallowed[getSelType()].includes(input.name)) {
+					input.disabled = true
+					input.hidden = true
+					input.previousElementSibling.hidden = true
+				} else {
+					input.disabled = false
+					input.hidden = false
+					input.previousElementSibling.hidden = false
+				}
+			})
+		}
+
+		// Tag creating
+		function createTag(ev) {
+			ev.preventDefault()
+			const txt = document.getElementById("newTagInput").value
+			const label = document.createElement("label")
+			label.htmlFor = txt
+			label.innerText = txt
+			const input = document.createElement("input")
+			input.type = "checkbox"
+			input.name = `tag_${txt}`
+			input.checked = true
+
+			label.appendChild(input)
+			tagWrapper.prepend(label)
+			allTags.add(txt)
+		}
+
+		// Tag searching
+		function searchTags(ev) {
+			const fuse = new Fuse(Array.from(allTags), {threshold: 0.2, ignoreDiacritics: true})
+			const search = fuse.search(ev.target.value)
+			tagWrapper.childNodes.forEach(tagLabel => {
+				if (tagLabel.firstElementChild.checked || search.some(entry => entry.item === tagLabel.htmlFor)) {
+					tagLabel.firstChild.disabled = false
+					tagLabel.hidden = false
+				} else {
+					tagLabel.firstChild.disabled = true
+					tagLabel.hidden = true
+				}
+			})
+		}
+
+		// Utility functions
+		function createSkeleton(entry) {
+			const skel = document.createElement("div")
+			if (entry.dropped)
+				skel.className = "dropped"
+			else if (entry.faved)
+				skel.className = "faved"
+			return skel
+		}
+
+		function createImg(src) {
+			const img = document.createElement("img")
+			img.src = src || "../public/media/notfound.png"
+			return img
+		}
+
+		function createName(name) {
+			const title = document.createElement("h4")
+			title.innerHTML = name
+			return title
+		}
+
+		function createAuthor(author, director, studio, publisher) {
+			const au = document.createElement("h5")
+			au.innerHTML = [author, director, studio, publisher].filter(key => key).join("<br>")
+			return au
+		}
+
+		function createDate(year, end) {
+			const date = document.createElement("h6")
+			date.innerHTML = end ? `${year} - ${end}` : year
+			return date
+		}
+
+		function createMod() {
+			const mod = document.createElement("div")
+			mod.className = "entry-mod"
+			return mod
+		}
+
+		function createDetails(entry) {
+			const details = document.createElement("div")
+			details.className = "details"
+
+			const title = createDetailTxt("Title:<br> " + entry.name)
+			details.appendChild(title)
+
+			conditionalField(details, entry.author, "Author:<br> ")
+			conditionalField(details, entry.director, "Director:<br> ")
+			conditionalField(details, entry.studio, "Studio:<br> ")
+			conditionalField(details, entry.publisher, "Publisher:<br> ")
+
+			const date = createDetailTxt("Release:<br> " + (entry.end ? `${entry.year} - ${entry.end}` : entry.year))
+			details.appendChild(date)
+
+			conditionalField(details, entry.seasons, "No. Seasons:<br> ")
+			conditionalField(details, entry.eps, "No. Episodes:<br> ")
+			conditionalField(details, entry.chapters, "No. Chapters:<br> ")
+
+			const footer = document.createElement("div")
+			if (entry.dropped) {
+				const dropped = createDetailTxt("Dropped :(")
+				footer.appendChild(dropped)
+			} else if (entry.faved) {
+				const faved = createDetailTxt("This is a favorite :]")
+				footer.appendChild(faved)
+			}
+			const tags = createDetailTxt("Tags:<br> " + entry.tags.join(", "))
+			footer.appendChild(tags)
+			details.appendChild(footer)
+
+			return details
+		}
+
+		function conditionalField(parent, field, str) {
+			if (field) {
+				const f = createDetailTxt(str + field)
+				parent.appendChild(f)
+			}
+		}
+
+		function createDetailTxt(txt) {
+			const p = document.createElement("p")
+			p.innerHTML = txt
+			return p
+		}
+		// End utility functions
+
+
+
+		// Listeners:
+		form.addEventListener("submit", submitForm)
+
+		typeInput.addEventListener("change", chooseType)
+
+		form.addEventListener("change", checkWarnings)
+
+		tagSearch.addEventListener("input", searchTags)
+
+		document.getElementById("tagCreateForm").addEventListener("submit", createTag)
+		document.getElementById("tagSearchForm").addEventListener("submit", ev => ev.preventDefault())
+
+		document.getElementById("saveForm").addEventListener("submit", saveToDB)
+
+
+
+		// Init:
+		chooseType()
+		toggleWarnings()
+		fetchAllTags()
+	</script>
+  </body>
+</html>
