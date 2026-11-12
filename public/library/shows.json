@@ -32,6 +32,20 @@
 		]
 	},
 	{
+		"name": "After Life",
+		"director": "Ricky Gervais",
+		"year": 2019,
+		"end": 2022,
+		"seasons": 3,
+		"eps": 18,
+		"img": "after-life.png",
+		"tags": [
+			"Black Comedy",
+			"Comedy",
+			"Drama"
+		]
+	},
+	{
 		"name": "Águila Roja",
 		"author": "Daniel Écija, Ernesto Pozuelo, Carmen Ortiz, Pilar Nadal",
 		"year": 2009,
@@ -358,6 +372,21 @@
 		]
 	},
 	{
+		"name": "Kaos",
+		"director": "Charlie Covell",
+		"year": 2024,
+		"end": 2024,
+		"seasons": 1,
+		"eps": 8,
+		"img": "kaos.png",
+		"tags": [
+			"Comedy",
+			"Fantasy",
+			"Mythology",
+			"Urban Fantasy"
+		]
+	},
+	{
 		"name": "Kipo and the Age of Wonderbeasts",
 		"director": "Radford Sechrist, Bill Wolkoff",
 		"year": 2020,
@@ -399,6 +428,19 @@
 		"img": "MachosAlfa.png",
 		"tags": [
 			"Comedy"
+		]
+	},
+	{
+		"name": "Minx",
+		"author": "Ellen Rapoport",
+		"year": 2022,
+		"end": 2023,
+		"seasons": 2,
+		"eps": 18,
+		"img": "minx.png",
+		"tags": [
+			"Comedy",
+			"Feminism"
 		]
 	},
 	{
@@ -460,6 +502,22 @@
 		]
 	},
 	{
+		"name": "Over the Garden Wall",
+		"author": "Katie Krentz, Patrick McHale",
+		"director": "Patrick McHale, Nate Cash",
+		"year": 2014,
+		"end": 2014,
+		"seasons": 1,
+		"eps": 10,
+		"img": "over-the-garden-wall.png",
+		"faved": true,
+		"tags": [
+			"Animation",
+			"Comedy",
+			"Fantasy"
+		]
+	},
+	{
 		"name": "Paquita Salas",
 		"author": "Javier Ambrossi, Javier Calvo",
 		"year": 2016,
@@ -503,6 +561,20 @@
 		]
 	},
 	{
+		"name": "Poquita Fe",
+		"author": "Pepón Montero, Juan Maidagán",
+		"year": 2023,
+		"end": 2025,
+		"seasons": 2,
+		"eps": 20,
+		"img": "poquita-fe.png",
+		"faved": true,
+		"tags": [
+			"Comedy",
+			"Sitcom"
+		]
+	},
+	{
 		"name": "Q-Force",
 		"author": "Michael Schur, Sean Hayes",
 		"year": 2021,
@@ -515,6 +587,20 @@
 			"Comedy",
 			"LGBT",
 			"Spies"
+		]
+	},
+	{
+		"name": "Radioactive Emergency",
+		"director": "Gustavo Lipsztein",
+		"year": 2026,
+		"end": 2026,
+		"seasons": 1,
+		"eps": 6,
+		"img": "radioactive-emergency.png",
+		"tags": [
+			"Disaster",
+			"Drama",
+			"Thriller"
 		]
 	},
 	{
@@ -545,6 +631,19 @@
 			"Drama",
 			"Sci-Fi",
 			"Space"
+		]
+	},
+	{
+		"name": "Se Tiene que Morir Mucha Gente",
+		"author": "Victoria Martín",
+		"director": "Victoria Martín, Sandra Romero, Nacho Pardo",
+		"year": 2026,
+		"end": 2026,
+		"seasons": 1,
+		"eps": 6,
+		"img": "se-tiene-que-morir-mucha-gente.png",
+		"tags": [
+			""
 		]
 	},
 	{

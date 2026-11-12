@@ -447,6 +447,8 @@
 		function createTag(ev) {
 			ev.preventDefault()
 			const txt = document.getElementById("newTagInput").value
+			if (!txt || allTags.has(txt))
+				return
 			const label = document.createElement("label")
 			label.htmlFor = txt
 			label.innerText = txt

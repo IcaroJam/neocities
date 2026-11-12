@@ -52,7 +52,7 @@ app.post('/save', upload.single("imgBuf"), async (req, res) => {
 		seasons: toNum(req.body.seasons),
 		eps: toNum(req.body.eps),
 		chapters: toNum(req.body.chapters),
-		img: req.body.img,
+		img: req.body.img + ".png",
 		faved: toBool(req.body.faved),
 		dropped: toBool(req.body.dropped),
 		tags: req.body.tags.split(","),

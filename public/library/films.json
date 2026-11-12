@@ -58,6 +58,19 @@
 		]
 	},
 	{
+		"name": "Austin Powers: International Man of Mystery",
+		"author": "Mike Myers",
+		"director": "Jay Roach",
+		"year": 1997,
+		"img": "austin-powers-international-man-of-mystery.png",
+		"tags": [
+			"Action",
+			"Comedy",
+			"Spies",
+			"Weird"
+		]
+	},
+	{
 		"name": "Avatar",
 		"director": "James Cameron",
 		"year": 2009,
@@ -129,6 +142,19 @@
 			"Comedy",
 			"Sci-Fi",
 			"Weird"
+		]
+	},
+	{
+		"name": "But I'm a Cheerleader",
+		"author": "Brian Peterson, Jamie Babbit",
+		"director": "Jamie Babbit",
+		"year": 1999,
+		"img": "but-i-m-a-cheerleader.png",
+		"tags": [
+			"Comedy",
+			"LGBT",
+			"Romance",
+			"Romantic Comedy"
 		]
 	},
 	{
@@ -204,6 +230,54 @@
 			"Racism",
 			"Revenge",
 			"Western"
+		]
+	},
+	{
+		"name": "Down with Love",
+		"director": "Peyton Reed",
+		"year": 2003,
+		"img": "down-with-love.png",
+		"tags": [
+			"Comedy",
+			"Romance",
+			"Romantic Comedy"
+		]
+	},
+	{
+		"name": "Dungeons & Dragons: Honor Among Thieves",
+		"director": "John Francis Daley, Jonathan M. Goldstein",
+		"year": 2023,
+		"img": "dungeons-dragons-honor-among-thieves.png",
+		"tags": [
+			"Adventure",
+			"Comedy",
+			"Fantasy"
+		]
+	},
+	{
+		"name": "El Gato con Botas",
+		"director": "Chris Miller",
+		"studio": "DreamWorks",
+		"year": 2011,
+		"img": "el-gato-con-botas.png",
+		"tags": [
+			"Adventure",
+			"Animation",
+			"Comedy",
+			"Western"
+		]
+	},
+	{
+		"name": "El Gato con Botas: El Último Deseo",
+		"director": "Joel Crawford, Januel Mercado",
+		"studio": "DreamWorks",
+		"year": 2022,
+		"img": "el-gato-con-botas-el-ultimo-deseo.png",
+		"tags": [
+			"Adventure",
+			"Animation",
+			"Comedy",
+			"Fantasy"
 		]
 	},
 	{
@@ -324,6 +398,19 @@
 		]
 	},
 	{
+		"name": "Heart of a Dog",
+		"author": "Natalya Bortko",
+		"director": "Vladimir Bortko",
+		"year": 1988,
+		"img": "heart-of-a-dog.png",
+		"tags": [
+			"Comedy",
+			"Drama",
+			"Social Commentary",
+			"Weird"
+		]
+	},
+	{
 		"name": "Hilda and the Mountain King",
 		"director": "Andy Coyle",
 		"author": "Luke Pearson",
@@ -336,6 +423,18 @@
 		]
 	},
 	{
+		"name": "Hoppers",
+		"director": "Daniel Chong",
+		"studio": "Pixar",
+		"year": 2026,
+		"img": "hoppers.png",
+		"tags": [
+			"Animation",
+			"Comedy",
+			"Sci-Fi"
+		]
+	},
+	{
 		"name": "Hot Fuzz",
 		"director": "Edgar Wright",
 		"year": 2007,
@@ -343,6 +442,32 @@
 		"tags": [
 			"Action",
 			"Comedy"
+		]
+	},
+	{
+		"name": "How to Train your Dragon",
+		"director": "Dean DeBlois, Chris Sanders",
+		"studio": "DreamWorks",
+		"year": 2010,
+		"img": "how-to-train-your-dragon.png",
+		"tags": [
+			"Adventure",
+			"Animation",
+			"Dragons",
+			"Fantasy"
+		]
+	},
+	{
+		"name": "How to Train your Dragon 2",
+		"director": "Dean DeBlois",
+		"studio": "DreamWorks",
+		"year": 2014,
+		"img": "how-to-train-your-dragon-2.png",
+		"tags": [
+			"Adventure",
+			"Animation",
+			"Dragons",
+			"Fantasy"
 		]
 	},
 	{
@@ -540,6 +665,54 @@
 		]
 	},
 	{
+		"name": "Las Brujas de Zugarramurdi",
+		"director": "Álex de la Iglesia",
+		"year": 2013,
+		"img": "las-brujas-de-zugarramurdi.png",
+		"tags": [
+			"Black Comedy",
+			"Comedy",
+			"Fantasy",
+			"Horror",
+			"Weird"
+		]
+	},
+	{
+		"name": "Little Nicky",
+		"director": "Steven Brill",
+		"year": 2000,
+		"img": "little-nicky.png",
+		"tags": [
+			"Black Comedy",
+			"Comedy",
+			"Supernatural"
+		]
+	},
+	{
+		"name": "Love and Monsters",
+		"director": "Michael Matthews",
+		"year": 2020,
+		"img": "love-and-monsters.png",
+		"tags": [
+			"Adventure",
+			"Fantasy",
+			"Monsters",
+			"Post Apocalyptic",
+			"Survival"
+		]
+	},
+	{
+		"name": "Mary Poppins",
+		"director": "Robert Stevenson",
+		"year": 1964,
+		"img": "mary-poppins.png",
+		"tags": [
+			"Comedy",
+			"Fantasy",
+			"Musical"
+		]
+	},
+	{
 		"name": "Mickey 17",
 		"director": "Bong Joon-ho",
 		"year": 2025,
@@ -592,6 +765,17 @@
 			"Comedy",
 			"Religion",
 			"Social Commentary"
+		]
+	},
+	{
+		"name": "Natacha (Almost) Air Hostess",
+		"director": "Noémie Saglio",
+		"year": 2025,
+		"img": "natacha-almost-air-hostess.png",
+		"tags": [
+			"Comedy",
+			"Crime",
+			"Heist"
 		]
 	},
 	{
@@ -734,6 +918,64 @@
 		]
 	},
 	{
+		"name": "Sheep Detectives",
+		"author": "Craig Mazin",
+		"director": "Kyle Balda",
+		"year": 2026,
+		"img": "sheep-detectives.png",
+		"tags": [
+			"Comedy",
+			"Crime",
+			"Mystery"
+		]
+	},
+	{
+		"name": "Shrek",
+		"director": "Andrew Adamson, Vicky Jenson",
+		"studio": "DreamWorks",
+		"year": 2001,
+		"img": "shrek.png",
+		"tags": [
+			"Adventure",
+			"Animation",
+			"Comedy",
+			"Fantasy"
+		]
+	},
+	{
+		"name": "Shrek 2",
+		"director": "Andrew Adamson, Kelly Asbury, Conrad Vernon",
+		"studio": "DreamWorks",
+		"year": 2004,
+		"img": "shrek-2.png",
+		"tags": [
+			"Comedy",
+			"Fantasy"
+		]
+	},
+	{
+		"name": "Shrek 3",
+		"director": "Chris Miller, Raman Hui",
+		"studio": "DreamWorks",
+		"year": 2007,
+		"img": "shrek-3.png",
+		"tags": [
+			"Adventure",
+			"Comedy",
+			"Fantasy"
+		]
+	},
+	{
+		"name": "Sirât",
+		"director": "Oliver Laxe",
+		"year": 2025,
+		"img": "sirat.png",
+		"tags": [
+			"Drama",
+			"Thriller"
+		]
+	},
+	{
 		"name": "Snowpiercer",
 		"director": "Bong Joon-ho",
 		"year": 2013,
@@ -745,6 +987,29 @@
 			"Sci-Fi",
 			"Social Commentary",
 			"Thriller"
+		]
+	},
+	{
+		"name": "Sor Citröen",
+		"director": "Pedro Lazaga",
+		"year": 1967,
+		"img": "sor-citroen.png",
+		"tags": [
+			"Comedy",
+			"Drama",
+			"Religion"
+		]
+	},
+	{
+		"name": "Submarine",
+		"director": "Richard Ayoade",
+		"year": 2010,
+		"img": "submarine.png",
+		"tags": [
+			"Comedy",
+			"Drama",
+			"Romance",
+			"Romantic Comedy"
 		]
 	},
 	{
@@ -778,6 +1043,38 @@
 			"Drama",
 			"Historical Drama",
 			"LGBT"
+		]
+	},
+	{
+		"name": "The End of Oak Street",
+		"director": "David Robert Mitchell",
+		"year": 2026,
+		"img": "the-end-of-oak-street.png",
+		"tags": [
+			"Adventure",
+			"Dinosaurs",
+			"Sci-Fi",
+			"Survival"
+		]
+	},
+	{
+		"name": "The Florida Project",
+		"director": "Sean Baker",
+		"year": 2017,
+		"img": "the-florida-project.png",
+		"tags": [
+			"Drama",
+			"Social Commentary"
+		]
+	},
+	{
+		"name": "The French Dispatch",
+		"director": "Wes Anderson",
+		"year": 2021,
+		"img": "the-french-dispatch.png",
+		"tags": [
+			"Comedy",
+			"Drama"
 		]
 	},
 	{
@@ -829,6 +1126,20 @@
 		]
 	},
 	{
+		"name": "The Killing of a Sacred Deer",
+		"author": "Yorgos Lanthimos, Efthymis Filippou",
+		"director": "Yorgos Lanthimos",
+		"year": 2017,
+		"img": "the-killing-of-a-sacred-deer.png",
+		"tags": [
+			"Drama",
+			"Psychological",
+			"Supernatural",
+			"Thriller",
+			"Weird"
+		]
+	},
+	{
 		"name": "The Long Walk",
 		"director": "Francis Lawrence",
 		"year": 2025,
@@ -859,6 +1170,17 @@
 		"tags": [
 			"Musical",
 			"Weird"
+		]
+	},
+	{
+		"name": "The Sound of Music",
+		"director": "Robert Wise",
+		"year": 1965,
+		"img": "the-sound-of-music.png",
+		"tags": [
+			"Drama",
+			"Historical Drama",
+			"Musical"
 		]
 	},
 	{
@@ -903,12 +1225,33 @@
 		]
 	},
 	{
+		"name": "Troll",
+		"director": "Roar Uthaug",
+		"year": 2022,
+		"img": "troll.png",
+		"tags": [
+			"Drama",
+			"Fantasy",
+			"Monsters"
+		]
+	},
+	{
 		"name": "Un Lío de Millones",
 		"director": "Susan Béjar",
 		"year": 2024,
 		"img": "LioMillones.png",
 		"tags": [
 			"Comedy"
+		]
+	},
+	{
+		"name": "Verano en Diciembre",
+		"director": "Carolina África",
+		"year": 2024,
+		"img": "verano-en-diciembre.png",
+		"tags": [
+			"Comedy",
+			"Drama"
 		]
 	},
 	{
@@ -979,6 +1322,16 @@
 		]
 	},
 	{
+		"name": "Whiplash",
+		"director": "Damien Chazelle",
+		"year": 2014,
+		"img": "whiplash.png",
+		"tags": [
+			"Drama",
+			"Music"
+		]
+	},
+	{
 		"name": "Yesterday",
 		"director": "Danny Boyle",
 		"year": 2019,
@@ -989,6 +1342,31 @@
 			"Musical",
 			"Romance",
 			"Romantic Comedy"
+		]
+	},
+	{
+		"name": "Zootopia",
+		"director": "Byron Howard, Rich Moore, Jared Bush",
+		"studio": "Disney",
+		"year": 2016,
+		"img": "zootopia.png",
+		"tags": [
+			"Animation",
+			"Comedy",
+			"Mystery",
+			"Racism"
+		]
+	},
+	{
+		"name": "Zootopia 2",
+		"director": "Byron Howard, Jared Bush",
+		"studio": "Disney",
+		"year": 2025,
+		"img": "zootopia-2.png",
+		"tags": [
+			"Animation",
+			"Comedy",
+			"Mystery"
 		]
 	}
 ]

@@ -137,6 +137,18 @@
 		]
 	},
 	{
+		"name": "Golden Son",
+		"author": "Pierce Brown",
+		"year": 2015,
+		"img": "golden-son.png",
+		"tags": [
+			"Dystopian",
+			"Fantasy",
+			"Fiction",
+			"Sci-Fi"
+		]
+	},
+	{
 		"name": "Jurassic Park",
 		"author": "Michael Crichton",
 		"year": 1990,
@@ -183,6 +195,19 @@
 		]
 	},
 	{
+		"name": "La Clínica de los No Muertos",
+		"author": "Vivian Shaw",
+		"year": 2017,
+		"img": "la-clinica-de-los-no-muertos.png",
+		"tags": [
+			"Fantasy",
+			"Monsters",
+			"Mystery",
+			"Paranormal",
+			"Urban Fantasy"
+		]
+	},
+	{
 		"name": "Life, the Universe and Everything",
 		"author": "Douglas Adams",
 		"year": 1982,
@@ -224,6 +249,40 @@
 		]
 	},
 	{
+		"name": "Mistborn: The Hero of Ages",
+		"author": "Brandon Sanderson",
+		"year": 2008,
+		"img": "mistborn-the-hero-of-ages.png",
+		"tags": [
+			"Fantasy",
+			"High Fantasy",
+			"Magic"
+		]
+	},
+	{
+		"name": "Mistborn: The Well of Ascension",
+		"author": "Brandon Sanderson",
+		"year": 2007,
+		"img": "mistborn-the-well-of-ascension.png",
+		"tags": [
+			"Fantasy",
+			"High Fantasy",
+			"Magic"
+		]
+	},
+	{
+		"name": "Morning Star",
+		"author": "Pierce Brown",
+		"year": 2016,
+		"img": "morning-star.png",
+		"tags": [
+			"Dystopian",
+			"Fantasy",
+			"Fiction",
+			"Sci-Fi"
+		]
+	},
+	{
 		"name": "Pedro Páramo",
 		"author": "Juan Rulfo",
 		"year": 1955,
@@ -242,6 +301,32 @@
 		"tags": [
 			"Experimental",
 			"Fiction"
+		]
+	},
+	{
+		"name": "Red Rising",
+		"author": "Pierce Brown",
+		"year": 2014,
+		"img": "red-rising.png",
+		"tags": [
+			"Action",
+			"Dystopian",
+			"Fantasy",
+			"Fiction",
+			"Sci-Fi"
+		]
+	},
+	{
+		"name": "The Bicentennial Man",
+		"author": "Isaac Asimov",
+		"year": 1976,
+		"img": "the-bicentennial-man.png",
+		"tags": [
+			"Anthology",
+			"Fiction",
+			"Psychological",
+			"Sci-Fi",
+			"Short Story"
 		]
 	},
 	{
@@ -371,6 +456,17 @@
 		"tags": [
 			"Fantasy",
 			"High Fantasy",
+			"Magic"
+		]
+	},
+	{
+		"name": "The Wee Free Men",
+		"author": "Terry Pratchett",
+		"year": 2003,
+		"img": "the-wee-free-men.png",
+		"tags": [
+			"Comedy",
+			"Fantasy",
 			"Magic"
 		]
 	}
