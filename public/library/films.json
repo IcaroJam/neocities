@@ -1368,5 +1368,255 @@
 			"Comedy",
 			"Mystery"
 		]
+	},
+	{
+		"name": "Twilight",
+		"director": "Catherine Hardwicke",
+		"year": 2008,
+		"img": "twilight.png",
+		"tags": [
+			"Drama",
+			"Romance",
+			"Vampires"
+		]
+	},
+	{
+		"name": "Twilight 2: New Moon",
+		"director": "Chris Weitz",
+		"year": 2009,
+		"img": "twilight-2-new-moon.png",
+		"tags": [
+			"Drama",
+			"Romance",
+			"Vampires"
+		]
+	},
+	{
+		"name": "Twilight 3: Eclipse",
+		"director": "David Slade",
+		"year": 2010,
+		"img": "twilight-3-eclipse.png",
+		"tags": [
+			"Drama",
+			"Romance",
+			"Vampires"
+		]
+	},
+	{
+		"name": "Twilight 4: Breaking Dawn",
+		"director": "Bill Condon",
+		"year": 2011,
+		"img": "twilight-4-breaking-dawn.png",
+		"tags": [
+			"Drama",
+			"Romance",
+			"Vampires"
+		]
+	},
+	{
+		"name": "Weird",
+		"director": "Eric Appel",
+		"year": 2022,
+		"img": "weird.png",
+		"tags": [
+			"Biopic",
+			"Comedy",
+			"Music"
+		]
+	},
+	{
+		"name": "The Prestige",
+		"director": "Christopher Nolan",
+		"year": 2006,
+		"img": "the-prestige.png",
+		"tags": [
+			"Magic",
+			"Mystery",
+			"Sci-Fi",
+			"Steampunk",
+			"Thriller"
+		]
+	},
+	{
+		"name": "The Hobbit",
+		"director": "Peter Jackson",
+		"year": 2012,
+		"img": "the-hobbit.png",
+		"tags": [
+			"Adventure",
+			"Fantasy",
+			"High Fantasy"
+		]
+	},
+	{
+		"name": "The Hobbit 2: The Desolation of Smaug",
+		"director": "Peter Jackson",
+		"year": 2013,
+		"img": "the-hobbit-2-the-desolation-of-smaug.png",
+		"tags": [
+			"Adventure",
+			"Fantasy",
+			"High Fantasy"
+		]
+	},
+	{
+		"name": "The Hobbit 3: The Battle of the Five Armies",
+		"director": "Peter Jackson",
+		"year": 2014,
+		"img": "the-hobbit-3-the-battle-of-the-five-armies.png",
+		"tags": [
+			"Adventure",
+			"Fantasy",
+			"High Fantasy"
+		]
+	},
+	{
+		"name": "The Lord of the Rings: The Fellowship of the Ring",
+		"director": "Peter Jackson",
+		"year": 2001,
+		"img": "the-lord-of-the-rings-the-fellowship-of-the-ring.png",
+		"tags": [
+			"Adventure",
+			"Fantasy",
+			"High Fantasy"
+		]
+	},
+	{
+		"name": "The Lord of the Rings 2: The Two Towers",
+		"director": "Peter Jackson",
+		"year": 2002,
+		"img": "the-lord-of-the-rings-2-the-two-towers.png",
+		"tags": [
+			"Adventure",
+			"Fantasy",
+			"High Fantasy"
+		]
+	},
+	{
+		"name": "The Lord of the Rings 3: The Return of the King",
+		"director": "Peter Jackson",
+		"year": 2003,
+		"img": "the-lord-of-the-rings-3-the-return-of-the-king.png",
+		"tags": [
+			"Adventure",
+			"Fantasy",
+			"High Fantasy"
+		]
+	},
+	{
+		"name": "Mamma Mia!",
+		"director": "Phyllida Lloyd",
+		"year": 2008,
+		"img": "mamma-mia.png",
+		"tags": [
+			"Comedy",
+			"Musical",
+			"Romance",
+			"Romantic Comedy"
+		]
+	},
+	{
+		"name": "Mamma Mia: Here we go Again",
+		"director": "Ol Parker",
+		"year": 2018,
+		"img": "mamma-mia-here-we-go-again.png",
+		"tags": [
+			"Comedy",
+			"Musical",
+			"Romance",
+			"Romantic Comedy"
+		]
+	},
+	{
+		"name": "Civil War",
+		"director": "Alex Garland",
+		"year": 2024,
+		"img": "civil-war.png",
+		"tags": [
+			"War",
+			"Action",
+			"Drama",
+			"Thriller"
+		]
+	},
+	{
+		"name": "Twisters",
+		"director": "Lee Isaac Chung",
+		"year": 2024,
+		"img": "twisters.png",
+		"tags": [
+			"Action",
+			"Disaster",
+			"Drama"
+		]
+	},
+	{
+		"name": "The Day After Tomorrow",
+		"director": "Roland Emmerich",
+		"year": 2004,
+		"img": "the-day-after-tomorrow.png",
+		"tags": [
+			"Action",
+			"Disaster",
+			"Sci-Fi",
+			"Survival"
+		]
+	},
+	{
+		"name": "2012",
+		"director": "Roland Emmerich",
+		"year": 2009,
+		"img": "2012.png",
+		"tags": [
+			"Action",
+			"Disaster",
+			"Sci-Fi",
+			"Survival"
+		]
+	},
+	{
+		"name": "After the Dark",
+		"director": "John Huddles",
+		"year": 2013,
+		"img": "after-the-dark.png",
+		"tags": [
+			"Drama",
+			"Philosophy",
+			"Post Apocalyptic"
+		]
+	},
+	{
+		"name": "Yes Man",
+		"director": "Peyton Reed",
+		"year": 2008,
+		"img": "yes-man.png",
+		"tags": [
+			"Comedy",
+			"Romance",
+			"Romantic Comedy"
+		]
+	},
+	{
+		"name": "Last Night in Soho",
+		"director": "Edgar Wright",
+		"year": 2021,
+		"img": "last-night-in-soho.png",
+		"tags": [
+			"Fantasy",
+			"Psychological",
+			"Thriller",
+			"Time Travel"
+		]
+	},
+	{
+		"name": "The Phoenician Scheme",
+		"director": "Wes Anderson",
+		"year": 2025,
+		"img": "the-phoenician-scheme.png",
+		"tags": [
+			"Comedy",
+			"Drama",
+			"Mystery"
+		]
 	}
 ]
